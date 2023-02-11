@@ -88,13 +88,13 @@ with open('kumarca.txt', encoding='utf-8') as d:
 with open('voda.txt', encoding='utf-8') as d:
     voda = d.read()
 
-#izluscimo glavne podatke iz izdelka in jih damo v slovar
-def izloci_glavne_podatke(izdelek):
+# izluscimo glavne podatke iz izdelka in jih damo v slovar
+def izlusci_glavne_podatke(izdelek):
     podatki_izdelka = {}
     podatki = re.findall(regex_koda.rx_izdelek, izdelek)
     brand = podatki[0][0]
     podatki_izdelka['proizvajalec'] = brand
-    #preverimo ce sta v imenu brand ali kolicina in ju odstranimo
+    # preverimo ce sta v imenu brand ali kolicina in ju odstranimo
     ime = podatki[0][1]
     stevilka = re.findall(r'\d', ime)
     if brand in ime:
@@ -110,7 +110,36 @@ def izloci_glavne_podatke(izdelek):
     podatki_izdelka['cena'] = float(podatki[0][3])
     return podatki_izdelka
     
+def izlusci_relativno_ceno(izdelek):
+    podatki = re.findall(regex_koda.rx_relativna_cena, izdelek)
+    if len(podatki) != 0:
+        rel_cena = podatki[0]
+    else:
+        rel_cena = None
+    return rel_cena
+
+# ce je v imenu kolicina jo nastejemo, ce je ni, je to posamicen izdelek
+def izlusci_kolicino(izdelek):
+    podatki = re.findall(regex_koda.rx_izdelek, izdelek)
+    ime = podatki[0][1]
+    stevilka = re.findall(r'\d', ime)
+    if len(stevilka) != 0:
+        rx = r'\d+.*'
+        niz = re.findall(rx, ime)[0]
+    else:
+        niz = 'Unit'
+    return niz
+
+def izlusci_hranilno_vrednost(izdelek):
+    podatki = re.findall(regex_koda.rx_hranilna_vrednost, izdelek)
     
-print(izloci_glavne_podatke(jagode))
-print(izloci_glavne_podatke(kumarca))
-print(izloci_glavne_podatke(voda))
+        
+# tuki preveri da je rel cena podana, ce je, preveri ce je podana teza v naslovu in pol preveri ce se ujema
+# def izracunaj_kolicino(izdelek):
+#     rel_cena = izloci_relativno_ceno(izdelek)
+#     if rel_cena:
+#         rx_enota = re.compile(r'/*')
+    
+print(izlusci_kolicino(jagode))
+print(izlusci_kolicino(kumarca))
+print(izlusci_kolicino(voda))
