@@ -93,7 +93,7 @@ def izlusci_glavne_podatke(izdelek):
     podatki_izdelka = {}
     podatki = re.findall(regex_koda.rx_izdelek, izdelek)
     brand = podatki[0][0]
-    podatki_izdelka['proizvajalec'] = brand
+    podatki_izdelka['Brand'] = brand
     # preverimo ce sta v imenu brand ali kolicina in ju odstranimo
     ime = podatki[0][1]
     stevilka = re.findall(r'\d', ime)
@@ -105,9 +105,9 @@ def izlusci_glavne_podatke(izdelek):
         ime = ime.replace(niz, "")
     if 'Each' in ime:
         ime = ime.replace(", Each", "")
-    podatki_izdelka['ime'] = ime
-    podatki_izdelka['ocena'] = float(podatki[0][2])
-    podatki_izdelka['cena'] = float(podatki[0][3])
+    podatki_izdelka['Title'] = ime
+    podatki_izdelka['Rating'] = float(podatki[0][2])
+    podatki_izdelka['Price'] = float(podatki[0][3])
     return podatki_izdelka
     
 def izlusci_relativno_ceno(izdelek):
@@ -130,9 +130,33 @@ def izlusci_kolicino(izdelek):
         niz = 'Unit'
     return niz
 
+# kar mors se nrdit je ustrezn tip podatkov izluscit
 def izlusci_hranilno_vrednost(izdelek):
+    hr_vred = {}
     podatki = re.findall(regex_koda.rx_hranilna_vrednost, izdelek)
-    
+    if len(podatki) != 0:
+        hr_vred['Calories'] = int(podatki[0][0])
+        for i, vrednost in enumerate(regex_koda.hranilne_vrednosti):
+            # locimo na prazne podatke in na neprazne
+            if podatki[0][2*i+1] == 'null':
+                hr_vred[vrednost] = 0
+            if podatki[0][2*i+2] == 'null':
+                hr_vred[vrednost + ' DVP'] = 0
+            else:
+                # najprej naredimo int ali float iz kolicine
+                kolicina = podatki[0][2*i+1].replace('"', '')
+                rx = r'[A-Za-z]'
+                enota = ''.join(re.findall(rx, kolicina))
+                niz = kolicina.replace(enota, '')
+                if '.' in niz:
+                    hr_vred[vrednost] = float(niz)
+                else:
+                    hr_vred[vrednost] = int(niz)
+                # potem naredimo int iz dvp, dvp je vedno procent
+                dvp = podatki[0][2*i+2].replace('"', '')
+                niz = dvp.replace('%', '')
+                hr_vred[vrednost + ' DVP'] = int(niz)
+    return hr_vred
         
 # tuki preveri da je rel cena podana, ce je, preveri ce je podana teza v naslovu in pol preveri ce se ujema
 # def izracunaj_kolicino(izdelek):
@@ -140,6 +164,6 @@ def izlusci_hranilno_vrednost(izdelek):
 #     if rel_cena:
 #         rx_enota = re.compile(r'/*')
     
-print(izlusci_kolicino(jagode))
-print(izlusci_kolicino(kumarca))
-print(izlusci_kolicino(voda))
+print(izlusci_hranilno_vrednost(jagode))
+print(izlusci_hranilno_vrednost(kumarca))
+print(izlusci_hranilno_vrednost(voda))

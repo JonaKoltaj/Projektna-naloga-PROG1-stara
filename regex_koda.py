@@ -1,35 +1,37 @@
 import re
 
-#iz cele spletne strani vzame link do izdelka
+# iz cele spletne strani vzame link do izdelka
 rx_link = re.compile(
-    r'canonicalUrl":"(?P<link>.*?)["|\?]',
+    r'canonicalUrl":"(.*?)["|\?]',
     flags=re.DOTALL
 )
 
-#iz izdelka razbere proizvajalca, naslov, oceno in in ceno
+# iz izdelka razbere proizvajalca, naslov, oceno in in ceno
 rx_izdelek = re.compile(
-    r'<a class="bg-transparent bn lh-solid pa0 sans-serif tc underline inline-button mid-gray pointer f6" href=".*?>(?P<brand>.*?)</a>.*?'
-    r'<h1.*?>(?P<title>.+?)</h1>.*?'
-    r'<span class="f7 rating-number">\((?P<rating>.*?)\)</span>.*?'
-    r'<span itemprop="price".*?\$(?P<price>.*?)</span>',
+    r'<a class="bg-transparent bn lh-solid pa0 sans-serif tc underline inline-button mid-gray pointer f6" href=".*?>(.*?)</a>.*?'
+    r'<h1.*?>(.+?)</h1>.*?'
+    r'<span class="f7 rating-number">\((.*?)\)</span>.*?'
+    r'<span itemprop="price".*?\$(.*?)</span>',
     flags=re.DOTALL
 )
 
-#cena glede na kolicino
-#v dolocenih primerih ne obstaja
+# cena glede na kolicino
+# v dolocenih primerih ne obstaja
 rx_relativna_cena = re.compile(
-    r'<span class="mr2">(?P<relative_price>.*?)</span>'
+    r'<span class="mr2">(.*?)</span>',
+    flags=re.DOTALL
 )
 
-#iz izdelka razbere hranilno vrednost
-#ce tukej dobim vrednost 'null,' pomeni da ni podatka, drugace pa zajamem podatke oblike '"stevilkaenota"'
-#v dolocenih primerih ne obstaja
+# za hranilne vrednosti je vedno enak niz, tako da jih zdruzimo
+hranilne_vrednosti = ["Total Fat", "Cholesterol", "Sodium", "Total Carbohydrate", "Protein"]
+niz = ''
+for vrednost in hranilne_vrednosti:
+    niz += '"' + vrednost + '"' + r',"amount":(.*?),"dvp":(.*?),.*?'
+
+# iz izdelka razbere hranilno vrednost
+# ce tukej dobim vrednost 'null,' pomeni da ni podatka, drugace pa zajamem podatke oblike '"stevilkaenota"'
+# v dolocenih primerih ne obstaja
 rx_hranilna_vrednost = re.compile(
-    r'"Calories","amount":"(?P<calories>\d*?)".*?'
-    r'"Total Fat","amount":(?P<fat>.*?),"dvp":(?P<fat_dvp>.*?),.*?'
-    r'"Cholesterol","amount":(?P<cholesterol>.*?),"dvp":(?P<cholesterol_dvp>.*?),.*?'
-    r'"Sodium","amount":(?P<sodium>.*?),"dvp":(?P<sodium_dvp>.*?),.*?'
-    r'"Total Carbohydrate","amount":(?P<carbs>.*?),"dvp":(?P<carbs_dvp>.*?),.*?'
-    r'"Protein","amount":(?P<protein>.*?),"dvp":(?P<protein_dvp>.*?),',
+    r'"Calories","amount":"(\d*?)".*?' + niz,
     flags=re.DOTALL
 )
