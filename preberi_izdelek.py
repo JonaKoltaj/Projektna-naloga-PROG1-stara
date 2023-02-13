@@ -88,7 +88,7 @@ with open('kumarca.txt', encoding='utf-8') as d:
 with open('voda.txt', encoding='utf-8') as d:
     voda = d.read()
 
-# izluscimo glavne podatke iz izdelka in jih damo v slovar
+# vzame niz izdelka, vrne slovar glavnih podatkov
 def izlusci_glavne_podatke(izdelek):
     podatki_izdelka = {}
     podatki = re.findall(regex_koda.rx_izdelek, izdelek)
@@ -110,12 +110,23 @@ def izlusci_glavne_podatke(izdelek):
     podatki_izdelka['Price'] = float(podatki[0][3])
     return podatki_izdelka
     
+# funkcija ki vzame niz in vrne touple oblike (cena, valuta, enota)
+def str_to_touple_rel(vrednost):
+    rx = r'\d+?\.\d+'
+    cena = float(re.findall(rx, vrednost)[0])
+    rx_1 = r'[¢|$]'
+    valuta = re.findall(rx_1, vrednost)[0]
+    rx_2 = r'/.+'
+    enota = re.findall(rx_2, vrednost)[0].replace('/', '')
+    return (cena, valuta, enota)
+    
+# vzame niz izdelka, vrne ali string ali none
 def izlusci_relativno_ceno(izdelek):
     podatki = re.findall(regex_koda.rx_relativna_cena, izdelek)
     if len(podatki) != 0:
-        rel_cena = podatki[0]
+        rel_cena = str_to_touple_rel(podatki[0])
     else:
-        rel_cena = None
+        rel_cena = ()
     return rel_cena
 
 # ce je v imenu kolicina jo nastejemo, ce je ni, je to posamicen izdelek
@@ -130,7 +141,24 @@ def izlusci_kolicino(izdelek):
         niz = 'Unit'
     return niz
 
-# kar mors se nrdit je ustrezn tip podatkov izluscit
+# funkcija, ki razbere kolicino in enoto iz vrednosti in vrne urejen par (kolicina, enota)
+def str_to_touple(vrednost):
+    kolicina = vrednost.replace('"', '')
+    rx = r'[A-Za-z]'
+    enota = ''.join(re.findall(rx, kolicina))
+    niz = kolicina.replace(enota, '')
+    if '.' in niz:
+        return (round(float(niz)), enota)
+    else:
+        return (int(niz), enota)
+    
+# podobna funkcija kot zgoraj, le da vrne vedno (kolicina, '%')
+def str_to_touple_dvp(vrednost):
+    dvp = vrednost.replace('"', '')
+    niz = dvp.replace('%', '')
+    return (int(niz), '%')
+
+# izluscimo glavne hranilne vrednosti
 def izlusci_hranilno_vrednost(izdelek):
     hr_vred = {}
     podatki = re.findall(regex_koda.rx_hranilna_vrednost, izdelek)
@@ -139,31 +167,40 @@ def izlusci_hranilno_vrednost(izdelek):
         for i, vrednost in enumerate(regex_koda.hranilne_vrednosti):
             # locimo na prazne podatke in na neprazne
             if podatki[0][2*i+1] == 'null':
-                hr_vred[vrednost] = 0
-            if podatki[0][2*i+2] == 'null':
-                hr_vred[vrednost + ' DVP'] = 0
+                hr_vred[vrednost] = (0, 'g')
             else:
-                # najprej naredimo int ali float iz kolicine
-                kolicina = podatki[0][2*i+1].replace('"', '')
-                rx = r'[A-Za-z]'
-                enota = ''.join(re.findall(rx, kolicina))
-                niz = kolicina.replace(enota, '')
-                if '.' in niz:
-                    hr_vred[vrednost] = float(niz)
-                else:
-                    hr_vred[vrednost] = int(niz)
-                # potem naredimo int iz dvp, dvp je vedno procent
-                dvp = podatki[0][2*i+2].replace('"', '')
-                niz = dvp.replace('%', '')
-                hr_vred[vrednost + ' DVP'] = int(niz)
+                hr_vred[vrednost] = str_to_touple(podatki[0][2*i+1])
+            if podatki[0][2*i+2] == 'null':
+                hr_vred[vrednost + ' DVP'] = (0, '%')
+            else:
+                hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][2*i+2])
     return hr_vred
-        
-# tuki preveri da je rel cena podana, ce je, preveri ce je podana teza v naslovu in pol preveri ce se ujema
-# def izracunaj_kolicino(izdelek):
-#     rel_cena = izloci_relativno_ceno(izdelek)
-#     if rel_cena:
-#         rx_enota = re.compile(r'/*')
+
+#izluscimo se pomozne vrednosti, ki se vcasih pojavijo, vcasih ne
+def izlusci_hranilno_vrednost_sub(izdelek):
+    hr_vred = {}
+    for vrednost in regex_koda.hranilne_vrednosti_sub:
+        if '"' + vrednost + '"' in izdelek:
+            rx_vrednost = re.compile('"' + vrednost + '"' + r',"amount":(.*?),"dvp":(.*?),', flags=re.DOTALL)
+            podatki = re.findall(rx_vrednost, izdelek)
+            # spet podobno kot pri prejsnji
+            if podatki[0][0] == 'null':
+                hr_vred[vrednost] = (0, 'g')
+            else:
+                hr_vred[vrednost] = str_to_touple(podatki[0][0])
+            if podatki[0][1] == 'null':
+                hr_vred[vrednost + ' DVP'] = (0, '%')
+            else:
+                hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][1])
+    return hr_vred
+
+def hranilna_vrednost(izdelek):
+    hr_vred = izlusci_hranilno_vrednost(izdelek)
+    hr_vred.update(izlusci_hranilno_vrednost_sub(izdelek))
+    return hr_vred
+                
+            
     
-print(izlusci_hranilno_vrednost(jagode))
-print(izlusci_hranilno_vrednost(kumarca))
-print(izlusci_hranilno_vrednost(voda))
+print(izlusci_relativno_ceno(jagode))
+print(izlusci_relativno_ceno(kumarca))
+print(izlusci_relativno_ceno(voda))
