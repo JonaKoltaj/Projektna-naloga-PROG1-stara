@@ -76,5 +76,5 @@ for i in range(25):
     html_sez.append(response.content.decode('utf-8'))
 
 # shranim stran kot html.txt
-with open('html.txt', 'w', encoding='utf-8') as d:
+with open('shranjene_datoteke/html.txt', 'w', encoding='utf-8') as d:
     d.write('/n'.join(html_sez))
