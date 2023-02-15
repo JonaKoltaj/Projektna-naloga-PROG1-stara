@@ -35,6 +35,3 @@ rx_hranilna_vrednost = re.compile(
     r'"Calories","amount":"(\d*?)".*?' + niz,
     flags=re.DOTALL
 )
-
-# se vse pomozne vrednosti, ki se iregularno pojavljalo (zato more biti regex v preberi izdelke)
-hranilne_vrednosti_sub = ["Saturated Fat", "Trans Fat", "Polyunsaturated Fat", "Monounsaturated Fat", "Dietary Fiber", "Sugars"]
