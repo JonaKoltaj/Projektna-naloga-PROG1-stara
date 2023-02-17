@@ -21,9 +21,17 @@ def izlusci_glavne_podatke(izdelek):
     if 'Each' in ime:
         ime = ime.replace(", Each", "")
     podatki_izdelka['Title'] = ime
-    podatki_izdelka['Rating'] = float(podatki[0][2])
-    podatki_izdelka['Price'] = float(podatki[0][3])
+    podatki_izdelka['Price'] = float(podatki[0][2])
     return podatki_izdelka
+
+#vzame niz izdelka in vrne float
+def izlusci_oceno(izdelek):
+    podatki = re.findall(regex_koda.rx_ocena, izdelek)
+    if len(podatki) != 0:
+        ocena = float(podatki[0])
+    else:
+        ocena = 0.0
+    return ocena
     
 # funkcija ki vzame niz in vrne touple oblike (cena, valuta, enota)
 def str_to_touple_rel(vrednost):
@@ -39,13 +47,27 @@ def str_to_touple_rel(vrednost):
 def izlusci_relativno_ceno(izdelek):
     podatki = re.findall(regex_koda.rx_relativna_cena, izdelek)
     if len(podatki) != 0:
-        rel_cena = str_to_touple_rel(podatki[0])
+        # vec podatkov dobimo, samo en izmed njih je prava cena, moramo ga izlusciti
+        stevilke = r'\d+?\.\d+'
+        st = re.findall(stevilke, ' '.join(podatki))
+        if len(st) != 0:
+            pravi_podatek = []
+            for i in podatki:
+                if st[0] in i:
+                    pravi_podatek.append(i)
+            if len(pravi_podatek)!= 0:
+                rel_cena = str_to_touple_rel(pravi_podatek[0])
+            else:
+                rel_cena = ()
+        else:
+            rel_cena = ()
     else:
         rel_cena = ()
     return rel_cena
 
 # ce je v imenu kolicina jo najdemo, ce je ni, je to posamicen izdelek
 # vzame niz izdelka, vrne niz
+# !!!TODO 2% milk etc
 def izlusci_kolicino(izdelek):
     podatki = re.findall(regex_koda.rx_izdelek, izdelek)
     ime = podatki[0][1]
@@ -62,8 +84,10 @@ def glavni_podatki(izdelek):
     gl_pod = izlusci_glavne_podatke(izdelek)
     rel_cena = izlusci_relativno_ceno(izdelek)
     kolicina = izlusci_kolicino(izdelek)
+    ocena = izlusci_oceno(izdelek)
     gl_pod['Relative Price'] = rel_cena
     gl_pod['Amount'] = kolicina
+    gl_pod['Rating'] = ocena
     return gl_pod
 
 # funkcija, ki razbere kolicino in enoto iz vrednosti in vrne urejen par (kolicina, enota)
@@ -122,15 +146,15 @@ def izlusci_vse_hranilne_vrednosti(izdelek):
     return hr_vred
              
 izdelki_glavno = []
-for izdelek in range(len(preberi_strani_od_izdelkov.vsi_izdelki)):
+for izdelek in preberi_strani_od_izdelkov.vsi_izdelki:
     izdelki_glavno.append(glavni_podatki(izdelek))
     
 hranilne_vrednosti = []
-for izdelek in range(len(preberi_strani_od_izdelkov.vsi_izdelki)):
+for izdelek in preberi_strani_od_izdelkov.vsi_izdelki:
     hranilne_vrednosti.append(izlusci_vse_hranilne_vrednosti(izdelek))
     
 izdelki = []
-for i, izdelek in enumerate(range(len(preberi_strani_od_izdelkov.vsi_izdelki))):
+for i, izdelek in enumerate(preberi_strani_od_izdelkov.vsi_izdelki):
     izdelki.append({izdelki_glavno[i]: hranilne_vrednosti[i]})
              
 orodja.zapisi_json(izdelki, 'shranjene_datoteke/izdelki.json')

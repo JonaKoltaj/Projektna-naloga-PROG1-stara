@@ -62,7 +62,7 @@ headers = {
 
 # grem cez vseh 25 strani in shranim paramerter (to je del prevoda curl v python)
 params_sez = []
-for i in range(25):
+for i in range(1):
     params_sez.append({
         'affinityOverride': 'default',
         'page': str(i+1),
@@ -71,7 +71,7 @@ for i in range(25):
 # grem cez vseh 25 strani in shranim v seznam html-jev vsake posamicne stvari
 from tqdm import tqdm
 html_sez = []
-for i in tqdm(range(25)):
+for i in tqdm(range(1)):
     response = requests.get('https://www.walmart.com/browse/976759', params=params_sez[i], cookies=cookies, headers=headers)
     if 'Robot or human' in response.content.decode('utf-8'):
         input('Zaznalo te je kot robota, osvezi stran v browserju')
@@ -80,8 +80,10 @@ for i in tqdm(range(25)):
 
 # shranimo stran kot html.txt in poiscemo linke do izdelkov
 # spletna stran je zgrajena tako da so vse informacije o izdelku sele ko odpres izdelek sam
-with open('shranjene_datoteke/html.txt', 'w', encoding='utf-8') as d:
+with open('shranjene_datoteke/html.txt', 'w+', encoding='utf-8') as d:
     d.write('/n'.join(html_sez))
+    d.seek(0)
+    spletna_stran = d.read()
 
 linki = re.findall(regex_koda.rx_link, spletna_stran)
 
@@ -157,3 +159,6 @@ for i in tqdm(range(len(linki))):
         input(' Zaznalo te je kot robota, osvezi stran v browserju')
         response = requests.get('https://www.walmart.com' + linki[i], params=params, cookies=cookies, headers=headers)
     vsi_izdelki.append(response.content.decode('utf-8'))
+    
+with open('shranjene_datoteke/prvih_nekaj.txt', 'w', encoding='utf-8') as d:
+    d.write('/n'.join(vsi_izdelki))

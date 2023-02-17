@@ -6,12 +6,17 @@ rx_link = re.compile(
     flags=re.DOTALL
 )
 
-# iz izdelka razbere proizvajalca, naslov, oceno in in ceno
+# iz izdelka razbere proizvajalca, naslov in ceno
 rx_izdelek = re.compile(
     r'<a class="bg-transparent bn lh-solid pa0 sans-serif tc underline inline-button mid-gray pointer f6" href=".*?>(.*?)</a>.*?'
     r'<h1.*?>(.+?)</h1>.*?'
-    r'<span class="f7 rating-number">\((.*?)\)</span>.*?'
     r'<span itemprop="price".*?\$(.*?)</span>',
+    flags=re.DOTALL
+)
+
+# ocena v dolocenih primerih ni
+rx_ocena = re.compile(
+    r'<span class="f7 rating-number">\((.*?)\)</span>.*?',
     flags=re.DOTALL
 )
 
