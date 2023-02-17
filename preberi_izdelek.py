@@ -88,6 +88,7 @@ def glavni_podatki(izdelek):
     gl_pod['Relative Price'] = rel_cena
     gl_pod['Amount'] = kolicina
     gl_pod['Rating'] = ocena
+    print(gl_pod)
     return gl_pod
 
 # funkcija, ki razbere kolicino in enoto iz vrednosti in vrne urejen par (kolicina, enota)
@@ -96,10 +97,14 @@ def str_to_touple(vrednost):
     rx = r'[A-Za-z]'
     enota = ''.join(re.findall(rx, kolicina))
     niz = kolicina.replace(enota, '')
-    if '.' in niz:
-        return (round(float(niz)), enota)
+    failsafe = re.findall(rx, niz)
+    if len(failsafe) != 0:
+        return (0, '//')
     else:
-        return (int(niz), enota)
+        if '.' in niz:
+            return (round(float(niz)), enota)
+        else:
+            return (int(niz), enota)
     
 # podobna funkcija kot zgoraj, le da vrne vedno (kolicina, '%')
 def str_to_touple_dvp(vrednost):
@@ -119,7 +124,7 @@ def izlusci_hranilno_vrednost(izdelek):
                 hr_vred[vrednost] = (0, 'g')
             else:
                 hr_vred[vrednost] = str_to_touple(podatki[0][2*i+1])
-            if podatki[0][2*i+2] == 'null':
+            if podatki[0][2*i+2] == 'null' or podatki[0][2*i+2] == '"test%"':
                 hr_vred[vrednost + ' DVP'] = (0, '%')
             else:
                 hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][2*i+2])
@@ -139,7 +144,7 @@ def izlusci_vse_hranilne_vrednosti(izdelek):
                 hr_vred[vrednost] = (0, 'g')
             else:
                 hr_vred[vrednost] = str_to_touple(podatki[0][0])
-            if podatki[0][1] == 'null':
+            if podatki[0][1] == 'null' or podatki[0][1] == '"test%"':
                 hr_vred[vrednost + ' DVP'] = (0, '%')
             else:
                 hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][1])
@@ -155,7 +160,10 @@ for izdelek in preberi_strani_od_izdelkov.vsi_izdelki:
     
 izdelki = []
 for i, izdelek in enumerate(preberi_strani_od_izdelkov.vsi_izdelki):
-    izdelki.append({izdelki_glavno[i]: hranilne_vrednosti[i]})
+    hr_vred = {'Hranilne Vrednosti': hranilne_vrednosti[i]}
+    glavno = izdelki_glavno[i]
+    glavno.update(hr_vred)
+    izdelki.append(glavno)
              
 orodja.zapisi_json(izdelki, 'shranjene_datoteke/izdelki.json')
 orodja.zapisi_csv(
@@ -163,8 +171,8 @@ orodja.zapisi_csv(
     ['Title', 'Price', 'Brand', 'Rating', 'Relative Price', 'Amount'], 'shranjene_datoteke/izdelki_glavno.json'
 )
 orodja.zapisi_csv(
-    hranilne_vrednosti, ['Calories', "Total Fat", "Saturated Fat", "Trans Fat", "Polyunsaturated Fat", "Monounsaturated Fat", "Cholesterol", "Sodium", "Total Carbohydrate", "Dietary Fiber", "Sugars" "Protein"], 'obdelani-podatki/hranilne_vrednosti.csv'
+    hranilne_vrednosti, ['Calories', "Total Fat", "Saturated Fat", "Trans Fat", "Polyunsaturated Fat", "Monounsaturated Fat", "Cholesterol", "Sodium", "Total Carbohydrate", "Dietary Fiber", "Sugars" "Protein"], 'shranjene_datoteke/hranilne_vrednosti.csv'
     )
 orodja.zapisi_csv(
-    izdelki, ['film', 'oseba', 'vloga', 'mesto'], 'obdelani-podatki/izdelki.csv'
+    izdelki, ['Title', 'Price', 'Brand', 'Rating', 'Relative Price', 'Amount', 'Hranilne Vrednosti'], 'shranjene_datoteke/izdelki.csv'
     )
