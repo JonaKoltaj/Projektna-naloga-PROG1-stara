@@ -1,1 +1,574 @@
-Title,Price,Brand,Rating,Relative Price,Amount
+[
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Strawberries",
+        "Price": 2.78,
+        "Relative Price": [
+            2.78,
+            "$",
+            "lb"
+        ],
+        "Amount": "1 lb",
+        "Rating": 2.0
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Purified Drinking Water",
+        "Price": 5.36,
+        "Relative Price": [
+            0.8,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "16.9 Fl Oz, 40 Count Bottles",
+        "Rating": 3.7
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Bananas, per pound",
+        "Price": 0.36,
+        "Relative Price": [
+            77.0,
+            "¢",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 0.0
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "2% Reduced Fat Milk",
+        "Price": 3.03,
+        "Relative Price": [
+            2.4,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "2% Reduced Fat Milk, 128 Fl Oz",
+        "Rating": 3.0
+    },
+    {
+        "Brand": "Skinnygirl",
+        "Title": "Skinnygirl, Fat-Free, Sugar-Free Raspberry Vinaigrette Salad Dressing",
+        "Price": 2.56,
+        "Relative Price": [
+            32.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "8 fl oz",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Cucumber",
+        "Price": 0.68,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.7
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Whole Vitamin D Milk, Gallon",
+        "Price": 3.24,
+        "Relative Price": [
+            2.5,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "128 fl oz",
+        "Rating": 2.9
+    },
+    {
+        "Brand": "Ritz",
+        "Title": "RITZ Fresh Stacks Original Crackers",
+        "Price": 2.98,
+        "Relative Price": [
+            2.98,
+            "$",
+            "ea"
+        ],
+        "Amount": "8 Count, 11.8 oz",
+        "Rating": 4.6
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "White Sandwich Bread",
+        "Price": 1.32,
+        "Relative Price": [
+            6.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "20 oz",
+        "Rating": 2.4
+    },
+    {
+        "Brand": "Good Seasons",
+        "Title": "Italian Dressing &amp; Recipe Seasoning Mix",
+        "Price": 1.78,
+        "Relative Price": [
+            2.54,
+            "$",
+            "oz"
+        ],
+        "Amount": "0.7 oz Packet",
+        "Rating": 4.7
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Taters, Seasoned, Shredded Potatoes",
+        "Price": 2.98,
+        "Relative Price": [
+            9.3,
+            "¢",
+            "oz"
+        ],
+        "Amount": "2 lbs",
+        "Rating": 2.9
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Frozen Broccoli Florets",
+        "Price": 0.98,
+        "Relative Price": [
+            8.2,
+            "¢",
+            "oz"
+        ],
+        "Amount": "12 oz Steamable Bag",
+        "Rating": 3.2
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Cantaloupe, each",
+        "Price": 3.28,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.5
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Green Bell Pepper",
+        "Price": 0.68,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.9
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Hass Avocados",
+        "Price": 0.68,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.9
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Hickory Smoked Bacon",
+        "Price": 3.72,
+        "Relative Price": [
+            4.96,
+            "$",
+            "lb"
+        ],
+        "Amount": "12 oz",
+        "Rating": 2.4
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Garlic Texas Toast",
+        "Price": 2.24,
+        "Relative Price": [
+            19.9,
+            "¢",
+            "oz"
+        ],
+        "Amount": "11.25 oz, 8 Count",
+        "Rating": 3.9
+    },
+    {
+        "Brand": "Freshness Guaranteed",
+        "Title": "Fresh Chicken Drumsticks",
+        "Price": 5.97,
+        "Relative Price": [
+            1.19,
+            "$",
+            "lb"
+        ],
+        "Amount": "5 lb",
+        "Rating": 2.0
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",
+        "Price": 1.68,
+        "Relative Price": [],
+        "Amount": "1 Head",
+        "Rating": 1.7
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Roma Tomato",
+        "Price": 0.38,
+        "Relative Price": [
+            1.28,
+            "$",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 2.1
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Dark Chocolate Fudge Brownie Mix, 18.2 Oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Dark Chocolate Fudge Brownie Mix, 18.2 Oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Clementines",
+        "Price": 3.98,
+        "Relative Price": [
+            1.33,
+            "$",
+            "lb"
+        ],
+        "Amount": "3lb bag",
+        "Rating": 1.7
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Golden Sweet Whole Kernel Corn",
+        "Price": 0.5,
+        "Relative Price": [
+            3.3,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "15 oz",
+        "Rating": 4.4
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Red Seedless Grapes, Bag",
+        "Price": 4.01,
+        "Relative Price": [
+            1.78,
+            "$",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 1.8
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Hot Dog Buns, White",
+        "Price": 1.38,
+        "Relative Price": [
+            12.5,
+            "¢",
+            "oz"
+        ],
+        "Amount": "11 oz, 8 Count",
+        "Rating": 2.4
+    },
+    {
+        "Brand": "Marketside",
+        "Title": "Organic Bananas, Bunch",
+        "Price": 2.0,
+        "Relative Price": [
+            71.0,
+            "¢",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 0.0
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Boneless Skinless Chicken Breast",
+        "Price": 9.74,
+        "Relative Price": [
+            3.25,
+            "$",
+            "lb"
+        ],
+        "Amount": "3 lb (Frozen)",
+        "Rating": 2.1
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Pure Granulated Sugar",
+        "Price": 2.94,
+        "Relative Price": [
+            73.5,
+            "¢",
+            "lb"
+        ],
+        "Amount": "4 lb",
+        "Rating": 4.4
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Seasoned Potato Hash Brown Patties, Shredded",
+        "Price": 2.98,
+        "Relative Price": [
+            13.2,
+            "¢",
+            "oz"
+        ],
+        "Amount": "1 lb 6.5 oz, 10 Count (Frozen)",
+        "Rating": 4.2
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.5,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.5,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz",
+        "Rating": 4.3
+    },
+    {
+        "Brand": "MISSION",
+        "Title": "Mission Super Soft Taco Flour Tortillas",
+        "Price": 2.82,
+        "Relative Price": [
+            16.1,
+            "¢",
+            "oz"
+        ],
+        "Amount": "17.5 oz, 10 Count",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "FIELDPACK UNBRANDED",
+        "Title": "Green Onions, Bunch",
+        "Price": 0.88,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.8
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Baby Carrots",
+        "Price": 0.98,
+        "Relative Price": [
+            6.1,
+            "¢",
+            "oz"
+        ],
+        "Amount": "1lb Bag",
+        "Rating": 4.2
+    },
+    {
+        "Brand": "Bar-S",
+        "Title": "Bar S Classic Chicken Franks",
+        "Price": 1.12,
+        "Relative Price": [
+            1.49,
+            "$",
+            "lb"
+        ],
+        "Amount": "12 oz, 8 Count",
+        "Rating": 3.4
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Vegetable Oil",
+        "Price": 3.64,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "48 fl oz",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Classic Alfredo Pasta Sauce",
+        "Price": 1.74,
+        "Relative Price": [
+            10.9,
+            "¢",
+            "oz"
+        ],
+        "Amount": "16 oz",
+        "Rating": 3.7
+    },
+    {
+        "Brand": "Totino&#39;s",
+        "Title": "Totinos Original Crisp Crust Pepperoni Frozen Pizza 4 Count 40.8oz",
+        "Price": 6.62,
+        "Relative Price": [
+            16.2,
+            "¢",
+            "oz"
+        ],
+        "Amount": "4 Count 40.8oz",
+        "Rating": 4.6
+    },
+    {
+        "Brand": "Nordic Catch",
+        "Title": "Pastrami Smoked Salmon (5-6 servings)",
+        "Price": 29.99,
+        "Relative Price": [],
+        "Amount": "5-6 servings)",
+        "Rating": 0.0
+    },
+    {
+        "Brand": "Nurture Life",
+        "Title": "Healthy Baby, Toddler &amp; Kid Food Flavor Explorer 6-Meal Variety Pack",
+        "Price": 39.2,
+        "Relative Price": [],
+        "Amount": "6-Meal Variety Pack",
+        "Rating": 5.0
+    },
+    {
+        "Brand": "Maruchan",
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Price": 14.25,
+        "Relative Price": [],
+        "Amount": "3 Oz, 12 Count",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Maruchan",
+        "Title": "Ramen Noodle Beef Flavor Soup",
+        "Price": 15.99,
+        "Relative Price": [],
+        "Amount": "3 Oz, 12 Count",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Maruchan",
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Price": 14.25,
+        "Relative Price": [],
+        "Amount": "3 Oz, 12 Count",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Maruchan",
+        "Title": "Ramen Noodle Beef Flavor Soup",
+        "Price": 15.99,
+        "Relative Price": [],
+        "Amount": "3 Oz, 12 Count",
+        "Rating": 4.5
+    },
+    {
+        "Brand": "Maruchan",
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Price": 14.25,
+        "Relative Price": [],
+        "Amount": "3 Oz, 12 Count",
+        "Rating": 4.5
+    }
+]

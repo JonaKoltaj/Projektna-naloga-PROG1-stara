@@ -4,13 +4,14 @@
         "Title": "Fresh Strawberries",
         "Price": 2.78,
         "Relative Price": [
-            17.4,
-            "¢",
-            "oz"
+            2.78,
+            "$",
+            "lb"
         ],
         "Amount": "1 lb",
         "Rating": 2.0,
         "Hranilne Vrednosti": {
+            "Title": "Fresh Strawberries",
             "Calories": 45,
             "Total Fat": [
                 0,
@@ -114,6 +115,7 @@
         "Amount": "16.9 Fl Oz, 40 Count Bottles",
         "Rating": 3.7,
         "Hranilne Vrednosti": {
+            "Title": "Purified Drinking Water",
             "Calories": 0,
             "Total Fat": [
                 0,
@@ -190,30 +192,18 @@
         }
     },
     {
-        "Brand": "Planters",
-        "Title": "Dry Roasted Bold &amp; Savory Peanuts",
-        "Price": 2.5,
-        "Relative Price": [
-            15.6,
-            "¢",
-            "oz"
-        ],
-        "Amount": "16 Oz",
-        "Rating": 4.1,
-        "Hranilne Vrednosti": {}
-    },
-    {
         "Brand": "Fresh Produce",
         "Title": "Fresh Bananas, per pound",
-        "Price": 0.25,
+        "Price": 0.36,
         "Relative Price": [
-            54.0,
+            77.0,
             "¢",
             "lb"
         ],
         "Amount": "Unit",
         "Rating": 0.0,
         "Hranilne Vrednosti": {
+            "Title": "Fresh Bananas, per pound",
             "Calories": 90,
             "Total Fat": [
                 0,
@@ -317,6 +307,7 @@
         "Amount": "2% Reduced Fat Milk, 128 Fl Oz",
         "Rating": 3.0,
         "Hranilne Vrednosti": {
+            "Title": "2% Reduced Fat Milk",
             "Calories": 130,
             "Total Fat": [
                 5,
@@ -409,13 +400,103 @@
         }
     },
     {
+        "Brand": "Skinnygirl",
+        "Title": "Skinnygirl, Fat-Free, Sugar-Free Raspberry Vinaigrette Salad Dressing",
+        "Price": 2.56,
+        "Relative Price": [
+            32.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "8 fl oz",
+        "Rating": 4.5,
+        "Hranilne Vrednosti": {
+            "Title": "Skinnygirl, Fat-Free, Sugar-Free Raspberry Vinaigrette Salad Dressing",
+            "Calories": 5,
+            "Total Fat": [
+                0,
+                "g"
+            ],
+            "Total Fat DVP": [
+                0,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "Mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                180,
+                "mg"
+            ],
+            "Sodium DVP": [
+                8,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                1,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                0,
+                "%"
+            ],
+            "Protein": [
+                0,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                0,
+                "%"
+            ],
+            "Sugars": [
+                0,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
         "Brand": "Fresh Produce",
         "Title": "Fresh Cucumber",
         "Price": 0.68,
         "Relative Price": [],
         "Amount": "Unit",
         "Rating": 1.7,
-        "Hranilne Vrednosti": {}
+        "Hranilne Vrednosti": {
+            "Title": "Fresh Cucumber"
+        }
     },
     {
         "Brand": "Great Value",
@@ -429,6 +510,7 @@
         "Amount": "128 fl oz",
         "Rating": 2.9,
         "Hranilne Vrednosti": {
+            "Title": "Whole Vitamin D Milk, Gallon",
             "Calories": 150,
             "Total Fat": [
                 8,
@@ -521,212 +603,6 @@
         }
     },
     {
-        "Brand": "Great Value",
-        "Title": "White Sandwich Bread",
-        "Price": 1.32,
-        "Relative Price": [
-            6.6,
-            "¢",
-            "oz"
-        ],
-        "Amount": "20 oz",
-        "Rating": 2.4,
-        "Hranilne Vrednosti": {
-            "Calories": 120,
-            "Total Fat": [
-                2,
-                "g"
-            ],
-            "Total Fat DVP": [
-                2,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                220,
-                "mg"
-            ],
-            "Sodium DVP": [
-                9,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                24,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                9,
-                "%"
-            ],
-            "Protein": [
-                4,
-                "g"
-            ],
-            "Protein DVP": [
-                0,
-                "%"
-            ],
-            "Saturated Fat": [
-                0,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Polyunsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Polyunsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Monounsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Monounsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                0,
-                "//"
-            ],
-            "Dietary Fiber DVP": [
-                4,
-                "%"
-            ],
-            "Sugars": [
-                3,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Great Value",
-        "Title": "Taters, Seasoned, Shredded Potatoes",
-        "Price": 2.98,
-        "Relative Price": [
-            9.3,
-            "¢",
-            "oz"
-        ],
-        "Amount": "2 lbs",
-        "Rating": 2.8,
-        "Hranilne Vrednosti": {
-            "Calories": 160,
-            "Total Fat": [
-                8,
-                "g"
-            ],
-            "Total Fat DVP": [
-                12,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                330,
-                "mg"
-            ],
-            "Sodium DVP": [
-                14,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                20,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                7,
-                "%"
-            ],
-            "Protein": [
-                2,
-                "g"
-            ],
-            "Protein DVP": [
-                0,
-                "%"
-            ],
-            "Saturated Fat": [
-                2,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                10,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Polyunsaturated Fat": [
-                2,
-                "g"
-            ],
-            "Polyunsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Monounsaturated Fat": [
-                4,
-                "g"
-            ],
-            "Monounsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                2,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                8,
-                "%"
-            ],
-            "Sugars": [
-                0,
-                "//"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
         "Brand": "Ritz",
         "Title": "RITZ Fresh Stacks Original Crackers",
         "Price": 2.98,
@@ -738,6 +614,7 @@
         "Amount": "8 Count, 11.8 oz",
         "Rating": 4.6,
         "Hranilne Vrednosti": {
+            "Title": "RITZ Fresh Stacks Original Crackers",
             "Calories": 80,
             "Total Fat": [
                 4,
@@ -831,6 +708,253 @@
     },
     {
         "Brand": "Great Value",
+        "Title": "White Sandwich Bread",
+        "Price": 1.32,
+        "Relative Price": [
+            6.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "20 oz",
+        "Rating": 2.4,
+        "Hranilne Vrednosti": {
+            "Title": "White Sandwich Bread",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                220,
+                "mg"
+            ],
+            "Sodium DVP": [
+                9,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                4,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                4,
+                "%"
+            ],
+            "Sugars": [
+                3,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Good Seasons",
+        "Title": "Italian Dressing &amp; Recipe Seasoning Mix",
+        "Price": 1.78,
+        "Relative Price": [
+            2.54,
+            "$",
+            "oz"
+        ],
+        "Amount": "0.7 oz Packet",
+        "Rating": 4.7,
+        "Hranilne Vrednosti": {
+            "Title": "Italian Dressing &amp; Recipe Seasoning Mix",
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Sugars": [
+                1,
+                "g"
+            ],
+            "Sugars DVP": [
+                1,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Great Value",
+        "Title": "Taters, Seasoned, Shredded Potatoes",
+        "Price": 2.98,
+        "Relative Price": [
+            9.3,
+            "¢",
+            "oz"
+        ],
+        "Amount": "2 lbs",
+        "Rating": 2.9,
+        "Hranilne Vrednosti": {
+            "Title": "Taters, Seasoned, Shredded Potatoes",
+            "Calories": 160,
+            "Total Fat": [
+                8,
+                "g"
+            ],
+            "Total Fat DVP": [
+                12,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                330,
+                "mg"
+            ],
+            "Sodium DVP": [
+                14,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                20,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                7,
+                "%"
+            ],
+            "Protein": [
+                2,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                2,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                10,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                2,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                4,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                2,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                8,
+                "%"
+            ],
+            "Sugars": [
+                0,
+                "//"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Great Value",
         "Title": "Frozen Broccoli Florets",
         "Price": 0.98,
         "Relative Price": [
@@ -841,6 +965,7 @@
         "Amount": "12 oz Steamable Bag",
         "Rating": 3.2,
         "Hranilne Vrednosti": {
+            "Title": "Frozen Broccoli Florets",
             "Calories": 25,
             "Total Fat": [
                 0,
@@ -910,12 +1035,113 @@
     },
     {
         "Brand": "Fresh Produce",
+        "Title": "Cantaloupe, each",
+        "Price": 3.28,
+        "Relative Price": [],
+        "Amount": "Unit",
+        "Rating": 1.5,
+        "Hranilne Vrednosti": {
+            "Title": "Cantaloupe, each",
+            "Calories": 53,
+            "Total Fat": [
+                0,
+                "g"
+            ],
+            "Total Fat DVP": [
+                0,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                25,
+                "mg"
+            ],
+            "Sodium DVP": [
+                1,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                13,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                4,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                1,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                4,
+                "%"
+            ],
+            "Sugars": [
+                12,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Fresh Produce",
         "Title": "Fresh Green Bell Pepper",
         "Price": 0.68,
         "Relative Price": [],
         "Amount": "Unit",
         "Rating": 1.9,
         "Hranilne Vrednosti": {
+            "Title": "Fresh Green Bell Pepper",
             "Calories": 30,
             "Total Fat": [
                 0,
@@ -1015,6 +1241,7 @@
         "Amount": "Unit",
         "Rating": 1.9,
         "Hranilne Vrednosti": {
+            "Title": "Hass Avocados",
             "Calories": 240,
             "Total Fat": [
                 22,
@@ -1118,6 +1345,7 @@
         "Amount": "12 oz",
         "Rating": 2.4,
         "Hranilne Vrednosti": {
+            "Title": "Hickory Smoked Bacon",
             "Calories": 110,
             "Total Fat": [
                 6,
@@ -1221,6 +1449,7 @@
         "Amount": "11.25 oz, 8 Count",
         "Rating": 3.9,
         "Hranilne Vrednosti": {
+            "Title": "Garlic Texas Toast",
             "Calories": 140,
             "Total Fat": [
                 7,
@@ -1313,105 +1542,6 @@
         }
     },
     {
-        "Brand": "Fresh Produce",
-        "Title": "Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",
-        "Price": 1.68,
-        "Relative Price": [],
-        "Amount": "1 Head",
-        "Rating": 1.7,
-        "Hranilne Vrednosti": {
-            "Calories": 10,
-            "Total Fat": [
-                0,
-                "g"
-            ],
-            "Total Fat DVP": [
-                0,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                7,
-                "mg"
-            ],
-            "Sodium DVP": [
-                1,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                2,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                2,
-                "%"
-            ],
-            "Protein": [
-                1,
-                "g"
-            ],
-            "Protein DVP": [
-                2,
-                "%"
-            ],
-            "Saturated Fat": [
-                0,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Polyunsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Polyunsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Monounsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Monounsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                1,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                8,
-                "%"
-            ],
-            "Sugars": [
-                1,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
         "Brand": "Freshness Guaranteed",
         "Title": "Fresh Chicken Drumsticks",
         "Price": 5.97,
@@ -1423,6 +1553,7 @@
         "Amount": "5 lb",
         "Rating": 2.0,
         "Hranilne Vrednosti": {
+            "Title": "Fresh Chicken Drumsticks",
             "Calories": 170,
             "Total Fat": [
                 10,
@@ -1516,6 +1647,641 @@
     },
     {
         "Brand": "Fresh Produce",
+        "Title": "Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",
+        "Price": 1.68,
+        "Relative Price": [],
+        "Amount": "1 Head",
+        "Rating": 1.7,
+        "Hranilne Vrednosti": {
+            "Title": "Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",
+            "Calories": 10,
+            "Total Fat": [
+                0,
+                "g"
+            ],
+            "Total Fat DVP": [
+                0,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                7,
+                "mg"
+            ],
+            "Sodium DVP": [
+                1,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                2,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                2,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                2,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                1,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                8,
+                "%"
+            ],
+            "Sugars": [
+                1,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Fresh Produce",
+        "Title": "Fresh Roma Tomato",
+        "Price": 0.38,
+        "Relative Price": [
+            1.28,
+            "$",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 2.1,
+        "Hranilne Vrednosti": {
+            "Title": "Fresh Roma Tomato"
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Dark Chocolate Fudge Brownie Mix",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                100,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Dark Chocolate Fudge Brownie Mix",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                100,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Dark Chocolate Fudge Brownie Mix, 18.2 Oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                100,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Dark Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.2 Oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Dark Chocolate Fudge Brownie Mix",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                100,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Dark Chocolate Fudge Brownie Mix, 18.2 Oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "(3 pack) Dark Chocolate Fudge Brownie Mix",
+            "Calories": 120,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                100,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                24,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Fresh Produce",
         "Title": "Clementines",
         "Price": 3.98,
         "Relative Price": [
@@ -1526,6 +2292,7 @@
         "Amount": "3lb bag",
         "Rating": 1.7,
         "Hranilne Vrednosti": {
+            "Title": "Clementines",
             "Calories": 103,
             "Total Fat": [
                 1,
@@ -1618,106 +2385,6 @@
         }
     },
     {
-        "Brand": "Stuffed Puffs Filled Marshmallow",
-        "Title": "Stuffed Puffs ® Big Bites Cinnamon Toast Crunch Filled Marshmallow",
-        "Price": 4.24,
-        "Relative Price": [
-            71.9,
-            "¢",
-            "oz"
-        ],
-        "Amount": "Unit",
-        "Rating": 2.0,
-        "Hranilne Vrednosti": {
-            "Calories": 80,
-            "Total Fat": [
-                2,
-                "g"
-            ],
-            "Total Fat DVP": [
-                3,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                40,
-                "mg"
-            ],
-            "Sodium DVP": [
-                2,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                15,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                5,
-                "%"
-            ],
-            "Protein": [
-                1,
-                "g"
-            ],
-            "Protein DVP": [
-                0,
-                "%"
-            ],
-            "Saturated Fat": [
-                2,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                8,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                0,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                0,
-                "%"
-            ],
-            "Sugars": [
-                10,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Fresh Produce",
-        "Title": "Fresh Roma Tomato",
-        "Price": 0.38,
-        "Relative Price": [
-            1.28,
-            "$",
-            "lb"
-        ],
-        "Amount": "Unit",
-        "Rating": 2.1,
-        "Hranilne Vrednosti": {}
-    },
-    {
         "Brand": "Great Value",
         "Title": "Golden Sweet Whole Kernel Corn",
         "Price": 0.5,
@@ -1729,6 +2396,7 @@
         "Amount": "15 oz",
         "Rating": 4.4,
         "Hranilne Vrednosti": {
+            "Title": "Golden Sweet Whole Kernel Corn",
             "Calories": 45,
             "Total Fat": [
                 0,
@@ -1823,15 +2491,16 @@
     {
         "Brand": "Fresh Produce",
         "Title": "Fresh Red Seedless Grapes, Bag",
-        "Price": 4.23,
+        "Price": 4.01,
         "Relative Price": [
-            1.88,
+            1.78,
             "$",
             "lb"
         ],
         "Amount": "Unit",
         "Rating": 1.8,
         "Hranilne Vrednosti": {
+            "Title": "Fresh Red Seedless Grapes, Bag",
             "Calories": 90,
             "Total Fat": [
                 1,
@@ -1908,109 +2577,6 @@
         }
     },
     {
-        "Brand": "Marketside",
-        "Title": "Organic Bananas, Bunch",
-        "Price": 1.7,
-        "Relative Price": [
-            71.0,
-            "¢",
-            "lb"
-        ],
-        "Amount": "Unit",
-        "Rating": 0.0,
-        "Hranilne Vrednosti": {
-            "Calories": 90,
-            "Total Fat": [
-                0,
-                "g"
-            ],
-            "Total Fat DVP": [
-                0,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                1,
-                "mg"
-            ],
-            "Sodium DVP": [
-                0,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                23,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                0,
-                "%"
-            ],
-            "Protein": [
-                1,
-                "g"
-            ],
-            "Protein DVP": [
-                0,
-                "%"
-            ],
-            "Saturated Fat": [
-                0,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Polyunsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Polyunsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Monounsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Monounsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                3,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                0,
-                "%"
-            ],
-            "Sugars": [
-                12,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
         "Brand": "Great Value",
         "Title": "Hot Dog Buns, White",
         "Price": 1.38,
@@ -2022,6 +2588,7 @@
         "Amount": "11 oz, 8 Count",
         "Rating": 2.4,
         "Hranilne Vrednosti": {
+            "Title": "Hot Dog Buns, White",
             "Calories": 100,
             "Total Fat": [
                 1,
@@ -2114,6 +2681,110 @@
         }
     },
     {
+        "Brand": "Marketside",
+        "Title": "Organic Bananas, Bunch",
+        "Price": 2.0,
+        "Relative Price": [
+            71.0,
+            "¢",
+            "lb"
+        ],
+        "Amount": "Unit",
+        "Rating": 0.0,
+        "Hranilne Vrednosti": {
+            "Title": "Organic Bananas, Bunch",
+            "Calories": 90,
+            "Total Fat": [
+                0,
+                "g"
+            ],
+            "Total Fat DVP": [
+                0,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                1,
+                "mg"
+            ],
+            "Sodium DVP": [
+                0,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                23,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                0,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                3,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                0,
+                "%"
+            ],
+            "Sugars": [
+                12,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
         "Brand": "Great Value",
         "Title": "Boneless Skinless Chicken Breast",
         "Price": 9.74,
@@ -2125,6 +2796,7 @@
         "Amount": "3 lb (Frozen)",
         "Rating": 2.1,
         "Hranilne Vrednosti": {
+            "Title": "Boneless Skinless Chicken Breast",
             "Calories": 110,
             "Total Fat": [
                 2,
@@ -2217,196 +2889,6 @@
         }
     },
     {
-        "Brand": "Freshness Guaranteed",
-        "Title": "Chicken Breast Tenderloins",
-        "Price": 8.94,
-        "Relative Price": [
-            3.94,
-            "$",
-            "lb"
-        ],
-        "Amount": "2.25 - 3.2 lb",
-        "Rating": 2.5,
-        "Hranilne Vrednosti": {
-            "Calories": 110,
-            "Total Fat": [
-                0,
-                "g"
-            ],
-            "Total Fat DVP": [
-                1,
-                "%"
-            ],
-            "Cholesterol": [
-                80,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                45,
-                "mg"
-            ],
-            "Sodium DVP": [
-                0,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                0,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                0,
-                "%"
-            ],
-            "Protein": [
-                26,
-                "g"
-            ],
-            "Protein DVP": [
-                52,
-                "%"
-            ],
-            "Saturated Fat": [
-                0,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                0,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                0,
-                "%"
-            ],
-            "Sugars": [
-                0,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "MISSION",
-        "Title": "Mission Super Soft Taco Flour Tortillas",
-        "Price": 2.58,
-        "Relative Price": [
-            14.7,
-            "¢",
-            "oz"
-        ],
-        "Amount": "17.5 oz, 10 Count",
-        "Rating": 4.5,
-        "Hranilne Vrednosti": {
-            "Calories": 140,
-            "Total Fat": [
-                3,
-                "Grams"
-            ],
-            "Total Fat DVP": [
-                5,
-                "%"
-            ],
-            "Cholesterol": [
-                0,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                0,
-                "%"
-            ],
-            "Sodium": [
-                410,
-                "mg"
-            ],
-            "Sodium DVP": [
-                18,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                26,
-                "Grams"
-            ],
-            "Total Carbohydrate DVP": [
-                9,
-                "%"
-            ],
-            "Protein": [
-                4,
-                "Grams"
-            ],
-            "Protein DVP": [
-                0,
-                "%"
-            ],
-            "Saturated Fat": [
-                1,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                5,
-                "%"
-            ],
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ],
-            "Polyunsaturated Fat": [
-                1,
-                "g"
-            ],
-            "Polyunsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Monounsaturated Fat": [
-                0,
-                "g"
-            ],
-            "Monounsaturated Fat DVP": [
-                0,
-                "%"
-            ],
-            "Dietary Fiber": [
-                1,
-                "g"
-            ],
-            "Dietary Fiber DVP": [
-                4,
-                "%"
-            ],
-            "Sugars": [
-                1,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
         "Brand": "Great Value",
         "Title": "Pure Granulated Sugar",
         "Price": 2.94,
@@ -2418,6 +2900,7 @@
         "Amount": "4 lb",
         "Rating": 4.4,
         "Hranilne Vrednosti": {
+            "Title": "Pure Granulated Sugar",
             "Calories": 30,
             "Total Fat": [
                 0,
@@ -2510,24 +2993,25 @@
         }
     },
     {
-        "Brand": "Fresh Produce",
-        "Title": "Baby Carrots",
-        "Price": 0.98,
+        "Brand": "Great Value",
+        "Title": "Seasoned Potato Hash Brown Patties, Shredded",
+        "Price": 2.98,
         "Relative Price": [
-            6.1,
+            13.2,
             "¢",
             "oz"
         ],
-        "Amount": "1lb Bag",
+        "Amount": "1 lb 6.5 oz, 10 Count (Frozen)",
         "Rating": 4.2,
         "Hranilne Vrednosti": {
-            "Calories": 35,
+            "Title": "Seasoned Potato Hash Brown Patties, Shredded",
+            "Calories": 150,
             "Total Fat": [
-                0,
+                8,
                 "g"
             ],
             "Total Fat DVP": [
-                0,
+                12,
                 "%"
             ],
             "Cholesterol": [
@@ -2539,19 +3023,123 @@
                 "%"
             ],
             "Sodium": [
-                65,
+                270,
                 "mg"
             ],
             "Sodium DVP": [
-                3,
+                11,
                 "%"
             ],
             "Total Carbohydrate": [
-                8,
+                18,
                 "g"
             ],
             "Total Carbohydrate DVP": [
-                3,
+                6,
+                "%"
+            ],
+            "Protein": [
+                2,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                2,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                10,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                2,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                4,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                2,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                8,
+                "%"
+            ],
+            "Sugars": [
+                0,
+                "//"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Chewy Chocolate Fudge Brownie Mix",
+            "Calories": 110,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                90,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                22,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                8,
                 "%"
             ],
             "Protein": [
@@ -2564,10 +3152,10 @@
             ],
             "Saturated Fat": [
                 0,
-                "g"
+                ""
             ],
             "Saturated Fat DVP": [
-                0,
+                3,
                 "%"
             ],
             "Trans Fat": [
@@ -2578,16 +3166,552 @@
                 0,
                 "%"
             ],
-            "Dietary Fiber": [
-                2,
+            "Polyunsaturated Fat": [
+                0,
                 "g"
             ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
             "Dietary Fiber DVP": [
-                7,
+                3,
                 "%"
             ],
             "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Chewy Chocolate Fudge Brownie Mix",
+            "Calories": 110,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                90,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                22,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                8,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.5,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+            "Calories": 110,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                90,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                22,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                8,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Price": 1.46,
+        "Relative Price": [
+            8.0,
+            "¢",
+            "oz"
+        ],
+        "Amount": "18.3 oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "Chewy Chocolate Fudge Brownie Mix",
+            "Calories": 110,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                90,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                22,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                8,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Duncan Hines",
+        "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+        "Price": 4.14,
+        "Relative Price": [
+            7.5,
+            "¢",
+            "oz"
+        ],
+        "Amount": "3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz",
+        "Rating": 4.3,
+        "Hranilne Vrednosti": {
+            "Title": "(3 pack) Chewy Chocolate Fudge Brownie Mix",
+            "Calories": 110,
+            "Total Fat": [
+                2,
+                "g"
+            ],
+            "Total Fat DVP": [
+                2,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                90,
+                ""
+            ],
+            "Sodium DVP": [
+                4,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                22,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                8,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                3,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "//"
+            ],
+            "Dietary Fiber DVP": [
+                3,
+                "%"
+            ],
+            "Sugars": [
+                15,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "MISSION",
+        "Title": "Mission Super Soft Taco Flour Tortillas",
+        "Price": 2.82,
+        "Relative Price": [
+            16.1,
+            "¢",
+            "oz"
+        ],
+        "Amount": "17.5 oz, 10 Count",
+        "Rating": 4.5,
+        "Hranilne Vrednosti": {
+            "Title": "Mission Super Soft Taco Flour Tortillas",
+            "Calories": 140,
+            "Total Fat": [
+                3,
+                "Grams"
+            ],
+            "Total Fat DVP": [
                 5,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                410,
+                "mg"
+            ],
+            "Sodium DVP": [
+                18,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                26,
+                "Grams"
+            ],
+            "Total Carbohydrate DVP": [
+                9,
+                "%"
+            ],
+            "Protein": [
+                4,
+                "Grams"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                1,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                5,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                1,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                0,
+                "g"
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                1,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                4,
+                "%"
+            ],
+            "Sugars": [
+                1,
                 "g"
             ],
             "Sugars DVP": [
@@ -2602,8 +3726,9 @@
         "Price": 0.88,
         "Relative Price": [],
         "Amount": "Unit",
-        "Rating": 1.7,
+        "Rating": 1.8,
         "Hranilne Vrednosti": {
+            "Title": "Green Onions, Bunch",
             "Calories": 10,
             "Total Fat": [
                 0,
@@ -2696,6 +3821,94 @@
         }
     },
     {
+        "Brand": "Fresh Produce",
+        "Title": "Baby Carrots",
+        "Price": 0.98,
+        "Relative Price": [
+            6.1,
+            "¢",
+            "oz"
+        ],
+        "Amount": "1lb Bag",
+        "Rating": 4.2,
+        "Hranilne Vrednosti": {
+            "Title": "Baby Carrots",
+            "Calories": 35,
+            "Total Fat": [
+                0,
+                "g"
+            ],
+            "Total Fat DVP": [
+                0,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                "mg"
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                65,
+                "mg"
+            ],
+            "Sodium DVP": [
+                3,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                8,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                3,
+                "%"
+            ],
+            "Protein": [
+                1,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                0,
+                "g"
+            ],
+            "Saturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                "g"
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                2,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                7,
+                "%"
+            ],
+            "Sugars": [
+                5,
+                "g"
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
         "Brand": "Bar-S",
         "Title": "Bar S Classic Chicken Franks",
         "Price": 1.12,
@@ -2707,6 +3920,7 @@
         "Amount": "12 oz, 8 Count",
         "Rating": 3.4,
         "Hranilne Vrednosti": {
+            "Title": "Bar S Classic Chicken Franks",
             "Calories": 110,
             "Total Fat": [
                 9,
@@ -2784,6 +3998,110 @@
     },
     {
         "Brand": "Great Value",
+        "Title": "Vegetable Oil",
+        "Price": 3.64,
+        "Relative Price": [
+            7.6,
+            "¢",
+            "fl oz"
+        ],
+        "Amount": "48 fl oz",
+        "Rating": 4.5,
+        "Hranilne Vrednosti": {
+            "Title": "Vegetable Oil",
+            "Calories": 120,
+            "Total Fat": [
+                14,
+                "g"
+            ],
+            "Total Fat DVP": [
+                22,
+                "%"
+            ],
+            "Cholesterol": [
+                0,
+                ""
+            ],
+            "Cholesterol DVP": [
+                0,
+                "%"
+            ],
+            "Sodium": [
+                0,
+                ""
+            ],
+            "Sodium DVP": [
+                0,
+                "%"
+            ],
+            "Total Carbohydrate": [
+                0,
+                "g"
+            ],
+            "Total Carbohydrate DVP": [
+                0,
+                "%"
+            ],
+            "Protein": [
+                0,
+                "g"
+            ],
+            "Protein DVP": [
+                0,
+                "%"
+            ],
+            "Saturated Fat": [
+                2,
+                ""
+            ],
+            "Saturated Fat DVP": [
+                11,
+                "%"
+            ],
+            "Trans Fat": [
+                0,
+                ""
+            ],
+            "Trans Fat DVP": [
+                0,
+                "%"
+            ],
+            "Polyunsaturated Fat": [
+                8,
+                "g"
+            ],
+            "Polyunsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Monounsaturated Fat": [
+                4,
+                ""
+            ],
+            "Monounsaturated Fat DVP": [
+                0,
+                "%"
+            ],
+            "Dietary Fiber": [
+                0,
+                "g"
+            ],
+            "Dietary Fiber DVP": [
+                0,
+                "%"
+            ],
+            "Sugars": [
+                0,
+                ""
+            ],
+            "Sugars DVP": [
+                0,
+                "%"
+            ]
+        }
+    },
+    {
+        "Brand": "Great Value",
         "Title": "Classic Alfredo Pasta Sauce",
         "Price": 1.74,
         "Relative Price": [
@@ -2794,6 +4112,7 @@
         "Amount": "16 oz",
         "Rating": 3.7,
         "Hranilne Vrednosti": {
+            "Title": "Classic Alfredo Pasta Sauce",
             "Calories": 50,
             "Total Fat": [
                 4,
@@ -2886,136 +4205,53 @@
         }
     },
     {
-        "Brand": "Great Value",
-        "Title": "California Style Vegetable Mix",
-        "Price": 1.16,
+        "Brand": "Totino&#39;s",
+        "Title": "Totinos Original Crisp Crust Pepperoni Frozen Pizza 4 Count 40.8oz",
+        "Price": 6.62,
         "Relative Price": [
-            9.7,
+            16.2,
             "¢",
             "oz"
         ],
-        "Amount": "12 oz (Frozen)",
-        "Rating": 2.7,
-        "Hranilne Vrednosti": {}
-    },
-    {
-        "Brand": "Fresh Ground Beef",
-        "Title": "All Natural*",
-        "Price": 5.86,
-        "Relative Price": [
-            5.86,
-            "$",
-            "lb"
-        ],
-        "Amount": "93% Lean/7% Fat, Lean Ground Beef, Tray, 1lbs, (Fresh)",
-        "Rating": 2.2,
+        "Amount": "4 Count 40.8oz",
+        "Rating": 4.6,
         "Hranilne Vrednosti": {
-            "Calories": 170,
+            "Title": "Totinos Original Crisp Crust Pepperoni Frozen Pizza 4 Count 40.8oz",
+            "Calories": 350,
             "Total Fat": [
-                8,
+                18,
                 "g"
             ],
             "Total Fat DVP": [
-                12,
-                "%"
-            ],
-            "Cholesterol": [
-                70,
-                "mg"
-            ],
-            "Cholesterol DVP": [
-                24,
-                "%"
-            ],
-            "Sodium": [
-                75,
-                "mg"
-            ],
-            "Sodium DVP": [
-                3,
-                "%"
-            ],
-            "Total Carbohydrate": [
-                0,
-                "g"
-            ],
-            "Total Carbohydrate DVP": [
-                0,
-                "%"
-            ],
-            "Protein": [
                 23,
-                "g"
-            ],
-            "Protein DVP": [
-                43,
-                "%"
-            ],
-            "Saturated Fat": [
-                3,
-                "g"
-            ],
-            "Saturated Fat DVP": [
-                16,
-                "%"
-            ],
-            "Sugars": [
-                0,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Daisy",
-        "Title": "Pure and Natural Squeeze Sour Cream, Regular",
-        "Price": 2.58,
-        "Relative Price": [
-            18.4,
-            "¢",
-            "oz"
-        ],
-        "Amount": "14 ounces",
-        "Rating": 0.0,
-        "Hranilne Vrednosti": {
-            "Calories": 60,
-            "Total Fat": [
-                5,
-                "g"
-            ],
-            "Total Fat DVP": [
-                8,
                 "%"
             ],
             "Cholesterol": [
-                20,
+                10,
                 "mg"
             ],
             "Cholesterol DVP": [
-                7,
+                3,
                 "%"
             ],
             "Sodium": [
-                15,
+                720,
                 "mg"
             ],
             "Sodium DVP": [
-                1,
+                31,
                 "%"
             ],
             "Total Carbohydrate": [
-                1,
+                39,
                 "g"
             ],
             "Total Carbohydrate DVP": [
-                1,
+                14,
                 "%"
             ],
             "Protein": [
-                1,
+                9,
                 "g"
             ],
             "Protein DVP": [
@@ -3023,32 +4259,32 @@
                 "%"
             ],
             "Saturated Fat": [
-                4,
-                "g"
+                7,
+                "grm"
             ],
             "Saturated Fat DVP": [
-                18,
+                36,
                 "%"
             ],
             "Trans Fat": [
                 0,
-                "g"
+                "grm"
             ],
             "Trans Fat DVP": [
                 0,
                 "%"
             ],
             "Dietary Fiber": [
-                0,
-                "g"
+                2,
+                "grm"
             ],
             "Dietary Fiber DVP": [
-                0,
+                9,
                 "%"
             ],
             "Sugars": [
-                1,
-                "g"
+                4,
+                "grm"
             ],
             "Sugars DVP": [
                 0,
@@ -3057,87 +4293,25 @@
         }
     },
     {
-        "Brand": "Gatorade",
-        "Title": "Fast Twitch Energy Drink, Orange",
-        "Price": 29.88,
-        "Relative Price": [
-            2.49,
-            "$",
-            "fl oz"
-        ],
-        "Amount": "12 oz, 12 Pack",
-        "Rating": 0.0,
-        "Hranilne Vrednosti": {
-            "Sugars": [
-                0,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Gatorade",
-        "Title": "Fast Twitch Energy Drink, Cool Blue",
-        "Price": 22.99,
-        "Relative Price": [
-            1.92,
-            "$",
-            "fl oz"
-        ],
-        "Amount": "12 oz, 12 Pack",
-        "Rating": 0.0,
-        "Hranilne Vrednosti": {
-            "Sugars": [
-                0,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Gatorade",
-        "Title": "Fast Twitch Energy Drink, Tropical Mango",
-        "Price": 22.99,
-        "Relative Price": [
-            1.92,
-            "$",
-            "fl oz"
-        ],
-        "Amount": "12 oz, 12 Pack",
-        "Rating": 0.0,
-        "Hranilne Vrednosti": {
-            "Sugars": [
-                0,
-                "g"
-            ],
-            "Sugars DVP": [
-                0,
-                "%"
-            ]
-        }
-    },
-    {
-        "Brand": "Spike",
-        "Title": "Modern Products Gourmet Natural Seasoning - 14 oz",
-        "Price": 14.11,
+        "Brand": "Nordic Catch",
+        "Title": "Pastrami Smoked Salmon (5-6 servings)",
+        "Price": 29.99,
         "Relative Price": [],
-        "Amount": "14 oz",
-        "Rating": 4.8,
+        "Amount": "5-6 servings)",
+        "Rating": 0.0,
         "Hranilne Vrednosti": {
-            "Trans Fat": [
-                0,
-                "g"
-            ],
-            "Trans Fat DVP": [
-                0,
-                "%"
-            ]
+            "Title": "Pastrami Smoked Salmon (5-6 servings)"
+        }
+    },
+    {
+        "Brand": "Nurture Life",
+        "Title": "Healthy Baby, Toddler &amp; Kid Food Flavor Explorer 6-Meal Variety Pack",
+        "Price": 39.2,
+        "Relative Price": [],
+        "Amount": "6-Meal Variety Pack",
+        "Rating": 5.0,
+        "Hranilne Vrednosti": {
+            "Title": "Healthy Baby, Toddler &amp; Kid Food Flavor Explorer 6-Meal Variety Pack"
         }
     },
     {
@@ -3148,6 +4322,7 @@
         "Amount": "3 Oz, 12 Count",
         "Rating": 4.5,
         "Hranilne Vrednosti": {
+            "Title": "Ramen Noodle Chicken Flavor Soup",
             "Calories": 190,
             "Total Fat": [
                 7,
@@ -3226,11 +4401,13 @@
     {
         "Brand": "Maruchan",
         "Title": "Ramen Noodle Beef Flavor Soup",
-        "Price": 13.99,
+        "Price": 15.99,
         "Relative Price": [],
         "Amount": "3 Oz, 12 Count",
         "Rating": 4.5,
-        "Hranilne Vrednosti": {}
+        "Hranilne Vrednosti": {
+            "Title": "Ramen Noodle Beef Flavor Soup"
+        }
     },
     {
         "Brand": "Maruchan",
@@ -3240,6 +4417,7 @@
         "Amount": "3 Oz, 12 Count",
         "Rating": 4.5,
         "Hranilne Vrednosti": {
+            "Title": "Ramen Noodle Chicken Flavor Soup",
             "Calories": 190,
             "Total Fat": [
                 7,
@@ -3318,11 +4496,13 @@
     {
         "Brand": "Maruchan",
         "Title": "Ramen Noodle Beef Flavor Soup",
-        "Price": 13.99,
+        "Price": 15.99,
         "Relative Price": [],
         "Amount": "3 Oz, 12 Count",
         "Rating": 4.5,
-        "Hranilne Vrednosti": {}
+        "Hranilne Vrednosti": {
+            "Title": "Ramen Noodle Beef Flavor Soup"
+        }
     },
     {
         "Brand": "Maruchan",
@@ -3332,6 +4512,7 @@
         "Amount": "3 Oz, 12 Count",
         "Rating": 4.5,
         "Hranilne Vrednosti": {
+            "Title": "Ramen Noodle Chicken Flavor Soup",
             "Calories": 190,
             "Total Fat": [
                 7,
