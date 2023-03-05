@@ -109,7 +109,7 @@ def str_to_touple(vrednost):
 def str_to_touple_dvp(vrednost):
     dvp = vrednost.replace('"', '')
     niz = dvp.replace('%', '')
-    if "-" in niz:
+    if "-" in niz or 'N/A' in niz:
         return (0, '%')
     else:
         return (int(niz), '%')
@@ -181,5 +181,5 @@ orodja.zapisi_csv(
     'shranjene_datoteke/izdelki_glavno.csv'
     )
 orodja.zapisi_csv(
-    hranilne_vrednosti, ['Title', 'Calories', "Total Fat", "Saturated Fat", "Trans Fat", "Polyunsaturated Fat", "Monounsaturated Fat", "Cholesterol", "Sodium", "Total Carbohydrate", "Dietary Fiber", "Sugars" "Protein"], 'shranjene_datoteke/hranilne_vrednosti.csv'
+    hranilne_vrednosti, ['Title', 'Calories', "Total Fat", 'Total Fat DVP', "Saturated Fat", "Saturated Fat DVP", "Trans Fat", "Trans Fat DVP", "Polyunsaturated Fat", "Polyunsaturated Fat DVP", "Monounsaturated Fat", "Monounsaturated Fat DVP", "Cholesterol", 'Cholesterol DVP', "Sodium", 'Sodium DVP', "Total Carbohydrate", "Total Carbohydrate DVP", "Dietary Fiber", "Dietary Fiber DVP", "Sugars", 'Sugars DVP', "Protein", 'Protein DVP'], 'shranjene_datoteke/hranilne_vrednosti.csv'
     )
