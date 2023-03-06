@@ -62,7 +62,7 @@ headers = {
 
 # grem cez vseh 25 strani in shranim paramerter (to je del prevoda curl v python)
 params_sez = []
-for i in range(1):
+for i in range(25):
     params_sez.append({
         'affinityOverride': 'default',
         'page': str(i+1),
@@ -71,7 +71,7 @@ for i in range(1):
 # grem cez vseh 25 strani in shranim v seznam html-jev vsake posamicne stvari
 from tqdm import tqdm
 html_sez = []
-for i in tqdm(range(1)):
+for i in tqdm(range(25)):
     response = requests.get('https://www.walmart.com/browse/976759', params=params_sez[i], cookies=cookies, headers=headers)
     if 'Robot or human' in response.content.decode('utf-8'):
         input('Zaznalo te je kot robota, osvezi stran v browserju')
@@ -80,12 +80,14 @@ for i in tqdm(range(1)):
 
 # shranimo stran kot html.txt in poiscemo linke do izdelkov
 # spletna stran je zgrajena tako da so vse informacije o izdelku sele ko odpres izdelek sam
-with open('shranjene_datoteke/html.txt', 'w+', encoding='utf-8') as d:
+with open('shranjene_datoteke/html.txt', 'w', encoding='utf-8') as d:
     d.write('/n'.join(html_sez))
-    d.seek(0)
-    spletna_stran = d.read()
 
-linki = re.findall(regex_koda.rx_link, spletna_stran)
+# shranla bom v 25 razlicnih datotek kr ce ne mi memory error nrdi
+linki_sez = []
+for i in range(len(html_sez)):
+    linki_na_stran = re.findall(regex_koda.rx_link, html_sez[i])
+    linki_sez.append(linki_na_stran)
 
 # spet je treba zaobiti robot detection
 cookies = {
@@ -153,12 +155,17 @@ params = {
 # dobimo seznam vseh izdelkov (tqdm je zato da v terminalu vidim progress bar)
 from tqdm import tqdm
 vsi_izdelki = []
-for i in tqdm(range(len(linki))):
-    response = requests.get('https://www.walmart.com' + linki[i], params=params, cookies=cookies,headers=headers,)
-    if 'Robot or human' in response.content.decode('utf-8'):
-        input(' Zaznalo te je kot robota, osvezi stran v browserju')
-        response = requests.get('https://www.walmart.com' + linki[i], params=params, cookies=cookies, headers=headers)
-    vsi_izdelki.append(response.content.decode('utf-8'))
-    
-with open('shranjene_datoteke/prvih_nekaj.txt', 'w', encoding='utf-8') as d:
-    d.write('/n'.join(vsi_izdelki))
+for i in range(len(linki_sez)):
+    izdelki_na_stran = []
+    for j in tqdm(range(len(linki_sez[i]))):
+        response = requests.get('https://www.walmart.com' + linki_sez[i][j], params=params, cookies=cookies,headers=headers,)
+        if 'Robot or human' in response.content.decode('utf-8'):
+            input(' Zaznalo te je kot robota, osvezi stran v browserju')
+            response = requests.get('https://www.walmart.com' + linki_sez[i][j], params=params, cookies=cookies, headers=headers)
+        izdelki_na_stran.append(response.content.decode('utf-8'))
+    vsi_izdelki.append(izdelki_na_stran)
+
+from tqdm import tqdm
+for i in tqdm(range(len(vsi_izdelki))):
+    with open('shranjene_datoteke/po_straneh/prvih_' + str(i) + '.txt', 'w', encoding='utf-8') as d:
+        d.write('/n'.join(vsi_izdelki[i]))
