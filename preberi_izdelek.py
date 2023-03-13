@@ -1,7 +1,6 @@
 import re
 import regex_koda
 import orodja
-import preberi_strani_od_izdelkov
 
 # vzame niz izdelka, vrne slovar glavnih podatkov
 def izlusci_glavne_podatke(izdelek):
@@ -111,8 +110,9 @@ def str_to_touple(vrednost):
     if len(failsafe) != 0 or len(niz) == 0:
         return (0, '//')
     else:
-        if '.' in niz:
-            return (round(float(niz)), enota)
+        decimalka = re.findall(r'\d\.\d', niz)
+        if len(decimalka) != 0:
+            return (round(float(decimalka[0])), enota)
         else:
             return (int(niz), enota)
     
@@ -155,48 +155,54 @@ def izlusci_vse_hranilne_vrednosti(izdelek):
             rx_vrednost = re.compile('"' + vrednost + '"' + r',"amount":(.*?),"dvp":(.*?),', flags=re.DOTALL)
             podatki = re.findall(rx_vrednost, izdelek)
             # spet podobno kot pri prejsnji
-            if podatki[0][0] == 'null':
-                hr_vred[vrednost] = (0, 'g')
-            else:
-                hr_vred[vrednost] = str_to_touple(podatki[0][0])
-            if podatki[0][1] == 'null' or podatki[0][1] == '"test%"':
-                hr_vred[vrednost + ' DVP'] = (0, '%')
-            else:
-                hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][1])
-    print(hr_vred)
+            if len(podatki) != 0:
+                if podatki[0][0] == 'null':
+                    hr_vred[vrednost] = (0, 'g')
+                else:
+                    hr_vred[vrednost] = str_to_touple(podatki[0][0])
+                if podatki[0][1] == 'null' or podatki[0][1] == '"test%"':
+                    hr_vred[vrednost + ' DVP'] = (0, '%')
+                else:
+                    hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][1])
     return hr_vred
+
+
+# da jih ne usakic downloadam bom tukej samo odprla datoteke
+vsi_izdelki = []
+for i in range(25):
+    with open('shranjene_datoteke/po_straneh/prvih_' + str(i) + '.txt', 'r', encoding='utf-8') as d:
+        stran_izdelkov = d.read()
+        vsi_izdelki.append(stran_izdelkov)
+
         
-# shrani vse glavne podatke izdelkov v seznam slovarjev
-for izdelki in preberi_strani_od_izdelkov.vsi_izdelki:  
+# shrani vse glavne podatke izdelkov v seznam slovarjev in nato zapisi v json in csv
+from tqdm import tqdm
+vsi_izdelki_glavno = []
+for izdelki in vsi_izdelki:  
     izdelki_glavno = []
-    for izdelek in izdelki:
+    for izdelek in tqdm(izdelki):
         izdelki_glavno.append(glavni_podatki(izdelek))
+    vsi_izdelki_glavno.extend(izdelki_glavno)
 
 # shrani vse ime izdelkov in vse hranilne vrednosti izdelkov v seznam slovarjev
-for izdelki in preberi_strani_od_izdelkov.vsi_izdelki:
+vse_hranilne_vrednosti = []
+for izdelki in vsi_izdelki:
     hranilne_vrednosti = []
     for izdelek in izdelki:
         podatek = {'Title': glavni_podatki(izdelek)['Title']}
         hr_vred = izlusci_vse_hranilne_vrednosti(izdelek)
         podatek.update(hr_vred)
         hranilne_vrednosti.append(podatek)
+    vse_hranilne_vrednosti.extend(hranilne_vrednosti)
 
-for izdelki in preberi_strani_od_izdelkov.vsi_izdelki:   
-    vsi_izdelki = []
-    for i, izdelek in enumerate(izdelki):
-        hr_vred = {'Hranilne Vrednosti': hranilne_vrednosti[i]}
-        glavno = izdelki_glavno[i].copy()
-        glavno.update(hr_vred)
-        vsi_izdelki.append(glavno)
-             
-orodja.zapisi_json(izdelki, 'shranjene_datoteke/izdelki.json')
-orodja.zapisi_json(izdelki_glavno, 'shranjene_datoteke/izdelki_glavno.json')
-orodja.zapisi_json(hranilne_vrednosti, 'shranjene_datoteke/hranilne_vrednosti.json')
-orodja.zapisi_csv(
-    izdelki_glavno,
+from tqdm import tqdm             
+tqdm(orodja.zapisi_json(vse_hranilne_vrednosti, 'shranjene_datoteke/hranilne_vrednosti.json'))
+tqdm(orodja.zapisi_json(vsi_izdelki_glavno, 'shranjene_datoteke/izdelki_glavno.json'))
+tqdm(orodja.zapisi_csv(
+    vsi_izdelki_glavno,
     ['Title', 'Price', 'Brand', 'Rating', 'Relative Price', 'Amount'],
     'shranjene_datoteke/izdelki_glavno.csv'
-    )
-orodja.zapisi_csv(
-    hranilne_vrednosti, ['Title', 'Calories', "Total Fat", 'Total Fat DVP', "Saturated Fat", "Saturated Fat DVP", "Trans Fat", "Trans Fat DVP", "Polyunsaturated Fat", "Polyunsaturated Fat DVP", "Monounsaturated Fat", "Monounsaturated Fat DVP", "Cholesterol", 'Cholesterol DVP', "Sodium", 'Sodium DVP', "Total Carbohydrate", "Total Carbohydrate DVP", "Dietary Fiber", "Dietary Fiber DVP", "Sugars", 'Sugars DVP', "Protein", 'Protein DVP'], 'shranjene_datoteke/hranilne_vrednosti.csv'
-    )
+    ))
+tqdm(orodja.zapisi_csv(
+    vse_hranilne_vrednosti, ['Title', 'Calories', "Total Fat", 'Total Fat DVP', "Saturated Fat", "Saturated Fat DVP", "Trans Fat", "Trans Fat DVP", "Polyunsaturated Fat", "Polyunsaturated Fat DVP", "Monounsaturated Fat", "Monounsaturated Fat DVP", "Cholesterol", 'Cholesterol DVP', "Sodium", 'Sodium DVP', "Total Carbohydrate", "Total Carbohydrate DVP", "Dietary Fiber", "Dietary Fiber DVP", "Sugars", 'Sugars DVP', "Protein", 'Protein DVP'], 'shranjene_datoteke/hranilne_vrednosti.csv'
+    ))

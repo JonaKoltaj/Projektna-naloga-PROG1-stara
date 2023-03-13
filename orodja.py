@@ -17,8 +17,20 @@ def zapisi_csv(slovarji, imena_polj, ime_datoteke):
         writer.writeheader()
         writer.writerows(slovarji)
         
+        
+      
 def zapisi_json(objekt, ime_datoteke):
-    '''Iz danega objekta ustvari JSON datoteko.'''
     pripravi_imenik(ime_datoteke)
     with open(ime_datoteke, 'w', encoding='utf-8') as json_datoteka:
         json.dump(objekt, json_datoteka, indent=4, ensure_ascii=False)
+        
+# def zapisi_json(objekt, ime_datoteke):
+#     pripravi_imenik(ime_datoteke)
+#     if os.path.getsize(ime_datoteke) == 0:
+#         with open(ime_datoteke, 'w', encoding='utf-8') as json_datoteka:
+#             json.dump(objekt, json_datoteka, indent=4, ensure_ascii=False)
+#     else:
+#         with open(ime_datoteke, 'r+', encoding='utf8') as jd:
+#             json.load(jd)
+#             jd.seek(-2)
+#             json.dump
