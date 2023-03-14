@@ -1,6 +1,7 @@
 import requests
 import regex_koda
 import re
+from tqdm import tqdm
 
 # skopiran prevod curl kode v python, da se izognem captcha
 cookies = {
@@ -69,7 +70,6 @@ for i in range(25):
     })
 
 # grem cez vseh 25 strani in shranim v seznam html-jev vsake posamicne stvari
-from tqdm import tqdm
 html_sez = []
 for i in tqdm(range(25)):
     response = requests.get('https://www.walmart.com/browse/976759', params=params_sez[i], cookies=cookies, headers=headers)
@@ -153,7 +153,6 @@ params = {
 }
 
 # dobimo seznam vseh izdelkov (tqdm je zato da v terminalu vidim progress bar)
-from tqdm import tqdm
 vsi_izdelki = []
 for i in range(len(linki_sez)):
     izdelki_na_stran = []
@@ -164,8 +163,5 @@ for i in range(len(linki_sez)):
             response = requests.get('https://www.walmart.com' + linki_sez[i][j], params=params, cookies=cookies, headers=headers)
         izdelki_na_stran.append(response.content.decode('utf-8'))
     vsi_izdelki.append(izdelki_na_stran)
-
-from tqdm import tqdm
-for i in tqdm(range(len(vsi_izdelki))):
     with open('shranjene_datoteke/po_straneh/prvih_' + str(i) + '.txt', 'w', encoding='utf-8') as d:
         d.write('/n'.join(vsi_izdelki[i]))

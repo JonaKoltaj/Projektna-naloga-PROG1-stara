@@ -1,29 +1,121 @@
 [
     {
-        "Title": "All Natural*",
-        "Calories": 340,
+        "Title": "Fresh Strawberries",
+        "Calories": 45,
         "Total Fat": [
-            30,
+            0,
             "g"
         ],
         "Total Fat DVP": [
-            47,
+            0,
             "%"
         ],
         "Cholesterol": [
-            85,
+            0,
             "mg"
         ],
         "Cholesterol DVP": [
-            28,
+            0,
             "%"
         ],
         "Sodium": [
-            75,
+            0,
             "mg"
         ],
         "Sodium DVP": [
-            3,
+            0,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            12,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            4,
+            "%"
+        ],
+        "Protein": [
+            1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            4,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            16,
+            "%"
+        ],
+        "Sugars": [
+            8,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Fresh Bananas, per pound",
+        "Calories": 90,
+        "Total Fat": [
+            0,
+            "g"
+        ],
+        "Total Fat DVP": [
+            0,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            1,
+            "mg"
+        ],
+        "Sodium DVP": [
+            0,
             "%"
         ],
         "Total Carbohydrate": [
@@ -35,7 +127,7 @@
             "%"
         ],
         "Protein": [
-            17,
+            1,
             "g"
         ],
         "Protein DVP": [
@@ -43,11 +135,127 @@
             "%"
         ],
         "Saturated Fat": [
-            11,
+            0,
             "g"
         ],
         "Saturated Fat DVP": [
-            57,
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            3,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            0,
+            "%"
+        ],
+        "Sugars": [
+            2,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "RITZ Fresh Stacks Original Crackers",
+        "Calories": 80,
+        "Total Fat": [
+            4,
+            "g"
+        ],
+        "Total Fat DVP": [
+            6,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            130,
+            "mg"
+        ],
+        "Sodium DVP": [
+            6,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            0,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            4,
+            "%"
+        ],
+        "Protein": [
+            1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            1,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            5,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            16,
+            ""
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            7,
+            ""
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
             "%"
         ],
         "Dietary Fiber": [
@@ -59,158 +267,63 @@
             "%"
         ],
         "Sugars": [
-            0,
+            1,
             "g"
         ],
         "Sugars DVP": [
-            0,
+            2,
             "%"
         ]
     },
     {
-        "Title": "Hamburger Buns",
-        "Calories": 120,
+        "Title": "2% Reduced Fat Milk",
+        "Calories": 130,
         "Total Fat": [
-            2,
+            5,
             "g"
         ],
         "Total Fat DVP": [
-            2,
+            6,
             "%"
         ],
         "Cholesterol": [
             0,
-            "Mg"
+            "mg"
         ],
         "Cholesterol DVP": [
-            0,
+            7,
             "%"
         ],
         "Sodium": [
-            230,
+            130,
             "mg"
         ],
         "Sodium DVP": [
+            6,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            12,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            4,
+            "%"
+        ],
+        "Protein": [
+            8,
+            "g"
+        ],
+        "Protein DVP": [
             10,
             "%"
         ],
-        "Total Carbohydrate": [
-            23,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            9,
-            "%"
-        ],
-        "Protein": [
-            4,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
         "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "G"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "G"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            1,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            3,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            4,
-            "%"
-        ]
-    },
-    {
-        "Title": "Peanut Butter Snack Mix Bowl,12 oz"
-    },
-    {
-        "Title": "Cut Green Beans, Canned Green Beans",
-        "Calories": 15,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            350,
-            "mg"
-        ],
-        "Sodium DVP": [
-            14,
-            "%"
-        ],
-        "Total Carbohydrate": [
             3,
             "g"
         ],
-        "Total Carbohydrate DVP": [
-            1,
-            "%"
-        ],
-        "Protein": [
-            1,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
         "Saturated Fat DVP": [
-            0,
+            15,
             "%"
         ],
         "Trans Fat": [
@@ -230,406 +343,7 @@
             "%"
         ],
         "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
             2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            8,
-            "%"
-        ],
-        "Sugars": [
-            1,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Taco Seasoning, Original",
-        "Calories": 15,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            300,
-            "mg"
-        ],
-        "Sodium DVP": [
-            13,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            3,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            1,
-            "%"
-        ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "grm"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "grm"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            1,
-            "grm"
-        ],
-        "Dietary Fiber DVP": [
-            2,
-            "%"
-        ],
-        "Sugars": [
-            0,
-            "grm"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Sweet Corn On The Cob, Fresh Corn"
-    },
-    {
-        "Title": "Baby Carrots",
-        "Calories": 35,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            65,
-            "mg"
-        ],
-        "Sodium DVP": [
-            3,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            8,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            3,
-            "%"
-        ],
-        "Protein": [
-            1,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            7,
-            "%"
-        ],
-        "Sugars": [
-            5,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",
-        "Calories": 150,
-        "Total Fat": [
-            7,
-            "g"
-        ],
-        "Total Fat DVP": [
-            9,
-            "%"
-        ],
-        "Cholesterol": [
-            5,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            5,
-            "%"
-        ],
-        "Sodium": [
-            0,
-            "mg"
-        ],
-        "Sodium DVP": [
-            20,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            22,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            8,
-            "%"
-        ],
-        "Protein": [
-            3,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            2,
-            "grm"
-        ],
-        "Saturated Fat DVP": [
-            13,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "grm"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "grm"
-        ],
-        "Dietary Fiber DVP": [
-            7,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            8,
-            "%"
-        ]
-    },
-    {
-        "Title": "Chicken Breast Tenderloins",
-        "Calories": 110,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            1,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            45,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            0,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            26,
-            "g"
-        ],
-        "Protein DVP": [
-            52,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            0,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Fresh Cilantro, Bunch",
-        "Calories": 1,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            2,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            0,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
             "g"
         ],
         "Monounsaturated Fat DVP": [
@@ -645,7 +359,7 @@
             "%"
         ],
         "Sugars": [
-            0,
+            12,
             "g"
         ],
         "Sugars DVP": [
@@ -654,8 +368,8 @@
         ]
     },
     {
-        "Title": "Seasoned Potato Hash Brown Patties, Shredded",
-        "Calories": 150,
+        "Title": "Taters, Seasoned, Shredded Potatoes",
+        "Calories": 160,
         "Total Fat": [
             8,
             "g"
@@ -673,19 +387,19 @@
             "%"
         ],
         "Sodium": [
-            270,
+            330,
             "mg"
         ],
         "Sodium DVP": [
-            11,
+            14,
             "%"
         ],
         "Total Carbohydrate": [
-            18,
+            20,
             "g"
         ],
         "Total Carbohydrate DVP": [
-            6,
+            7,
             "%"
         ],
         "Protein": [
@@ -746,189 +460,26 @@
         ]
     },
     {
-        "Title": "Plain Original Pre-Sliced Bagels",
-        "Calories": 270,
-        "Total Fat": [
-            2,
-            "g"
-        ],
-        "Total Fat DVP": [
-            2,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            0,
-            "mg"
-        ],
-        "Sodium DVP": [
-            20,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            53,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            19,
-            "%"
-        ],
-        "Protein": [
-            9,
-            "g"
-        ],
-        "Protein DVP": [
-            21,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            3,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            11,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            7,
-            "%"
-        ],
-        "Sugars": [
-            6,
-            "g"
-        ],
-        "Sugars DVP": [
-            10,
-            "%"
-        ]
-    },
-    {
-        "Title": "Fruit Punch Real Fruit Juice Drink",
-        "Sugars": [
-            22,
-            "g"
-        ],
-        "Sugars DVP": [
-            40,
-            "%"
-        ]
-    },
-    {
-        "Title": "All Natural*",
-        "Calories": 170,
-        "Total Fat": [
-            8,
-            "g"
-        ],
-        "Total Fat DVP": [
-            12,
-            "%"
-        ],
-        "Cholesterol": [
-            70,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            24,
-            "%"
-        ],
-        "Sodium": [
-            75,
-            "mg"
-        ],
-        "Sodium DVP": [
-            3,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            0,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            23,
-            "g"
-        ],
-        "Protein DVP": [
-            43,
-            "%"
-        ],
-        "Saturated Fat": [
-            3,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            16,
-            "%"
-        ],
-        "Sugars": [
-            0,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Asparagus, Bunch",
+        "Title": "Frozen Broccoli Florets",
         "Calories": 25,
         "Total Fat": [
             0,
             "g"
         ],
         "Total Fat DVP": [
-            1,
+            0,
             "%"
         ],
         "Cholesterol": [
             0,
-            "Mg"
+            "mg"
         ],
         "Cholesterol DVP": [
             0,
             "%"
         ],
         "Sodium": [
-            0,
+            15,
             "mg"
         ],
         "Sodium DVP": [
@@ -944,7 +495,7 @@
             "%"
         ],
         "Protein": [
-            2,
+            1,
             "g"
         ],
         "Protein DVP": [
@@ -972,7 +523,367 @@
             "g"
         ],
         "Dietary Fiber DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Cinnamon French Toast Sticks",
+        "Calories": 330,
+        "Total Fat": [
+            15,
+            "g"
+        ],
+        "Total Fat DVP": [
+            19,
+            "%"
+        ],
+        "Cholesterol": [
+            5,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            2,
+            "%"
+        ],
+        "Sodium": [
+            0,
+            "mg"
+        ],
+        "Sodium DVP": [
+            15,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            44,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            16,
+            "%"
+        ],
+        "Protein": [
+            5,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            2,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            10,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            9,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            4,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            1,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            4,
+            "%"
+        ],
+        "Sugars": [
+            7,
+            "g"
+        ],
+        "Sugars DVP": [
+            34,
+            "%"
+        ]
+    },
+    {
+        "Title": "Fresh Green Bell Pepper",
+        "Calories": 30,
+        "Total Fat": [
+            0,
+            "g"
+        ],
+        "Total Fat DVP": [
+            0,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            4,
+            "mg"
+        ],
+        "Sodium DVP": [
+            0,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            7,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            0,
+            "%"
+        ],
+        "Protein": [
+            1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            2,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            0,
+            "%"
+        ],
+        "Sugars": [
+            4,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Garlic Texas Toast",
+        "Calories": 140,
+        "Total Fat": [
+            7,
+            "g"
+        ],
+        "Total Fat DVP": [
+            9,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            240,
+            "mg"
+        ],
+        "Sodium DVP": [
+            10,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            16,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            6,
+            "%"
+        ],
+        "Protein": [
+            3,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            2,
+            "g"
+        ],
+        "Saturated Fat DVP": [
             8,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            3,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            2,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            1,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            4,
+            "%"
+        ],
+        "Sugars": [
+            1,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "GV GOLDEN SWEET WHOLE KERNEL CORN 15OZ",
+        "Calories": 45,
+        "Total Fat": [
+            0,
+            "g"
+        ],
+        "Total Fat DVP": [
+            1,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            200,
+            "mg"
+        ],
+        "Sodium DVP": [
+            13,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            9,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            5,
+            "%"
+        ],
+        "Protein": [
+            2,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            1,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            12,
             "%"
         ],
         "Sugars": [
@@ -985,14 +896,14 @@
         ]
     },
     {
-        "Title": "Saltine 16z",
-        "Calories": 70,
+        "Title": "Hass Avocados",
+        "Calories": 240,
         "Total Fat": [
-            2,
+            22,
             "g"
         ],
         "Total Fat DVP": [
-            2,
+            10,
             "%"
         ],
         "Cholesterol": [
@@ -1004,23 +915,191 @@
             "%"
         ],
         "Sodium": [
-            130,
+            10,
             "mg"
         ],
         "Sodium DVP": [
-            6,
+            0,
             "%"
         ],
         "Total Carbohydrate": [
-            12,
+            3,
             "g"
         ],
         "Total Carbohydrate DVP": [
-            4,
+            1,
+            "%"
+        ],
+        "Protein": [
+            3,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            3,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            3,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            5,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            10,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            0,
+            "%"
+        ],
+        "Sugars": [
+            1,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Grape Tomato",
+        "Calories": 25,
+        "Total Fat": [
+            0,
+            "g"
+        ],
+        "Total Fat DVP": [
+            0,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            20,
+            "mg"
+        ],
+        "Sodium DVP": [
+            1,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            6,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            1,
             "%"
         ],
         "Protein": [
             1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            "g"
+        ],
+        "Saturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            1,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            4,
+            "%"
+        ],
+        "Sugars": [
+            3,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Clementines",
+        "Calories": 103,
+        "Total Fat": [
+            1,
+            "g"
+        ],
+        "Total Fat DVP": [
+            0,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            "mg"
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            4,
+            "mg"
+        ],
+        "Sodium DVP": [
+            0,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            26,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            3,
+            "%"
+        ],
+        "Protein": [
+            2,
             "g"
         ],
         "Protein DVP": [
@@ -1044,7 +1123,99 @@
             "%"
         ],
         "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            4,
+            "g"
+        ],
+        "Dietary Fiber DVP": [
+            5,
+            "%"
+        ],
+        "Sugars": [
             1,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Calories": 110,
+        "Total Fat": [
+            2,
+            "g"
+        ],
+        "Total Fat DVP": [
+            2,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            ""
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            90,
+            ""
+        ],
+        "Sodium DVP": [
+            4,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            22,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            8,
+            "%"
+        ],
+        "Protein": [
+            1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            ""
+        ],
+        "Saturated Fat DVP": [
+            3,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
             "g"
         ],
         "Polyunsaturated Fat DVP": [
@@ -1064,11 +1235,11 @@
             "//"
         ],
         "Dietary Fiber DVP": [
-            2,
+            3,
             "%"
         ],
         "Sugars": [
-            0,
+            15,
             "g"
         ],
         "Sugars DVP": [
@@ -1077,361 +1248,106 @@
         ]
     },
     {
-        "Title": "Cream Cheese",
+        "Title": "Chewy Chocolate Fudge Brownie Mix",
+        "Calories": 110,
+        "Total Fat": [
+            2,
+            "g"
+        ],
+        "Total Fat DVP": [
+            2,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            ""
+        ],
+        "Cholesterol DVP": [
+            0,
+            "%"
+        ],
+        "Sodium": [
+            90,
+            ""
+        ],
+        "Sodium DVP": [
+            4,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            22,
+            "g"
+        ],
+        "Total Carbohydrate DVP": [
+            8,
+            "%"
+        ],
+        "Protein": [
+            1,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            0,
+            ""
+        ],
+        "Saturated Fat DVP": [
+            3,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            "g"
+        ],
+        "Trans Fat DVP": [
+            0,
+            "%"
+        ],
+        "Polyunsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Polyunsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Monounsaturated Fat": [
+            0,
+            "g"
+        ],
+        "Monounsaturated Fat DVP": [
+            0,
+            "%"
+        ],
+        "Dietary Fiber": [
+            0,
+            "//"
+        ],
+        "Dietary Fiber DVP": [
+            3,
+            "%"
+        ],
+        "Sugars": [
+            15,
+            "g"
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Lemons, each",
         "Calories": 90,
         "Total Fat": [
-            9,
+            1,
             "g"
         ],
         "Total Fat DVP": [
-            12,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            10,
-            "%"
-        ],
-        "Sodium": [
-            95,
-            "mg"
-        ],
-        "Sodium DVP": [
-            4,
-            "%"
-        ],
-        "Total Carbohydrate": [
             2,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            1,
-            "%"
-        ],
-        "Protein": [
-            2,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            6,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            30,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            3,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            1,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Boneless Chicken Breasts Family Pack",
-        "Calories": 140,
-        "Total Fat": [
-            4,
-            "g"
-        ],
-        "Total Fat DVP": [
-            5,
-            "%"
-        ],
-        "Cholesterol": [
-            55,
-            "Mg"
-        ],
-        "Cholesterol DVP": [
-            18,
-            "%"
-        ],
-        "Sodium": [
-            150,
-            "mg"
-        ],
-        "Sodium DVP": [
-            6,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            0,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            25,
-            "g"
-        ],
-        "Protein DVP": [
-            50,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            0,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "100% Apple Juice",
-        "Calories": 110,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "Mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            5,
-            "mg"
-        ],
-        "Sodium DVP": [
-            1,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            28,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            9,
-            "%"
-        ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            1,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            8,
-            "g"
-        ],
-        "Sugars DVP": [
-            1,
-            "%"
-        ]
-    },
-    {
-        "Title": "Gel Food Colors, Neon Colors",
-        "Sugars": [
-            3,
-            "g"
-        ],
-        "Sugars DVP": [
-            6,
-            "%"
-        ]
-    },
-    {
-        "Title": "All Natural Sour Cream",
-        "Calories": 60,
-        "Total Fat": [
-            5,
-            "g"
-        ],
-        "Total Fat DVP": [
-            8,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            7,
-            "%"
-        ],
-        "Sodium": [
-            5,
-            "mg"
-        ],
-        "Sodium DVP": [
-            1,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            2,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            1,
-            "%"
-        ],
-        "Protein": [
-            1,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            4,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            17,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            2,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Russet Potatoes",
-        "Calories": 110,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
             "%"
         ],
         "Cholesterol": [
@@ -1451,519 +1367,15 @@
             "%"
         ],
         "Total Carbohydrate": [
-            26,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            9,
-            "%"
-        ],
-        "Protein": [
-            2,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            8,
-            "%"
-        ],
-        "Sugars": [
-            1,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Yellow Mustard",
-        "Calories": 0,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            60,
-            "mg"
-        ],
-        "Sodium DVP": [
-            3,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            0,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            0,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Yellow Onions 3 lb Bag",
-        "Calories": 60,
-        "Total Fat": [
-            0,
-            "none"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "none"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            10,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            14,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            4,
-            "%"
-        ],
-        "Protein": [
-            1,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            3,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            12,
-            "%"
-        ],
-        "Sugars": [
-            7,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Singles American Cheese Slices",
-        "Calories": 50,
-        "Total Fat": [
-            4,
-            "g"
-        ],
-        "Total Fat DVP": [
-            5,
-            "%"
-        ],
-        "Cholesterol": [
-            15,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            5,
-            "%"
-        ],
-        "Sodium": [
-            230,
-            "mg"
-        ],
-        "Sodium DVP": [
-            10,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            2,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            1,
-            "%"
-        ],
-        "Protein": [
-            3,
-            "g"
-        ],
-        "Protein DVP": [
-            6,
-            "%"
-        ],
-        "Saturated Fat": [
-            2,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            11,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "PENNE",
-        "Calories": 200,
-        "Total Fat": [
-            1,
-            "g"
-        ],
-        "Total Fat DVP": [
-            1,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            0,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            42,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            15,
-            "%"
-        ],
-        "Protein": [
-            7,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            8,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Super Moist French Vanilla Cake Mix",
-        "Calories": 160,
-        "Total Fat": [
-            1,
-            "g"
-        ],
-        "Total Fat DVP": [
-            1,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            310,
-            "mg"
-        ],
-        "Sodium DVP": [
-            14,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            36,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            13,
-            "%"
-        ],
-        "Protein": [
-            2,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "grm"
-        ],
-        "Saturated Fat DVP": [
-            4,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "grm"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "grm"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            18,
-            "grm"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Sliced Honey Ham Deli Lunch Meat",
-        "Calories": 70,
-        "Total Fat": [
-            2,
-            "g"
-        ],
-        "Total Fat DVP": [
-            4,
-            "%"
-        ],
-        "Cholesterol": [
-            25,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            8,
-            "%"
-        ],
-        "Sodium": [
-            570,
-            "mg"
-        ],
-        "Sodium DVP": [
             24,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            4,
             "g"
         ],
         "Total Carbohydrate DVP": [
-            1,
+            8,
             "%"
         ],
         "Protein": [
-            9,
+            1,
             "g"
         ],
         "Protein DVP": [
@@ -1971,11 +1383,11 @@
             "%"
         ],
         "Saturated Fat": [
-            1,
+            0,
             "g"
         ],
         "Saturated Fat DVP": [
-            5,
+            0,
             "%"
         ],
         "Trans Fat": [
@@ -1987,11 +1399,11 @@
             "%"
         ],
         "Dietary Fiber": [
-            0,
+            1,
             "g"
         ],
         "Dietary Fiber DVP": [
-            0,
+            4,
             "%"
         ],
         "Sugars": [
@@ -2004,14 +1416,14 @@
         ]
     },
     {
-        "Title": "Tomato Basil Garlic Pasta Sauce",
-        "Calories": 60,
+        "Title": "Mission Super Soft Taco Flour Tortillas",
+        "Calories": 140,
         "Total Fat": [
-            2,
-            "g"
+            3,
+            "Grams"
         ],
         "Total Fat DVP": [
-            3,
+            5,
             "%"
         ],
         "Cholesterol": [
@@ -2023,7 +1435,7 @@
             "%"
         ],
         "Sodium": [
-            0,
+            410,
             "mg"
         ],
         "Sodium DVP": [
@@ -2031,179 +1443,27 @@
             "%"
         ],
         "Total Carbohydrate": [
+            6,
+            "Grams"
+        ],
+        "Total Carbohydrate DVP": [
             9,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            3,
             "%"
         ],
         "Protein": [
-            2,
-            "g"
+            4,
+            "Grams"
         ],
         "Protein DVP": [
             0,
             "%"
         ],
         "Saturated Fat": [
-            0,
+            1,
             "g"
         ],
         "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            7,
-            "%"
-        ],
-        "Sugars": [
-            6,
-            "g"
-        ],
-        "Sugars DVP": [
-            2,
-            "%"
-        ]
-    },
-    {
-        "Title": "Gala Apples",
-        "Calories": 80,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            0,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            34,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            11,
-            "%"
-        ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
             5,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            20,
-            "%"
-        ],
-        "Sugars": [
-            6,
-            "g"
-        ],
-        "Sugars DVP": [
-            20,
-            "%"
-        ]
-    },
-    {
-        "Title": "Broccoli Crowns, per lb",
-        "Calories": 31,
-        "Total Fat": [
-            0,
-            "g"
-        ],
-        "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            30,
-            "mg"
-        ],
-        "Sodium DVP": [
-            0,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            6,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            0,
-            "%"
-        ],
-        "Protein": [
-            3,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
             "%"
         ],
         "Trans Fat": [
@@ -2215,7 +1475,7 @@
             "%"
         ],
         "Polyunsaturated Fat": [
-            0,
+            1,
             "g"
         ],
         "Polyunsaturated Fat DVP": [
@@ -2231,15 +1491,15 @@
             "%"
         ],
         "Dietary Fiber": [
-            2,
+            1,
             "g"
         ],
         "Dietary Fiber DVP": [
-            0,
+            4,
             "%"
         ],
         "Sugars": [
-            2,
+            1,
             "g"
         ],
         "Sugars DVP": [
@@ -2248,197 +1508,34 @@
         ]
     },
     {
-        "Title": "Soda Pop",
-        "Calories": 140,
+        "Title": "Bar S Classic Chicken Franks",
+        "Calories": 110,
         "Total Fat": [
-            0,
+            9,
             "g"
         ],
         "Total Fat DVP": [
-            0,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "Mg"
-        ],
-        "Cholesterol DVP": [
-            0,
-            "%"
-        ],
-        "Sodium": [
-            5,
-            "mg"
-        ],
-        "Sodium DVP": [
-            2,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            39,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
             14,
             "%"
         ],
-        "Protein": [
-            0,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            0,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            0,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            0,
-            "%"
-        ],
-        "Sugars": [
-            9,
-            "g"
-        ],
-        "Sugars DVP": [
-            78,
-            "%"
-        ]
-    },
-    {
-        "Title": "Chicken Pot Pie Frozen Meal",
-        "Calories": 350,
-        "Total Fat": [
-            18,
-            "g"
-        ],
-        "Total Fat DVP": [
-            23,
-            "%"
-        ],
         "Cholesterol": [
-            50,
-            ""
+            0,
+            "mg"
         ],
         "Cholesterol DVP": [
-            17,
-            "%"
-        ],
-        "Sodium": [
-            930,
-            ""
-        ],
-        "Sodium DVP": [
-            40,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            35,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
             13,
             "%"
         ],
-        "Protein": [
-            11,
-            "g"
-        ],
-        "Protein DVP": [
-            0,
-            "%"
-        ],
-        "Saturated Fat": [
-            6,
-            ""
-        ],
-        "Saturated Fat DVP": [
-            30,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            2,
-            "g"
-        ],
-        "Dietary Fiber DVP": [
-            7,
-            "%"
-        ],
-        "Sugars": [
-            2,
-            "g"
-        ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Purified Drinking Water",
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Frozen Cooked Medium Peeled &amp; Deveined Tail-on Shrimp",
-        "Calories": 70,
-        "Total Fat": [
-            2,
-            "g"
-        ],
-        "Total Fat DVP": [
-            2,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            57,
-            "%"
-        ],
         "Sodium": [
-            710,
+            390,
             "mg"
         ],
         "Sodium DVP": [
-            31,
+            16,
             "%"
         ],
         "Total Carbohydrate": [
-            2,
+            3,
             "g"
         ],
         "Total Carbohydrate DVP": [
@@ -2446,7 +1543,7 @@
             "%"
         ],
         "Protein": [
-            12,
+            3,
             "g"
         ],
         "Protein DVP": [
@@ -2454,11 +1551,11 @@
             "%"
         ],
         "Saturated Fat": [
-            0,
+            3,
             "g"
         ],
         "Saturated Fat DVP": [
-            0,
+            15,
             "%"
         ],
         "Trans Fat": [
@@ -2466,22 +1563,6 @@
             "g"
         ],
         "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            0,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
             0,
             "%"
         ],
@@ -2494,7 +1575,7 @@
             "%"
         ],
         "Sugars": [
-            0,
+            2,
             "g"
         ],
         "Sugars DVP": [
@@ -2503,8 +1584,8 @@
         ]
     },
     {
-        "Title": "Original Pepperoni Slices",
-        "Calories": 140,
+        "Title": "Sweet Potatoes Per Pound",
+        "Calories": 120,
         "Total Fat": [
             14,
             "g"
@@ -2514,23 +1595,23 @@
             "%"
         ],
         "Cholesterol": [
-            5,
-            "mg"
+            0,
+            ""
         ],
         "Cholesterol DVP": [
-            8,
+            0,
             "%"
         ],
         "Sodium": [
             0,
-            "mg"
+            ""
         ],
         "Sodium DVP": [
-            23,
+            0,
             "%"
         ],
         "Total Carbohydrate": [
-            1,
+            0,
             "g"
         ],
         "Total Carbohydrate DVP": [
@@ -2538,7 +1619,7 @@
             "%"
         ],
         "Protein": [
-            6,
+            0,
             "g"
         ],
         "Protein DVP": [
@@ -2546,23 +1627,23 @@
             "%"
         ],
         "Saturated Fat": [
-            5,
-            "g"
+            2,
+            ""
         ],
         "Saturated Fat DVP": [
-            25,
+            11,
             "%"
         ],
         "Trans Fat": [
             0,
-            "g"
+            ""
         ],
         "Trans Fat DVP": [
             0,
             "%"
         ],
         "Polyunsaturated Fat": [
-            2,
+            8,
             "g"
         ],
         "Polyunsaturated Fat DVP": [
@@ -2570,8 +1651,8 @@
             "%"
         ],
         "Monounsaturated Fat": [
-            6,
-            "g"
+            4,
+            ""
         ],
         "Monounsaturated Fat DVP": [
             0,
@@ -2586,102 +1667,26 @@
             "%"
         ],
         "Sugars": [
+            0,
+            ""
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Zero Calorie Sweetener, Sugar Substitute",
+        "Dietary Fiber": [
             0,
             "//"
         ],
-        "Sugars DVP": [
-            0,
-            "%"
-        ]
-    },
-    {
-        "Title": "Holi Hai - Dessert Cupcake Toppers - Festival of Colors Party Clear Treat Picks - Set of 24"
-    },
-    {
-        "Title": "Cosmic Brownies",
-        "Calories": 280,
-        "Total Fat": [
-            11,
-            "g"
-        ],
-        "Total Fat DVP": [
-            17,
-            "%"
-        ],
-        "Cholesterol": [
-            0,
-            "mg"
-        ],
-        "Cholesterol DVP": [
-            3,
-            "%"
-        ],
-        "Sodium": [
-            0,
-            "mg"
-        ],
-        "Sodium DVP": [
-            6,
-            "%"
-        ],
-        "Total Carbohydrate": [
-            42,
-            "g"
-        ],
-        "Total Carbohydrate DVP": [
-            14,
-            "%"
-        ],
-        "Protein": [
-            2,
-            "g"
-        ],
-        "Protein DVP": [
-            1,
-            "%"
-        ],
-        "Saturated Fat": [
-            5,
-            "g"
-        ],
-        "Saturated Fat DVP": [
-            25,
-            "%"
-        ],
-        "Trans Fat": [
-            0,
-            "g"
-        ],
-        "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            4,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            2,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Dietary Fiber": [
-            1,
-            "g"
-        ],
         "Dietary Fiber DVP": [
-            4,
+            2,
             "%"
         ],
         "Sugars": [
-            4,
+            0,
             "g"
         ],
         "Sugars DVP": [
@@ -2690,8 +1695,8 @@
         ]
     },
     {
-        "Title": "Oatmeal Creme Pies",
-        "Calories": 170,
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Calories": 190,
         "Total Fat": [
             7,
             "g"
@@ -2702,18 +1707,18 @@
         ],
         "Cholesterol": [
             0,
-            "mg"
+            ""
         ],
         "Cholesterol DVP": [
             0,
             "%"
         ],
         "Sodium": [
-            170,
-            "mg"
+            0,
+            ""
         ],
         "Sodium DVP": [
-            7,
+            35,
             "%"
         ],
         "Total Carbohydrate": [
@@ -2725,7 +1730,7 @@
             "%"
         ],
         "Protein": [
-            1,
+            4,
             "g"
         ],
         "Protein DVP": [
@@ -2733,34 +1738,18 @@
             "%"
         ],
         "Saturated Fat": [
-            3,
-            "g"
+            4,
+            ""
         ],
         "Saturated Fat DVP": [
-            15,
+            18,
             "%"
         ],
         "Trans Fat": [
             0,
-            "g"
+            ""
         ],
         "Trans Fat DVP": [
-            0,
-            "%"
-        ],
-        "Polyunsaturated Fat": [
-            2,
-            "g"
-        ],
-        "Polyunsaturated Fat DVP": [
-            0,
-            "%"
-        ],
-        "Monounsaturated Fat": [
-            2,
-            "g"
-        ],
-        "Monounsaturated Fat DVP": [
             0,
             "%"
         ],
@@ -2769,12 +1758,12 @@
             "//"
         ],
         "Dietary Fiber DVP": [
-            2,
+            3,
             "%"
         ],
         "Sugars": [
-            12,
-            "g"
+            1,
+            ""
         ],
         "Sugars DVP": [
             0,
@@ -2782,14 +1771,14 @@
         ]
     },
     {
-        "Title": "Vegetable Oil Spread Stick",
-        "Calories": 60,
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Calories": 190,
         "Total Fat": [
             7,
             "g"
         ],
         "Total Fat DVP": [
-            9,
+            11,
             "%"
         ],
         "Cholesterol": [
@@ -2801,23 +1790,23 @@
             "%"
         ],
         "Sodium": [
-            130,
+            0,
             ""
         ],
         "Sodium DVP": [
-            6,
+            35,
             "%"
         ],
         "Total Carbohydrate": [
-            0,
+            26,
             "g"
         ],
         "Total Carbohydrate DVP": [
-            0,
+            9,
             "%"
         ],
         "Protein": [
-            0,
+            4,
             "g"
         ],
         "Protein DVP": [
@@ -2825,48 +1814,108 @@
             "%"
         ],
         "Saturated Fat": [
-            2,
+            4,
             ""
         ],
         "Saturated Fat DVP": [
-            13,
+            18,
             "%"
         ],
         "Trans Fat": [
-            2,
-            "g"
+            0,
+            ""
         ],
         "Trans Fat DVP": [
             0,
             "%"
         ],
-        "Polyunsaturated Fat": [
-            2,
+        "Dietary Fiber": [
+            0,
+            "//"
+        ],
+        "Dietary Fiber DVP": [
+            3,
+            "%"
+        ],
+        "Sugars": [
+            1,
+            ""
+        ],
+        "Sugars DVP": [
+            0,
+            "%"
+        ]
+    },
+    {
+        "Title": "Ramen Noodle Chicken Flavor Soup",
+        "Calories": 190,
+        "Total Fat": [
+            7,
             "g"
         ],
-        "Polyunsaturated Fat DVP": [
+        "Total Fat DVP": [
+            11,
+            "%"
+        ],
+        "Cholesterol": [
+            0,
+            ""
+        ],
+        "Cholesterol DVP": [
             0,
             "%"
         ],
-        "Monounsaturated Fat": [
-            2,
+        "Sodium": [
+            0,
+            ""
+        ],
+        "Sodium DVP": [
+            35,
+            "%"
+        ],
+        "Total Carbohydrate": [
+            26,
             "g"
         ],
-        "Monounsaturated Fat DVP": [
+        "Total Carbohydrate DVP": [
+            9,
+            "%"
+        ],
+        "Protein": [
+            4,
+            "g"
+        ],
+        "Protein DVP": [
+            0,
+            "%"
+        ],
+        "Saturated Fat": [
+            4,
+            ""
+        ],
+        "Saturated Fat DVP": [
+            18,
+            "%"
+        ],
+        "Trans Fat": [
+            0,
+            ""
+        ],
+        "Trans Fat DVP": [
             0,
             "%"
         ],
         "Dietary Fiber": [
             0,
-            "g"
+            "//"
         ],
         "Dietary Fiber DVP": [
-            0,
+            3,
             "%"
         ],
         "Sugars": [
-            0,
-            "g"
+            1,
+            ""
         ],
         "Sugars DVP": [
             0,

@@ -6,26 +6,20 @@ rx_link = re.compile(
     flags=re.DOTALL
 )
 
-# iz izdelka razbere proizvajalca, naslov in ceno
-rx_izdelek = re.compile(
-    r'<a class="bg-transparent bn lh-solid pa0 sans-serif tc underline inline-button mid-gray pointer f6" href=".*?>(.*?)</a>.*?'
-    r'<h1.*?>(.+?)</h1>.*?'
-    r'<span itemprop="price".*?\$(.*?)</span>',
-    flags=re.DOTALL
-)
+# iz niza razbere blok glavnih podatkov izdelka
+rx_izdelek_blok_glavno = re.compile(r'<!DOCTYPE(.*?)<span class="b black">', flags=re.DOTALL)
 
-# ocena v dolocenih primerih ni
-rx_ocena = re.compile(
-    r'<span class="f7 rating-number">\((.*?)\)</span>.*?',
-    flags=re.DOTALL
-)
+rx_naslov = re.compile(r'<h1.*?>(.+?)</h1>', flags=re.DOTALL)
+rx_proizvajalec = re.compile(r'<a class="bg-transparent bn lh-solid pa0 sans-serif tc underline inline-button mid-gray pointer f6" href=".*?>(.*?)</a>', flags=re.DOTALL)
+rx_cena = re.compile(r'<span itemprop="price".*?\$(.*?)</span>', flags=re.DOTALL)
+rx_ocena = re.compile(r'<span class="f7 rating-number">\((.*?)\)</span>', flags=re.DOTALL)
+rx_relativna_cena = re.compile(r'<span class="mr2">(.*?)</span>', flags=re.DOTALL)
 
-# cena glede na kolicino
-# v dolocenih primerih ne obstaja
-rx_relativna_cena = re.compile(
-    r'<span class="mr2">(.*?)</span>',
-    flags=re.DOTALL
-)
+# iz niza razbere blok hranilnih vrednosti
+rx_izdelek_hr_vred = re.compile(r'Calorie Information(.*?)<span class="b black">', flags=re.DOTALL)
+
+# iz niza razbere cel izdelek
+rx_izdelek = re.compile(r'<!DOCTYPE(.*?)<span class="b black">.*?Calorie Information(.*?)<span class="b black">', flags=re.DOTALL)
 
 # za hranilne vrednosti je vedno enak niz, tako da jih zdruzimo
 hranilne_vrednosti = ["Total Fat", "Cholesterol", "Sodium", "Total Carbohydrate", "Protein"]
