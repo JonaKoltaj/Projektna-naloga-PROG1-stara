@@ -34,3 +34,6 @@ rx_hranilna_vrednost = re.compile(
     r'"Calories","amount":"(\d*?)".*?' + niz,
     flags=re.DOTALL
 )
+
+# iz linka razberemo se id izdelka    
+rx_id = re.compile(r'/(\d\d+)', flags=re.DOTALL)

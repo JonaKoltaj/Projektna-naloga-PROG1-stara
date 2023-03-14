@@ -1,49 +1,1347 @@
-Title,Price,Brand,Rating,Relative Price,Amount
-Fresh Strawberries,2.78,Fresh Produce,2.0,"(2.78, '$', 'lb')",1 lb
-Purified Drinking Water,5.36,Great Value,3.7,"(0.8, '¢', 'fl oz')","16.9 Fl Oz, 40 Count Bottles"
-"Fresh Bananas, per pound",0.27,Fresh Produce,2.1,"(58.0, '¢', 'lb')",Unit
-Dry Roasted Bold &amp; Savory Peanuts,2.5,Planters,4.0,"(15.6, '¢', 'oz')",16 Oz
-RITZ Fresh Stacks Original Crackers,2.98,Ritz,4.6,"(2.98, '$', 'ea')","8 Count, 11.8 oz"
-Fresh Cucumber,0.68,Fresh Produce,1.7,(),Unit
-2% Reduced Fat Milk,2.84,Great Value,3.0,"(2.2, '¢', 'fl oz')","2% Reduced Fat Milk, 128 Fl Oz"
-White Sandwich Bread,1.32,Great Value,2.3,"(6.6, '¢', 'oz')",20 oz
-"Taters, Seasoned, Shredded Potatoes",3.32,Great Value,2.9,"(10.4, '¢', 'oz')",2 lbs
-"Whole Vitamin D Milk, Gallon",3.05,Great Value,2.9,"(2.4, '¢', 'fl oz')",128 fl oz
-Frozen Broccoli Florets,0.98,Great Value,3.2,"(8.2, '¢', 'oz')",12 oz Steamable Bag
-"Cantaloupe, each",3.18,Fresh Produce,1.5,(),Unit
-Cinnamon French Toast Sticks,3.16,Great Value,3.5,"(19.8, '¢', 'oz')",16 oz (Frozen)
-Mandarin,5.98,Sumo Citrus,3.1,(),2lb Bag
-Fresh Green Bell Pepper,0.68,Fresh Produce,1.9,(),Unit
-Hickory Smoked Bacon,3.72,Great Value,2.4,"(4.96, '$', 'lb')",12 oz
-Garlic Texas Toast,2.24,Great Value,3.9,"(19.9, '¢', 'oz')","11.25 oz, 8 Count"
-"Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",1.68,Fresh Produce,1.7,(),1 Head
-GV GOLDEN SWEET WHOLE KERNEL CORN 15OZ,0.5,Great Value,4.4,"(3.3, '¢', 'oz')",15OZ
-Organic Baby Spinach,5.13,Marketside,0.0,"(32.1, '¢', 'oz')",16 Oz
-Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
-Boneless Skinless Chicken Breast,9.74,Great Value,2.1,"(3.25, '$', 'lb')",3 lb (Frozen)
-Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
-Fresh Roma Tomato,0.38,Fresh Produce,2.1,"(1.28, '$', 'lb')",Unit
-Clementines,3.98,Fresh Produce,1.7,"(1.33, '$', 'lb')",3lb bag
-Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
-Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
-(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
-Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
-(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
-"Lemons, each",0.68,Fresh Produce,2.0,(),Unit
-"Fresh Red Seedless Grapes, Bag",4.01,Fresh Produce,1.8,"(1.78, '$', 'lb')",Unit
-"Hot Dog Buns, White",1.38,Great Value,2.4,"(12.5, '¢', 'oz')","11 oz, 8 Count"
-Mission Super Soft Taco Flour Tortillas,2.78,MISSION,4.5,"(15.9, '¢', 'oz')","17.5 oz, 10 Count"
-Pure Granulated Sugar,2.94,Great Value,4.4,"(73.5, '¢', 'lb')",4 lb
-Bar S Classic Chicken Franks,1.12,Bar-S,3.4,"(1.49, '$', 'lb')","12 oz, 8 Count"
-"Green Onions, Bunch",0.88,FIELDPACK UNBRANDED,1.8,(),Unit
-Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
-Vegetable Oil,3.64,Great Value,4.5,"(7.6, '¢', 'fl oz')",48 fl oz
-Classic Alfredo Pasta Sauce,1.74,Great Value,3.7,"(10.9, '¢', 'oz')",16 oz
-"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
-Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
-Ramen Noodle Chicken Flavor Soup,14.0,Maruchan,4.5,(),"3 Oz, 12 Count"
-Ramen Noodle Beef Flavor Soup,11.94,Maruchan,4.5,(),"3 Oz, 12 Count"
-Ramen Noodle Chicken Flavor Soup,14.0,Maruchan,4.5,(),"3 Oz, 12 Count"
-Ramen Noodle Beef Flavor Soup,11.94,Maruchan,4.5,(),"3 Oz, 12 Count"
-Ramen Noodle Chicken Flavor Soup,14.0,Maruchan,4.5,(),"3 Oz, 12 Count"
-"Organic Bananas, Bunch",2.0,Marketside,0.0,"(71.0, '¢', 'lb')",Unit
+Id,Title,Price,Brand,Rating,Relative Price,Amount
+44391605,Fresh Strawberries,2.78,Fresh Produce,2.0,"(2.78, '$', 'lb')",1 lb
+992524020,Purified Drinking Water,5.36,Great Value,3.7,"(0.8, '¢', 'fl oz')","16.9 Fl Oz, 40 Count Bottles"
+44390948,"Fresh Bananas, per pound",0.27,Fresh Produce,2.1,"(58.0, '¢', 'lb')",Unit
+538506883,Dry Roasted Bold &amp; Savory Peanuts,2.5,Planters,4.0,"(15.6, '¢', 'oz')",16 Oz
+35176551,RITZ Fresh Stacks Original Crackers,2.98,Ritz,4.6,"(2.98, '$', 'ea')","8 Count, 11.8 oz"
+44390954,Fresh Cucumber,0.68,Fresh Produce,1.7,(),Unit
+10450115,2% Reduced Fat Milk,2.84,Great Value,3.0,"(2.2, '¢', 'fl oz')","2% Reduced Fat Milk, 128 Fl Oz"
+10315752,White Sandwich Bread,1.32,Great Value,2.3,"(6.6, '¢', 'oz')",20 oz
+10534213,"Taters, Seasoned, Shredded Potatoes",3.32,Great Value,2.9,"(10.4, '¢', 'oz')",2 lbs
+10450114,"Whole Vitamin D Milk, Gallon",3.05,Great Value,2.9,"(2.4, '¢', 'fl oz')",128 fl oz
+735585383,Frozen Broccoli Florets,0.98,Great Value,3.2,"(8.2, '¢', 'oz')",12 oz Steamable Bag
+44390974,"Cantaloupe, each",3.18,Fresh Produce,1.5,(),Unit
+10415878,Cinnamon French Toast Sticks,3.16,Great Value,3.5,"(19.8, '¢', 'oz')",16 oz (Frozen)
+1703778874,Mandarin,5.98,Sumo Citrus,3.1,(),2lb Bag
+44390945,Fresh Green Bell Pepper,0.68,Fresh Produce,1.9,(),Unit
+23816525,Hickory Smoked Bacon,3.72,Great Value,2.4,"(4.96, '$', 'lb')",12 oz
+10416519,Garlic Texas Toast,2.24,Great Value,3.9,"(19.9, '¢', 'oz')","11.25 oz, 8 Count"
+10402650,"Boskovich Farms Iceberg Lettuce, Fresh Produce, USA Grown",1.68,Fresh Produce,1.7,(),1 Head
+10315427,GV GOLDEN SWEET WHOLE KERNEL CORN 15OZ,0.5,Great Value,4.4,"(3.3, '¢', 'oz')",15OZ
+36240078,Organic Baby Spinach,5.13,Marketside,0.0,"(32.1, '¢', 'oz')",16 Oz
+44390949,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+10414680,Boneless Skinless Chicken Breast,9.74,Great Value,2.1,"(3.25, '$', 'lb')",3 lb (Frozen)
+10451313,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+44390944,Fresh Roma Tomato,0.38,Fresh Produce,2.1,"(1.28, '$', 'lb')",Unit
+11025598,Clementines,3.98,Fresh Produce,1.7,"(1.33, '$', 'lb')",3lb bag
+1728770094,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1728770094,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+41752773,"Lemons, each",0.68,Fresh Produce,2.0,(),Unit
+47770140,"Fresh Red Seedless Grapes, Bag",4.01,Fresh Produce,1.8,"(1.78, '$', 'lb')",Unit
+10450133,"Hot Dog Buns, White",1.38,Great Value,2.4,"(12.5, '¢', 'oz')","11 oz, 8 Count"
+10309357,Mission Super Soft Taco Flour Tortillas,2.78,MISSION,4.5,"(15.9, '¢', 'oz')","17.5 oz, 10 Count"
+10315162,Pure Granulated Sugar,2.94,Great Value,4.4,"(73.5, '¢', 'lb')",4 lb
+10290749,Bar S Classic Chicken Franks,1.12,Bar-S,3.4,"(1.49, '$', 'lb')","12 oz, 8 Count"
+51259361,"Green Onions, Bunch",0.88,FIELDPACK UNBRANDED,1.8,(),Unit
+44390964,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10451002,Vegetable Oil,3.64,Great Value,4.5,"(7.6, '¢', 'fl oz')",48 fl oz
+13033144,Classic Alfredo Pasta Sauce,1.74,Great Value,3.7,"(10.9, '¢', 'oz')",16 oz
+165562882,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+397418781,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+262344270,Ramen Noodle Beef Flavor Soup,11.94,Maruchan,4.5,(),"3 Oz, 12 Count"
+262344270,Ramen Noodle Beef Flavor Soup,11.94,Maruchan,4.5,(),"3 Oz, 12 Count"
+10450904,Ramen Noodle Chicken Flavor Soup,14.0,Maruchan,4.5,(),"3 Oz, 12 Count"
+51259338,"Organic Bananas, Bunch",2.0,Marketside,0.0,"(71.0, '¢', 'lb')",Unit
+44391008,Limes,0.44,Fresh Produce,2.0,(),1 each
+43365585,"Pure and Natural Squeeze Sour Cream, Regular",2.68,Daisy,0.0,"(19.1, '¢', 'oz')",14 ounces
+857019836,California Style Vegetable Mix,1.16,Great Value,2.7,"(9.7, '¢', 'oz')",12 oz (Frozen)
+10801133,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+10450104,Hamburger Buns,1.38,Great Value,2.5,"(12.5, '¢', 'oz')","8 Count, 11 oz"
+15136790,All Natural*,3.96,Fresh Ground Beef,2.2,"(3.96, '$', 'lb')","73% Lean/27% Fat, Ground Beef, Roll, 1lbs, (Fresh)"
+44391430,"Sweet Corn On The Cob, Fresh Corn",0.6,Fresh Produce,2.2,(),1 ea
+10813458,"Taco Seasoning, Original",0.88,Old El Paso,4.8,"(88.0, '¢', 'oz')",1 oz.
+10451315,Baby Carrots,0.98,Fresh Produce,4.2,"(6.1, '¢', 'oz')",1lb Bag
+617765768,Chicken Breast Tenderloins,8.94,Freshness Guaranteed,2.5,"(3.94, '$', 'lb')",2.25 - 3.2 lb
+17018060,"Fresh Cilantro, Bunch",0.88,Fresh Produce,1.9,(),Unit
+10448318,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+10295206,Oatmeal Creme Pies,2.58,Little Debbie,3.7,"(15.9, '¢', 'oz')","12 ct, 16.2 oz"
+16777540,Cosmic Brownies,2.58,Little Debbie,3.9,"(19.7, '¢', 'oz')",13 oz
+10535153,Plain Original Pre-Sliced Bagels,4.18,Thomas&#39;,3.7,"(20.9, '¢', 'oz')","39; Plain Original Pre-Sliced Bagels, 6-Count"
+47770098,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+10534289,"Seasoned Potato Hash Brown Patties, Shredded",3.32,Great Value,4.2,"(14.8, '¢', 'oz')","1 lb 6.5 oz, 10 Count (Frozen)"
+22176377,Fruit Punch Real Fruit Juice Drink,1.68,Minute Maid,4.5,"(1.68, '$', 'ea')",59 fl oz Carton
+44390952,"Asparagus, Bunch",2.48,PRODUCE UNBRANDED,1.8,(),Unit
+824841960,All Natural*,5.86,Fresh Ground Beef,2.2,"(5.86, '$', 'lb')","93% Lean/7% Fat, Lean Ground Beef, Tray, 1lbs, (Fresh)"
+10315375,Saltine 16z,1.38,Great Value,4.1,"(8.6, '¢', 'oz')",16z
+41592222,Cream Cheese,3.18,Great Value,3.8,"(19.9, '¢', 'oz')","8 oz, 2 Count"
+2768002804,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+43711099,Yellow Mustard,0.98,Great Value,4.6,"(4.9, '¢', 'oz')",20 oz Squeeze Bottle
+10534084,PENNE,0.98,Great Value,4.5,"(6.1, '¢', 'oz')",16OZ
+12335111,All Natural Sour Cream,2.26,Great Value,0.0,"(14.1, '¢', 'oz')",16 oz Tub
+27935840,Boneless Chicken Breasts Family Pack,15.18,Freshness Guaranteed,2.0,"(2.97, '$', 'lb')",4.7 - 6.25 lb
+10447837,Russet Potatoes,3.47,Fresh Produce,2.4,"(69.4, '¢', 'lb')",5 lb Bag
+10415325,100% Apple Juice,2.18,Great Value,4.5,"(2.3, '¢', 'fl oz')","100% Apple Juice, 96 Fl. Oz."
+598890171,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10447842,Yellow Onions 3 lb Bag,2.24,Fresh Produce,3.3,"(74.7, '¢', 'lb')",3 lb Bag
+10452905,Singles American Cheese Slices,4.98,Kraft,4.4,"(31.1, '¢', 'oz')",24 ct Pack
+110946086,"Variety Pack with Fruit Punch, Strawberry Kiwi &amp; Pacific Cooler Juice Box Pouches",8.98,Capri Sun,4.0,"(5.0, '¢', 'fl oz')","30 ct Box, 6 fl oz Pouches"
+10402752,Sliced Honey Ham Deli Lunch Meat,4.5,Hillshire Farm,0.0,"(8.04, '$', 'lb')",9 oz
+331883112,Tomato Basil Garlic Pasta Sauce,1.48,Great Value,3.5,"(6.2, '¢', 'oz')",24 oz
+20511490,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+51259378,"Broccoli Crowns, per lb",1.48,PRODUCE UNBRANDED,2.0,"(1.97, '$', 'ea')",Unit
+10535216,Sorry...,16.98,Oreo,3.7,(),Unit
+1542942076,Vegetable Oil Spread Stick,1.63,Blue Bonnet,4.4,"(10.2, '¢', 'oz')","16 oz, 4 Count"
+10291399,Chicken Pot Pie Frozen Meal,1.18,Banquet,3.8,"(16.9, '¢', 'oz')",7 oz (Frozen)
+10794554,Gala Apples,3.92,Freshness Guaranteed,2.4,"(1.31, '$', 'lb')",3 lb Bag
+44390958,Frozen Cooked Medium Peeled &amp; Deveined Tail-on Shrimp,5.98,Great Value,0.0,"(49.8, '¢', 'oz')",12 oz (41-60 Count per lb)
+22700527,Original Mac N Cheese Macaroni and Cheese Dinner,1.0,Kraft,4.6,"(13.8, '¢', 'oz')",7.25 oz Box
+10295756,Original Mac N Cheese Macaroni and Cheese Dinner,1.0,Kraft,4.6,"(13.8, '¢', 'oz')",7.25 oz Box
+1178903502,Original Mac N Cheese Macaroni and Cheese Dinner,1.0,Kraft,4.6,"(13.8, '¢', 'oz')",7.25 oz Box
+1178903502,Premium Pork Regular Sausage Roll,4.62,Jimmy Dean,4.4,"(28.9, '¢', 'oz')",16 oz
+10533854,Original Pepperoni Slices,2.72,Great Value,0.0,"(7.16, '$', 'lb')",6 oz
+40495518,Purified Drinking Water,3.48,Great Value,3.8,"(0.9, '¢', 'fl oz')","16.9 Fl Oz, 24 Count"
+13448854,"1% Low Fat Chocolate Milk, Gallon",2.84,Great Value,3.7,"(2.2, '¢', 'fl oz')","1% Low Fat Chocolate Milk, Gallon, 128 fl oz"
+17248403,Small Hass Avocado,2.48,Fresh Produce,2.5,"(62.0, '¢', 'ea')",5-6 Count Bag
+44390968,Fresh Strawberries,5.38,Fresh Produce,1.6,"(16.8, '¢', 'oz')",2 lb
+22660282,Caesar Salad Kit,3.98,Marketside,0.0,"(34.6, '¢', 'ea')",11.55 oz
+16935784,Frozen Pepper &amp; Onion Blend,2.58,Great Value,3.2,"(12.9, '¢', 'oz')",20 oz Bag
+539250805,Fresh Spinach Salad,2.28,Marketside,0.0,"(22.8, '¢', 'oz')",10 oz
+13893738,Baby Carrots,1.92,Fresh Produce,3.0,"(96.0, '¢', 'lb')",2lb bag
+10451316,"Snack Cakes, Family Pack NUTTY BUDDY ® wafers",2.58,Little Debbie,4.2,"(21.5, '¢', 'oz')",Unit
+13847633,Celery Stalk,1.84,Fresh Produce,2.5,(),Unit
+51259411,Finely Shredded Colby Jack Cheese,2.22,Great Value,3.4,"(27.8, '¢', 'oz')",8 oz
+10452564,Crinkle Cut French Fried Potatoes,3.32,Great Value,2.9,"(10.4, '¢', 'oz')",32 oz
+10534212,Shredded Iceberg Lettuce Salad,1.98,Marketside,2.1,"(24.8, '¢', 'oz')",8 oz
+13893731,Fresh Mini Cucumber,1.97,Fresh Produce,1.6,"(12.3, '¢', 'oz')",1 Pound Bag
+44419690,"Tomato on the Vine, Bag",1.98,Fresh Produce,1.7,"(1.98, '$', 'lb')",Unit
+44390955,White Round Top Bread Loaf,1.32,Great Value,2.7,"(6.6, '¢', 'oz')",20 oz
+10315355,All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray,9.82,Fresh Ground Beef,2.1,"(4.36, '$', 'lb')","80% Lean/20% Fat Ground Beef Chuck Tray, 2.25 lb"
+959024059,GV SPAGHETTI 16OZ,0.98,Great Value,4.2,(),16OZ
+10534115,GV SPAGHETTI 16OZ,0.98,Great Value,4.2,(),16OZ
+1588399471,GV SPAGHETTI 16OZ,0.98,Great Value,4.2,(),16OZ
+1588399471,Fresh Blueberries,5.38,PRODUCE UNBRANDED,2.2,"(29.9, '¢', 'oz')",18 oz
+161115457,Thin-Sliced Chicken Breasts,7.8,Freshness Guaranteed,2.0,"(3.98, '$', 'lb')",1.7 - 3.0 lb
+338508084,Fresh Color Bell Peppers,2.98,Fresh Produce,1.8,(),3 Count
+47770124,(4 Cans) Chunk Light Tuna in Water,3.28,Great Value,4.5,"(16.4, '¢', 'oz')","4 Cans) Great Value Chunk Light Tuna in Water, 5 oz"
+33867594,Fresh Red Onions,0.78,Fresh Produce,1.8,"(98.0, '¢', 'lb')",Unit
+51259215,Romaine Lettuce Hearts,2.88,Fresh Produce,0.0,(),3 Pack
+10532755,No Added Sweeteners 100% Apple Juice,1.86,Great Value,4.5,"(2.9, '¢', 'fl oz')","100% Apple Juice, 64 Fl. Oz."
+16935731,Sliced Oven Roasted Turkey Breast Deli Lunch Meat,4.5,Hillshire Farm,0.0,"(8.04, '$', 'lb')",9 oz
+10402754,Finely Shredded Low-Moisture Part-Skim Mozzarella Cheese,2.22,Great Value,4.0,"(27.8, '¢', 'oz')",8 oz
+10452371,Slicing Tomato,1.36,Fresh Produce,1.9,"(2.96, '$', 'lb')",Unit
+44390971,All Natural*,4.78,Fresh Ground Beef,2.0,"(4.78, '$', 'lb')","80% Lean/20% Fat, Ground Beef, Chuck, Tray, 1lbs, (Fresh)"
+479601462,Finely Shredded Fiesta Blend Cheese,2.22,Great Value,3.5,"(27.8, '¢', 'oz')",8 oz
+10452562,"2% Reduced Fat Milk, Half Gallon",1.59,Great Value,2.5,"(2.5, '¢', 'fl oz')","2% Reduced Fat Milk, Half Gallon, 64 fl oz"
+10450119,Original Mac N Cheese Macaroni and Cheese Dinner,4.88,Kraft,4.6,"(13.5, '¢', 'oz')","5 ct Pack, 7.25 oz Boxes"
+14869676,Finely Shredded Sharp Cheddar Cheese,3.98,Great Value,4.1,"(24.9, '¢', 'oz')",16 oz
+10452477,Singles American Pasteurized Prepared Cheese Product,2.48,Great Value,4.1,"(15.5, '¢', 'oz')","16 oz, 24 Count"
+10452423,Thick Sliced Bacon Hickory Smoked,4.24,Great Value,3.6,"(4.24, '$', 'lb')",16 oz
+44391087,Snacks Flavor Mix Variety Pack,10.98,Frito-Lay,2.6,"(61.0, '¢', 'oz')","1 oz, 18 Count (Assortment May Vary)"
+556798000,"Pure and Natural Sour Cream, Regular,16 ounces",2.38,Daisy,0.0,"(2.38, '$', 'lb')",16 ounces
+10309449,Steamable Mixed Vegetables,0.88,Great Value,3.3,"(7.3, '¢', 'oz')",12 oz
+817042496,"Whole Vitamin D Milk, Half Gallon",1.72,Great Value,2.8,"(2.7, '¢', 'fl oz')",64 fl oz
+10450118,Classic Iceberg Salad,1.78,Marketside,0.0,"(14.8, '¢', 'oz')",12 oz
+13893729,Fresh Blackberries,2.68,PRODUCE UNBRANDED,2.2,"(44.7, '¢', 'oz')",6 oz
+47314798,Honey Wheat Bread,1.63,Great Value,2.7,"(8.2, '¢', 'oz')",20 oz
+44391070,"Russet Baking Potatoes, each",0.92,Fresh Produce,1.6,"(1.08, '$', 'lb')",Unit
+44391004,Everyday Disposable Paper Plates,6.22,Great Value,4.0,"(6.2, '¢', 'ea')","9in, 100ct"
+885116895,Canned Sweet Peas,0.67,Great Value,4.2,"(4.5, '¢', 'oz')",15 oz Can
+10451509,Milo’s Famous Sweet Tea,3.38,Milo&#39;s,4.5,"(2.6, '¢', 'fl oz')","100% Natural, 128 Fl. Oz."
+21804014,Canned Pineapple Chunks packed in 100% Pineapple juice,1.28,Great Value,4.4,"(6.4, '¢', 'oz')","100% Pineapple juice, 20 oz"
+10315437,Garlic Powder,1.12,Great Value,4.5,"(32.9, '¢', 'oz')",3.4 oz
+676979470,Corn Muffin Mix,0.6,Jiffy,4.6,"(7.1, '¢', 'oz')",8.5 Oz.
+10448133,Brown Gravy Mix,0.44,Great Value,4.4,"(50.6, '¢', 'oz')",0.87 oz
+10314968,Black Beans,0.78,Great Value,4.4,"(5.2, '¢', 'oz')",15 oz Can
+10534038,Ham &amp; Cheddar Cheese Cracker Stackers Kid Lunch Snack,1.82,Lunchables,4.5,"(52.0, '¢', 'oz')",3.5 oz Tray
+10313188,Real Bacon Pieces,1.7,Great Value,4.2,"(68.0, '¢', 'oz')",2.5 oz
+10315616,Tomato Sauce,0.44,Great Value,4.4,"(5.5, '¢', 'oz')",8 oz Can
+10415487,"Sliced Carrots, Canned Carrots",0.66,Great Value,4.5,"(4.6, '¢', 'fl oz')",14.5 oz Can
+10451497,Sour Cream and Onion Potato Crisps Chips,2.12,Pringles,4.2,"(38.5, '¢', 'oz')","5.5 oz, Can"
+108065286,Restaurant Style White Corn Tortilla Chips,1.98,Great Value,3.9,"(15.2, '¢', 'oz')",13 oz
+12335104,Light Tuna in Water,1.0,StarKist,4.4,"(9.6, '¢', 'oz')",2.6 oz Pouch
+13398015,Evaporated Milk,1.32,Great Value,4.5,"(11.0, '¢', 'fl oz')",12 Fl Oz
+10534163,"Honey Nut Heart Healthy Cereal, Family Size",4.78,Cheerios,4.8,"(25.4, '¢', 'oz')",18.8 OZ
+138561797,Peach Sparkling Water,0.76,Clear American,4.5,"(2.2, '¢', 'fl oz')",33.8 fl oz
+10452470,Distilled Water,1.16,Parent&#39;s Choice,4.0,"(0.9, '¢', 'fl oz')","39;s Choice Distilled Water, 1 Gallon"
+124788703,Freshness Guaranteed Sliced White Mushrooms 8oz,2.18,South Mill Champs,1.6,"(27.3, '¢', 'oz')",8oz
+10449184,Confectioners Powdered Sugar,1.84,Great Value,4.5,"(5.8, '¢', 'oz')",32 oz
+10315011,"Green Cabbage, Head",3.28,Fresh Produce,2.2,"(82.0, '¢', 'lb')",Unit
+44391042,"Nacho Cheese Flavored Tortilla Chips, Party Size",5.38,Doritos,4.7,"(37.1, '¢', 'oz')",14.5 oz Bag
+433078517,"Nacho Cheese Flavored Tortilla Chips, Party Size",5.38,Doritos,4.7,"(37.1, '¢', 'oz')",14.5 oz Bag
+1773208928,"Nacho Cheese Flavored Tortilla Chips, Party Size",5.38,Doritos,4.7,"(37.1, '¢', 'oz')",14.5 oz Bag
+1773208928,"Dr Pepper Soda, .5 L bottles",3.78,Dr. Pepper,4.6,"(3.7, '¢', 'fl oz')","5 L bottles, 6 pack"
+15136784,"Classic Potato Chips, Party Size",4.98,Lay&#39;s,4.0,"(38.3, '¢', 'oz')","39;s Classic Potato Chips, Party Size, 13 oz Bag"
+677669806,"Vienna Sausage in Chicken Broth, Canned Sausage",0.82,Libby&#39;s,4.4,"(2.83, '$', 'lb')","39;s Vienna Sausage in Chicken Broth, Canned Sausage, 4.6 Oz"
+24705056,Unsweetened Tropical Punch Artificially Flavored Powdered Drink Mix,0.3,Kool-Aid,4.6,"(1.88, '$', 'oz')",0.16 oz. Packet
+19757603,Unsweetened Grape Artificially Flavored Powdered Drink Mix,0.3,Kool-Aid,4.6,"(2.14, '$', 'oz')",0.14 oz. Packet
+10292776,Unsweetened Blue Raspberry Lemonade Artificially Flavored Powdered Drink Mix,3.99,Kool-Aid,4.6,(),0.22 oz. Packet
+19757603,Unsweetened Grape Artificially Flavored Powdered Drink Mix,0.3,Kool-Aid,4.6,"(2.14, '$', 'oz')",0.14 oz. Packet
+10292780,Unsweetened Tropical Punch Artificially Flavored Powdered Drink Mix,0.3,Kool-Aid,4.6,"(1.88, '$', 'oz')",0.16 oz. Packet
+10292776,Fresh Zucchini Squash,0.93,Fresh Produce,1.8,"(1.48, '$', 'lb')",Unit
+44390947,Finely Shredded Parmesan Cheese,2.22,Great Value,2.7,"(37.0, '¢', 'oz')",6 oz
+10452414,Mangoes,0.98,Fresh Produce,1.9,(),1 Each
+994998279,Meat Lovers Breakfast Bowl,3.12,Jimmy Dean,4.0,"(44.6, '¢', 'oz')",7 oz (Frozen)
+20608050,Half &amp; Half,2.48,Great Value,0.0,"(7.8, '¢', 'fl oz')",32 fl oz
+10450338,Heavy Whipping Cream,4.58,Great Value,0.0,"(14.3, '¢', 'fl oz')",32 oz
+10450340,All Natural Sour Cream,1.16,Great Value,0.0,"(14.5, '¢', 'oz')",8 oz Tub
+12335110,Turkey &amp; Cheddar Cheese with Crackers Kids Lunch Snack,1.82,Lunchables,4.5,"(56.9, '¢', 'oz')",3.2 oz Tray
+10534987,"Original Unsweetened Almond Milk, Half Gallon",2.44,Great Value,3.9,"(3.8, '¢', 'fl oz')",64 fl oz
+46491750,French Bread,1.47,Freshness Guaranteed,3.3,"(1.47, '$', 'ea')",14 oz
+46491756,Turkey &amp; American Cheese Cracker Stackers Kids Lunch Snack,1.82,Lunchables,4.0,"(56.9, '¢', 'oz')",3.2 oz Tray
+888875378,Lactose Free 2% Reduced Fat ULitera Filtered Milk,4.18,fairlife,4.4,"(8.0, '¢', 'fl oz')","2% Reduced Fat ULitera Filtered Milk, 52 fl oz"
+43984343,Chicken Broth,1.33,Great Value,4.0,"(4.2, '¢', 'fl oz')",32 oz
+10899013,Chicken Broth,1.33,Great Value,4.0,"(4.2, '¢', 'fl oz')",32 oz
+1170762703,Chicken Broth,1.33,Great Value,4.0,"(4.2, '¢', 'fl oz')",32 oz
+1170762703,Buttery Homestyle® Mashed Potatoes,1.44,Idahoan,4.6,"(36.0, '¢', 'oz')",4 oz Pouch
+10312430,Buttery Homestyle® Mashed Potatoes,1.44,Idahoan,4.6,"(36.0, '¢', 'oz')",4 oz Pouch
+1285164552,Buttery Homestyle® Mashed Potatoes,1.44,Idahoan,4.6,"(36.0, '¢', 'oz')",4 oz Pouch
+1285164552,Canned Pasta with Meatballs,1.26,SpaghettiOs,4.3,"(8.1, '¢', 'oz')",15.6 OZ Can
+55019243,Canned Pasta with Meatballs,1.26,SpaghettiOs,4.3,"(8.1, '¢', 'oz')",15.6 OZ Can
+1665447751,Canned Pasta with Meatballs,1.26,SpaghettiOs,4.3,"(8.1, '¢', 'oz')",15.6 OZ Can
+1665447751,Cream Of Chicken Condensed Soup,0.68,Great Value,4.2,"(6.5, '¢', 'oz')",10.5 oz
+10314959,Cream Of Chicken Condensed Soup,0.68,Great Value,4.2,"(6.5, '¢', 'oz')",10.5 oz
+1759189334,Cream Of Chicken Condensed Soup,0.68,Great Value,4.2,"(6.5, '¢', 'oz')",10.5 oz
+1759189334,Soda Pop,3.78,Coca-Cola,4.7,"(3.78, '$', 'ea')","16.9 fl oz, 6 Pack Bottles"
+10535170,Lemon Lime Soda Pop,3.78,Sprite,4.7,"(3.7, '¢', 'fl oz')","16.9 fl oz, 6 Pack Bottles"
+10291596,Soda Pop,3.78,Diet Coke,4.5,"(3.78, '$', 'ea')","16.9 fl oz, 6 Pack Bottles"
+16935929,Zero Sugar Soda Pop,3.78,Coca-Cola,4.6,"(3.7, '¢', 'fl oz')","16.9 fl oz, 6 Pack Cans"
+10535134,Citrus Soda Pop,12.28,Mountain Dew,4.2,"(4.3, '¢', 'fl oz')","12 oz Cans, 24 Pack"
+16821023,Cola Soda Pop,12.28,Pepsi,4.1,"(4.3, '¢', 'fl oz')","12 oz Cans, 24 Pack"
+16821022,Rotel Original Diced Tomatoes and Green Chilies,1.24,RO*TEL,4.1,"(12.4, '¢', 'oz')",10 oz.
+10308581,Mission Carb Balance Low Carb High Fiber Soft Taco Flour Tortillas,4.88,MISSION,4.6,"(40.7, '¢', 'oz')","12 oz, 8 Count"
+19757985,Dark Red Kidney Beans,0.78,Great Value,4.5,"(5.0, '¢', 'oz')",15.5 oz
+10534045,"Mini Beef Ravioli, Microwave Pasta",1.24,Chef Boyardee,4.2,"(8.3, '¢', 'oz')",15 Oz
+10308534,Petite Diced Tomatoes in Tomato Juice,0.88,Great Value,4.2,"(6.1, '¢', 'oz')",14.5 Oz
+10416105,Canned French Style Green Beans,0.58,Great Value,3.8,"(4.1, '¢', 'oz')",14.5 oz Can
+10315431,Traditional Pasta Sauce,1.48,Great Value,4.4,"(6.2, '¢', 'oz')",24 oz
+19758051,Chunk Light Tuna in Water,0.84,Great Value,4.5,"(16.8, '¢', 'oz')",5 oz
+11965048,Tomato Paste,0.76,Great Value,4.5,"(12.7, '¢', 'oz')",6 oz
+10415519,Chicken Pot Pie Large Size,3.48,Marie Callender&#39;s,3.9,"(23.2, '¢', 'oz')","39;s Chicken Pot Pie Large Size, 15 oz"
+898976790,Purified Water,5.38,Pure Life,3.6,"(5.38, '$', 'ea')","16.9 Fl Oz / 500 mL, Plastic Bottled Water (35 Pack)"
+17248230,Chili Beans,0.78,Great Value,4.4,"(5.0, '¢', 'oz')",15.5 oz Can
+10534044,Finely Shredded Fiesta Blend Cheese,3.98,Great Value,4.4,"(24.9, '¢', 'oz')",16 oz
+15544059,Cream of Chicken Soup,1.26,Campbell&#39;s Condensed,4.5,"(12.0, '¢', 'oz')","39;s Condensed Cream of Chicken Soup, 10.5 Ounce Can"
+10321652,Light Brown Sugar,1.84,Great Value,4.5,"(92.0, '¢', 'lb')",32 oz
+10315012,Purified Drinking Water,5.28,Sam&#39;s Choice,3.9,"(0.9, '¢', 'fl oz')","39;s Choice Purified Drinking Water, 20 Fl Oz, 28 Count Bottles"
+35395277,No Salt Added Cut Green Beans,0.5,Great Value,4.3,"(3.4, '¢', 'oz')",14.5 oz
+10315430,"Birds Eye Steamfresh Broccoli Florets, Frozen",2.52,Birdseye,4.0,"(23.3, '¢', 'oz')",10.8 oz
+54049488,Pinto Beans,0.78,Great Value,4.1,"(5.0, '¢', 'oz')",15.5 oz Can
+10534043,Original Potato Crisps Chips On-The-Go Snack Chips,2.12,Pringles,4.3,"(40.8, '¢', 'oz')","5.2 oz, Can"
+47217461,Original Vanilla Lowfat Yogurt,2.36,Great Value,3.5,"(7.4, '¢', 'oz')",32 oz
+10450127,LunchMakers Ham and Cheese Portable Meal Kit with Crunch Bar,1.18,Armour,4.5,"(49.2, '¢', 'oz')",2.4 oz
+10291660,Soda Pop,2.68,Coca-Cola,4.7,"(2.68, '$', 'ea')",2 Liter Bottle
+16618684,Alpine Spring Water,1.38,Crystal Geyser,4.0,"(1.1, '¢', 'fl oz')",1 Gal
+20551360,"Fresh Jalapeno Pepper, Approx. 3-5 per 0.25 Pound",0.31,Fresh Produce,1.8,"(0.25, '//', ' 0.25lb')",3-5 per 0.25 Pound
+44391018,Fresh Kiwi Fruit,0.56,Fresh Produce,1.8,(),Unit
+44391016,Pre-Sliced Plain Bagels,1.98,Great Value,2.7,"(9.9, '¢', 'oz')","20 oz, 6 Count"
+667056737,"Fresh Green Seedless Grapes, Bag",4.46,Fresh Produce,1.6,"(1.98, '$', 'lb')",Unit
+44390943,Yellow Onions,0.62,Fresh Produce,2.0,"(78.0, '¢', 'lb')",Unit
+51259212,Nacho Cheese Flavored Tortilla Chips,4.38,Doritos,4.7,"(47.4, '¢', 'oz')",9.25 oz Bag
+786004155,Fuji Apple Sparkling Water,0.76,Clear American,4.6,"(2.2, '¢', 'fl oz')",33.8 fl oz
+35592632,"Sparkling Water, Strawberry",0.76,Clear American,4.5,"(2.2, '¢', 'fl oz')",33.8 fl oz
+10452357,Tomato Sauce,0.88,Great Value,4.3,"(5.9, '¢', 'oz')",15 oz
+10415500,Pineapple,2.08,Fresh Produce,2.0,(),Unit
+44391200,Navel Oranges,0.88,Fresh Produce,2.0,(),Unit
+162577028,Brussels Sprouts,1.42,Great Value,4.1,"(11.8, '¢', 'oz')",12 oz (Frozen)
+661948092,Steamable Whole Kernel Corn,0.97,Great Value,3.1,"(8.1, '¢', 'oz')",12 oz (Frozen)
+659879040,Broccoli Florets,2.78,Marketside,2.8,"(23.2, '¢', 'oz')",12 oz
+13399617,Cream Cheese,1.68,Great Value,3.7,"(21.0, '¢', 'oz')",8 oz
+10452429,Vegetable Oil Spread 16 oz,1.58,Imperial,3.6,"(9.9, '¢', 'oz')","16 oz, 4 Sticks"
+10294504,Honeycrisp Apples,1.83,Fresh Produce,1.8,"(2.78, '$', 'lb')",Unit
+44390950,Whole Carrots,0.98,Fresh Produce,1.9,"(98.0, '¢', 'lb')",16 Oz bag
+44391515,Russet Potatoes,5.77,Fresh Produce,2.6,"(57.7, '¢', 'lb')",10 lb Bag
+10449951,Premium Romaine Salad Blend,2.98,Marketside,0.0,"(33.1, '¢', 'oz')",9 oz
+44391112,Heavy Whipping Cream,2.72,Great Value,0.0,"(17.0, '¢', 'fl oz')",16 Oz
+10450339,Bologna Deli Lunch Meat,2.48,Oscar Mayer,0.0,"(2.48, '$', 'lb')",16 oz Package
+10292581,Chopped Spinach,1.12,Great Value,3.0,"(9.3, '¢', 'oz')",12 oz (Frozen)
+431513547,Frozen Sweet Peas,0.84,Great Value,2.9,"(7.0, '¢', 'oz')",12 oz Steamable Bag
+443429457,Fresh Long English Cucumber,0.98,Fresh Produce,1.8,(),Unit
+44390996,"1% Low Fat Milk, Gallon",2.67,Great Value,3.5,"(2.1, '¢', 'fl oz')","1% Low Fat Milk, Gallon, 128 fl oz"
+51517697,All Natural*,11.36,Fresh Ground Beef,2.8,"(3.79, '$', 'lb')","73% Lean/27% Fat, Ground Beef, Roll, 3lbs, (Fresh)"
+10452307,Fresh Red Bell Pepper,1.38,Fresh Produce,2.0,(),1 Each
+16785076,All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll,4.18,Fresh Ground Beef,2.3,"(4.18, '$', 'lb')","80% Lean/20% Fat Ground Beef Chuck Roll, 1 lb"
+994038828,"Bread Classic White Sandwich Bread, Sliced White Bread Loaf",2.86,Wonder,3.6,"(14.3, '¢', 'oz')",20 oz
+576704015,Nachos Cheese Dip &amp; Salsa Kids Lunch Snack,1.82,Lunchables,4.5,"(41.4, '¢', 'oz')",4.4 oz Tray
+44390957,"1% Low Fat Milk, Gallon",2.67,Great Value,3.5,"(2.1, '¢', 'fl oz')","1% Low Fat Milk, Gallon, 128 fl oz"
+10450116,Gluten Free Deli Style Sliced Colby &amp; Monterey Jack Cheese,2.22,Great Value,2.9,"(27.8, '¢', 'oz')","8 oz, 12 Count"
+51517697,All Natural*,11.36,Fresh Ground Beef,2.8,"(3.79, '$', 'lb')","73% Lean/27% Fat, Ground Beef, Roll, 3lbs, (Fresh)"
+15136793,Pizza with Pepperoni Kids Lunch Snack,1.82,Lunchables,4.5,"(42.3, '¢', 'oz')",4.3 oz Tray
+10452307,Fresh Red Bell Pepper,1.38,Fresh Produce,2.0,(),1 Each
+44391581,Tri-Color Cole Slaw,1.98,Marketside,0.0,"(12.4, '¢', 'oz')",16 oz
+16785076,All Natural* 80% Lean/20% Fat Ground Beef Chuck Roll,4.18,Fresh Ground Beef,2.3,"(4.18, '$', 'lb')","80% Lean/20% Fat Ground Beef Chuck Roll, 1 lb"
+15136791,Frozen Peas &amp; Carrots,0.97,Great Value,3.5,"(8.1, '¢', 'oz')",12 oz Steamable Bag
+994038828,"Bread Classic White Sandwich Bread, Sliced White Bread Loaf",2.86,Wonder,3.6,"(14.3, '¢', 'oz')",20 oz
+37858875,Frozen Cut Green Beans,0.98,Great Value,3.1,"(8.2, '¢', 'oz')",12 oz Steamable Bag
+576704015,Nachos Cheese Dip &amp; Salsa Kids Lunch Snack,1.82,Lunchables,4.5,"(41.4, '¢', 'oz')",4.4 oz Tray
+10452294,Fresh Raspberries,5.44,PRODUCE UNBRANDED,1.6,"(45.3, '¢', 'oz')",12 oz
+44390957,"White Onions, each",0.86,Fresh Produce,2.0,"(98.0, '¢', 'lb')",Unit
+51259208,Finely Shredded Fiesta Blend Cheese,7.48,Great Value,3.6,"(23.4, '¢', 'oz')",32 oz
+10452468,Sliced Hickory Smoked Original Bacon,4.24,Great Value,3.0,"(4.24, '$', 'lb')",16 oz
+10293911,Hickory Smoked Fully Cooked Thick Cut Bacon,3.28,Great Value,2.9,"(25.23, '$', 'lb')",2.1 oz
+10533738,Fresh Blueberries,3.38,PRODUCE UNBRANDED,3.0,(),11 oz or 1 Pint
+1732560925,Honey Wheat Sandwich Bread Loaf,3.34,Nature&#39;s Own,4.2,"(16.7, '¢', 'oz')","39;s Own Honey Wheat Sandwich Bread Loaf, 20 oz"
+10450000,"Hickory Smoked Bacon, Mega Pack",5.97,Great Value,2.5,"(3.98, '$', 'lb')",24 oz
+346866251,"Sweet Onions, each",0.84,Fresh Produce,2.0,"(98.0, '¢', 'lb')",Unit
+44390992,Finely Shredded Mild Cheddar Cheese,2.22,Great Value,2.6,"(27.8, '¢', 'oz')",8 oz
+10452370,100% Whole Wheat Round Top Bread Loaf,1.88,Great Value,3.0,"(9.4, '¢', 'oz')","100% Whole Wheat Round Top Bread Loaf, 20 oz"
+10804551,Butterbread White Bread Loaf,3.13,Nature&#39;s Own,4.3,"(15.7, '¢', 'oz')","39;s Own Butterbread White Bread Loaf, 20 oz"
+10450012,Caesar Salad with Chicken,3.47,Marketside,0.0,"(55.5, '¢', 'oz')",6.25 oz Bowl
+244663920,"Original Cream Cheese, for a Keto and Low Carb Lifestyle",4.93,Philadelphia,4.9,"(30.8, '¢', 'oz')","2 ct Pack, 8 oz Bricks"
+22282136,Yellow Potatoes,3.98,Fresh Produce,2.0,"(79.6, '¢', 'lb')",5lb Bag
+184310759,Extra Cheesy Pizza Kids Lunch Snack,1.82,Lunchables,4.3,"(43.3, '¢', 'oz')",4.2 oz Tray
+10452308,Red Potatoes,3.98,Fresh Produce,2.3,"(79.6, '¢', 'lb')",5lb bag
+10449950,"Fat Free Milk, Gallon",2.66,Great Value,2.9,"(2.1, '¢', 'fl oz')",128 fl oz
+10450117,Plantains,0.5,Fresh Produce,0.0,(),Unit
+34143814,Ham &amp; American Cheese Cracker Stackers Kids Lunch Snack,1.82,Lunchables,4.6,"(56.9, '¢', 'oz')",3.2 oz Tray
+229669140,All Natural*,5.67,Fresh Ground Beef,2.4,"(5.67, '$', 'lb')","93% Lean/7% Fat, Lean Ground Beef, Roll, 1lbs, (Fresh)"
+15136792,Half and Half,5.12,Great Value,0.0,"(8.0, '¢', 'fl oz')",64 fl oz
+14336391,Deli Style Sliced Non-Smoked Provolone Cheese,2.22,Great Value,3.5,"(27.8, '¢', 'oz')","8 oz, 12 Count"
+10451510,Cream of Mushroom Condensed Soup,0.68,Great Value,4.1,"(14.2, '¢', 'oz')",10.5 oz
+10314960,Cream of Mushroom Condensed Soup,0.68,Great Value,4.1,"(14.2, '¢', 'oz')",10.5 oz
+1533725073,Cream of Mushroom Condensed Soup,0.68,Great Value,4.1,"(14.2, '¢', 'oz')",10.5 oz
+1533725073,Premium Original Shells &amp; Cheese,1.48,Great Value,4.3,"(12.3, '¢', 'oz')",12 oz Shelf Stable
+10533933,Premium Original Shells &amp; Cheese,1.48,Great Value,4.3,"(12.3, '¢', 'oz')",12 oz Shelf Stable
+1235745126,Premium Original Shells &amp; Cheese,1.48,Great Value,4.3,"(12.3, '¢', 'oz')",12 oz Shelf Stable
+1235745126,Original Taco Seasoning Mix,0.76,Taco Bell,4.5,"(76.0, '¢', 'oz')",1 oz Packet
+24360272,Original Taco Seasoning Mix,0.76,Taco Bell,4.5,"(76.0, '¢', 'oz')",1 oz Packet
+1958699820,Original Taco Seasoning Mix,0.76,Taco Bell,4.5,"(76.0, '¢', 'oz')",1 oz Packet
+1958699820,Original Taco Seasoning Mix,0.48,Great Value,4.1,"(48.0, '¢', 'oz')",1 oz
+379517847,Original Taco Seasoning Mix,0.48,Great Value,4.1,"(48.0, '¢', 'oz')",1 oz
+1263933354,Original Taco Seasoning Mix,0.48,Great Value,4.1,"(48.0, '¢', 'oz')",1 oz
+1263933354,Chicken Wing Sections,12.98,Great Value,2.3,"(3.25, '$', 'lb')",4 lb (Frozen)
+36618723,Chicken Wing Sections,12.98,Great Value,2.3,"(3.25, '$', 'lb')",4 lb (Frozen)
+124310906,Chicken Wing Sections,12.98,Great Value,2.3,"(3.25, '$', 'lb')",4 lb (Frozen)
+124310906,Dr Pepper Soda,6.18,Dr. Pepper,4.6,"(4.3, '¢', 'fl oz')","12 fl oz cans, 12 pack"
+10452492,Diced Tomatoes in Tomato Juice,0.88,Great Value,4.5,"(6.1, '¢', 'oz')",14.5 oz Can
+10450990,Cauliflower,2.68,Fresh Produce,3.0,(),Unit
+10402652,Deli Style Sliced Pepper Jack Cheese,2.22,Great Value,2.9,"(27.8, '¢', 'oz')","8 oz, 12 Slices"
+155066735,Shredded Colby &amp; Monterey Jack Cheese,7.48,Great Value,3.6,"(23.4, '¢', 'oz')",32 oz
+10452560,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+43285802,Soda Pop,13.18,Diet Coke,4.4,"(13.18, '$', 'ea')","12 fl oz, 24 Pack Cans"
+10291583,"Spaghetti and Meatballs, Microwave Pasta",1.24,Chef Boyardee,4.2,"(8.6, '¢', 'oz')",14.5 Oz
+10308552,"Spaghetti and Meatballs, Microwave Pasta",1.24,Chef Boyardee,4.2,"(8.6, '¢', 'oz')",14.5 Oz
+1513139046,"Spaghetti and Meatballs, Microwave Pasta",1.24,Chef Boyardee,4.2,"(8.6, '¢', 'oz')",14.5 Oz
+1513139046,Distilled White Vinegar,3.34,Great Value,4.6,"(2.6, '¢', 'fl oz')",128 fl oz
+10450998,Navel Oranges,4.98,Fresh Produce,1.8,"(1.66, '$', 'lb')",4 lb Bag
+44391012,Original Breakfast Cereal,4.78,Cinnamon Toast Crunch,4.8,"(25.4, '¢', 'oz')",18.8 OZ Family Size Cereal Box
+207302221,"Great Value, Mild Ground Italian Sausage, Pork",3.87,Great Value,2.6,"(3.87, '$', 'lb')",1lb (Fresh)
+40711369,Soda Pop,7.46,Coca-Cola,4.6,"(7.46, '$', 'ea')","12 fl oz, 12 Pack Cans"
+12166733,Fully Cooked Fun Chicken Nuggets,6.98,Tyson,4.6,"(24.1, '¢', 'oz')",1.81 lb Bag (Frozen)
+14149973,Bite Tortilla Chips Party Size,2.67,Great Value,4.0,"(14.8, '¢', 'oz')",18 oz
+486203982,Vegetable Oil,8.58,Great Value,4.5,"(6.7, '¢', 'fl oz')",1 gal
+10451011,Original Mac N Cheese Macaroni and Cheese Cups Easy Microwavable Dinner,4.92,Kraft,4.5,"(60.0, '¢', 'oz')","4 ct Pack, 2.05 oz Cups"
+14869830,"1% Low Fat Chocolate Milk, Half Gallon",1.63,Great Value,2.5,"(2.5, '¢', 'fl oz')","1% Low Fat Chocolate Milk, Half Gallon, 64 fl oz"
+44391121,Everyday Disposable Paper Plates,19.72,Great Value,4.7,"(6.6, '¢', 'ea')","9in, 300ct"
+333434271,Everyday Disposable Paper Plates,12.28,Great Value,4.7,"(6.1, '¢', 'ea')","9in, 200ct"
+106826867,Everyday Plates,3.44,Great Value,4.7,"(6.9, '¢', 'ea')","8 1/2&#34;, 50 Count"
+333434271,Everyday Disposable Paper Plates,12.28,Great Value,4.7,"(6.1, '¢', 'ea')","9in, 200ct"
+430528502,Everyday Disposable Paper Plates,19.72,Great Value,4.7,"(6.6, '¢', 'ea')","9in, 300ct"
+106826867,"Cool Ranch Flavored Tortilla Chips, Party Size",5.38,Doritos,4.7,"(37.1, '¢', 'oz')",14.5 oz Bag
+749407178,Fresh Chicken Drumsticks,5.97,Freshness Guaranteed,2.0,"(1.19, '$', 'lb')",5 lb
+613823324,4% Milkfat Minimum Small Curd Cottage Cheese,2.58,Great Value,2.4,"(10.8, '¢', 'oz')","4% Milkfat Minimum Small Curd Cottage Cheese, 24 oz"
+10315022,Granulated Sugar,6.47,Great Value,4.3,"(64.7, '¢', 'lb')",10 lbs
+10314931,Unsweetened Lemonade Naturally Flavored Powdered Soft Drink Mix,0.3,Kool-Aid,4.4,"(1.15, '$', 'oz')",0.23 oz Packet
+10292782,Grated Parmesan Cheese,2.98,Great Value,4.5,"(37.3, '¢', 'oz')",8 oz
+10315402,Diet Cola Soda Pop,3.78,Pepsi,4.2,"(3.7, '¢', 'fl oz')","16.9 oz, 6 Pack"
+843012546,Beef Smoked Sausage,3.98,Hillshire Farm,3.9,"(5.31, '$', 'lb')",12 oz
+42678688,Onion Powder,1.12,Great Value,4.5,"(34.5, '¢', 'oz')",3.25 oz
+705601418,Honeycrisp Apples,6.88,Freshness Guaranteed,1.7,"(2.29, '$', 'lb')",3 lb Bag
+151762086,Bowties Pasta,0.98,Great Value,4.4,"(8.2, '¢', 'oz')",12 oz
+10534079,Bowties Pasta,0.98,Great Value,4.4,"(8.2, '¢', 'oz')",12 oz
+1041293250,Bowties Pasta,0.98,Great Value,4.4,"(8.2, '¢', 'oz')",12 oz
+1041293250,Fresh Whole White Mushrooms,2.08,To-Jo,2.1,"(26.0, '¢', 'oz')",8 Oz
+10312229,Original Baked Cheese Crackers,5.78,Cheez-It,4.7,"(27.5, '¢', 'oz')",21 oz
+10996960,Sweetened Condensed Milk 14 oz.,1.94,Great Value,4.6,"(13.9, '¢', 'oz')",14 oz.
+10534165,"Microwave-Ready Russet Potato, each",1.18,Fresh Produce,2.3,(),Unit
+10449947,Cola Soda Pop,3.78,Pepsi,4.5,"(3.7, '¢', 'fl oz')","16.9 oz, 6 Pack Bottles"
+19276014,Classic Uncured Wieners Hot Dogs,2.84,Oscar Mayer,4.3,"(2.84, '$', 'lb')",10 Ct Pack
+10292514,Pre-Sliced Bakery Fresh Classic White Hot Dog Buns,2.94,Ball Park,2.7,"(22.6, '¢', 'oz')","8-Pack, 13 Ounces"
+10449317,Lunchmakers Pepperoni Pizza Kit with Crunch Bar,1.18,Armour,2.6,"(43.7, '¢', 'oz')",2.7 oz
+15556179,Rotel Mild Diced Tomatoes and Green Chilies,1.24,RO*TEL,4.5,"(12.4, '¢', 'oz')",10 oz
+10308582,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+1048337229,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10309845,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1728770094,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1728770094,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+666211515,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,Reduced Sodium Chicken Broth,1.33,Great Value,4.3,"(4.2, '¢', 'oz')",32oz Carton
+44391066,Fresh Yellow Squash,0.89,Fresh Produce,2.0,"(1.48, '$', 'lb')",Unit
+44391040,Pre-Sliced Bakery Fresh Classic White Hamburger Buns,2.94,Ball Park,3.3,"(19.6, '¢', 'oz')","8-Pack, 15 Ounces"
+19897898,Walmart Original Macaroni &amp; Cheese,0.5,Great Value,3.9,"(6.9, '¢', 'oz')",7.25 oz
+10315422,Walmart Original Macaroni &amp; Cheese,0.5,Great Value,3.9,"(6.9, '¢', 'oz')",7.25 oz
+1376848714,Walmart Original Macaroni &amp; Cheese,0.5,Great Value,3.9,"(6.9, '¢', 'oz')",7.25 oz
+1376848714,Snacks Classic Mix Variety Pack,10.98,Frito-Lay,2.7,"(61.0, '¢', 'oz')","1 oz, 18 Count (Assortment May Vary)"
+225142065,Canned Medium Diced Green Chiles,0.78,Great Value,4.4,"(19.5, '¢', 'oz')",4 Oz
+10415222,Light Bologna &amp; American Cheese Cracker Stackers Kids Lunch Snack,1.82,Lunchables,4.5,"(58.7, '¢', 'oz')",3.1 oz Tray
+10452293,Gala Apples,0.84,PRODUCE UNBRANDED,2.1,"(1.67, '$', 'lb')",Unit
+44390953,Rising Crust Pepperoni Frozen Pizza 26.6oz,3.98,Great Value,3.6,"(15.0, '¢', 'oz')",26.6oz
+214291255,Beef Broth,1.33,Great Value,4.2,"(4.2, '¢', 'oz')",32 oz
+10899014,Beef Broth,1.33,Great Value,4.2,"(4.2, '¢', 'oz')",32 oz
+1274718472,Beef Broth,1.33,Great Value,4.2,"(4.2, '¢', 'oz')",32 oz
+1274718472,Boneless Skinless Chicken Thighs Family Pack,13.59,Freshness Guaranteed,2.8,"(2.96, '$', 'lb')",4.7 - 5.6 lb
+124782654,"Lactose Free 2% Reduced Fat Milk, Half Gallon",3.38,Great Value,3.4,"(5.3, '¢', 'fl oz')","2% Reduced Fat Milk, Half Gallon, 64 fl oz"
+11979181,Bowl Noodles Hot &amp; Spicy Chicken Flavor Ramen Noodle Soup,1.42,Nissin,4.2,"(43.0, '¢', 'oz')",3.32 Oz
+12444037,Bowl Noodles Hot &amp; Spicy Chicken Flavor Ramen Noodle Soup,1.42,Nissin,4.2,"(43.0, '¢', 'oz')",3.32 Oz
+1390385500,Bowl Noodles Hot &amp; Spicy Chicken Flavor Ramen Noodle Soup,1.42,Nissin,4.2,"(43.0, '¢', 'oz')",3.32 Oz
+1390385500,Harvest Cheddar Flavored Whole Grain Snacks,3.98,SunChips,4.4,"(56.9, '¢', 'oz')",7 oz. Bag
+32174172,The Original Texas Toast with Real Garlic,2.92,New York Bakery,4.3,"(26.0, '¢', 'oz')",8 ct. Box
+10805037,Classic Bologna Sliced Lunch Meat,1.16,Bar-S,0.0,"(1.55, '$', 'lb')","10 Slices Per Package, 12 Ounce Pack"
+29209893,Fuji Apples,5.12,Freshness Guaranteed,2.0,"(1.71, '$', 'lb')",3 lb Bag
+44391639,Deli Style Sliced Mild Cheddar Cheese,2.22,Great Value,3.1,"(27.8, '¢', 'oz')","8 oz, 12 Count"
+10452514,Caesar Chopped Salad Kit,3.98,Marketside,0.0,"(34.8, '¢', 'ea')",8.8 oz
+442959681,Shredded Low-Moisture Part-Skim Mozzarella Cheese,7.48,Great Value,4.0,"(23.4, '¢', 'oz')",32 oz
+10452379,Grands! Flaky Layers Original Biscuits,2.68,Pillsbury,4.8,"(16.4, '¢', 'oz')","8 ct., 16.3 oz."
+10319370,Sweet Onions,2.64,Fresh Produce,2.1,"(88.0, '¢', 'lb')",3 lb Bag
+44391105,Canned Mandarin Oranges,1.34,Great Value,4.3,"(8.9, '¢', 'oz')",15 oz
+28026792,Non GMO Orange Juice No Pulp,6.48,Simply,4.6,"(6.48, '$', 'ea')",89 fl oz Bottle
+20531284,Fully Cooked Chicken Strips,8.74,Great Value,2.8,"(5.6, '$', 'lb')",25 oz
+11027865,Premium Old World Style Black Forest Ham,5.67,Land O&#39;Frost,0.0,"(5.67, '$', 'lb')","39;Frost Premium Old World Style Black Forest Ham, 16 oz"
+19276135,All-Purpose Flour,2.12,Great Value,4.4,"(2.7, '¢', 'oz')",5LB Bag
+10403017,Uncrustables Peanut Butter &amp; Grape Jelly Sandwich,4.18,Smucker&#39;s,4.7,"(52.3, '¢', 'oz')","39;s Uncrustables Peanut Butter &amp; Grape Jelly Sandwich, 8 oz, 4 Count (Frozen)"
+10849747,"Ultra Strong Paper Towels, Split Sheets",10.46,Great Value,4.6,"(1.5, '¢', 'ea')",6 Double Rolls
+284049656,"Ultra Strong Paper Towels, Split Sheets",10.46,Great Value,4.6,"(1.5, '¢', 'ea')",6 Double Rolls
+1913679219,"(6 pack) Great Value Ultra Strong Paper Towels, Split Sheets",57.78,Jmx,4.6,"(3.0, '¢', 'sq ft')","6 pack) Great Value Ultra Strong Paper Towels, Split Sheets, 6 Double Rolls"
+2135456707,"Ultra Strong Paper Towels, Split Sheets",10.46,Great Value,4.6,"(1.5, '¢', 'ea')",6 Double Rolls
+1913679219,"(6 pack) Great Value Ultra Strong Paper Towels, Split Sheets",57.78,Jmx,4.6,"(3.0, '¢', 'sq ft')","6 pack) Great Value Ultra Strong Paper Towels, Split Sheets, 6 Double Rolls"
+46695581,Walmart Thick &amp; Creamy Macaroni &amp; Cheese,0.5,Great Value,4.2,"(6.9, '¢', 'oz')",7.25 oz
+10315325,Walmart Thick &amp; Creamy Macaroni &amp; Cheese,0.5,Great Value,4.2,"(6.9, '¢', 'oz')",7.25 oz
+1372626824,Walmart Thick &amp; Creamy Macaroni &amp; Cheese,0.5,Great Value,4.2,"(6.9, '¢', 'oz')",7.25 oz
+1372626824,Beef Choice Angus Sirloin Tender Steak,10.74,Fresh Beef,2.1,"(12.94, '$', 'lb')",0.6 - 1.62 lb
+930351681,Garlic &amp; Herb Pasta Sauce,1.18,Hunt&#39;s,4.5,"(4.9, '¢', 'oz')","39;s Garlic &amp; Herb Pasta Sauce, 100% Natural Tomato Sauce, 24 Oz Can"
+20554620,Purified Bottled Drinking Water,7.48,Aquafina,4.6,"(1.4, '¢', 'fl oz')","16.9 oz, 32 Pack Bottles"
+20704081,Original Ranch Salad Dressing and Topping,3.58,Hidden Valley,4.9,"(22.4, '¢', 'fl oz')",16 fl oz
+10451460,Traditional Spaghetti Sauce,2.38,Prego,4.4,"(9.9, '¢', 'oz')",24 Oz Jar
+10308233,Traditional Spaghetti Sauce,2.38,Prego,4.4,"(9.9, '¢', 'oz')",24 Oz Jar
+1084050599,Traditional Spaghetti Sauce,2.38,Prego,4.4,"(9.9, '¢', 'oz')",24 Oz Jar
+1084050599,Finely Shredded Sharp Cheddar Cheese,2.22,Great Value,4.3,"(27.8, '¢', 'oz')",8 oz
+10452431,"Red Grapefruit, each",1.18,Fresh Produce,2.0,(),Unit
+51259387,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+1048337229,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10451313,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+44390964,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+20511490,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+10309845,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1728770094,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1728770094,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+10448318,Original Hawaiian Sweet Rolls 12 Count (Pack of 3),20.74,King&#39;s Hawaiian,4.3,(),39;s Hawaiian Original Hawaiian Sweet Rolls 12 Count (Pack of 3)
+890891414,Original Hawaiian Sweet Rolls 12 Count (Pack of 3),20.74,King&#39;s Hawaiian,4.3,(),39;s Hawaiian Original Hawaiian Sweet Rolls 12 Count (Pack of 3)
+181519583,KING&#39;S HAWAIIAN Original Hawaiian Sweet Rolls 12 Count,4.33,King&#39;s Hawaiian,4.3,"(36.1, '¢', 'oz')",39;S HAWAIIAN Original Hawaiian Sweet Rolls 12 Count
+794139662,Original Hawaiian Sweet Rolls 12 Count (Pack of 3),20.74,King&#39;s Hawaiian,4.3,(),39;s Hawaiian Original Hawaiian Sweet Rolls 12 Count (Pack of 3)
+181519583,KING&#39;S HAWAIIAN Original Hawaiian Sweet Rolls 12 Count,4.33,King&#39;s Hawaiian,4.3,"(36.1, '¢', 'oz')",39;S HAWAIIAN Original Hawaiian Sweet Rolls 12 Count
+10421729,Original Hawaiian Sweet Rolls 12 Count (Pack of 12),66.88,King&#39;s Hawaiian,4.3,(),39;s Hawaiian Original Hawaiian Sweet Rolls 12 Count (Pack of 12)
+794139662,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+666211515,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,Cauliflower,1.0,Great Value,3.6,"(8.3, '¢', 'oz')",12 oz (Frozen)
+242699420,Wide Egg Noodles Enriched Product,1.44,Great Value,4.4,"(9.0, '¢', 'oz')",16 oz
+10534093,Wide Egg Noodles Enriched Product,1.44,Great Value,4.4,"(9.0, '¢', 'oz')",16 oz
+1429730287,Wide Egg Noodles Enriched Product,1.44,Great Value,4.4,"(9.0, '¢', 'oz')",16 oz
+1429730287,Beefaroni,1.24,Chef Boyardee,4.5,"(8.3, '¢', 'oz')",15 oz
+10308533,Lemon Lime Soda Pop,7.46,Sprite,4.7,"(5.2, '¢', 'fl oz')","12 fl oz, 12 Pack Cans"
+10291611,"Unsweetened Vanilla Almondmilk, Half Gallon",2.44,Great Value,4.0,"(3.8, '¢', 'fl oz')",Unit
+46491752,"Diet Dr Pepper Soda, .5 L bottles",3.78,Diet Dr. Pepper,4.6,"(3.7, '¢', 'fl oz')","5 L bottles, 6 pack"
+15136785,"Red Grapefruit, each",1.18,Fresh Produce,2.0,(),Unit
+10314963,"Great Value, No Salt Added, Canned Black Beans",0.78,Great Value,4.4,"(5.2, '¢', 'oz')",15 oz Can
+39778876,"Original Nooks &amp; Crannies English Muffins, Fork-Split",3.72,Thomas&#39;,3.5,"(28.6, '¢', 'oz')","39; Original Nooks &amp; Crannies English Muffins, Fork-Split, 6-Count"
+10448006,Honey Graham Crackers,1.98,Great Value,4.3,"(13.8, '¢', 'oz')",14.4 oz
+10315952,Honey Graham Crackers,1.98,Great Value,4.3,"(13.8, '¢', 'oz')",14.4 oz
+1908747250,Honey Graham Crackers,1.98,Great Value,4.3,"(13.8, '¢', 'oz')",14.4 oz
+1908747250,Fresh Seal Double Zipper Sandwich Bags,2.24,Great Value,4.5,"(2.2, '¢', 'ea')",100 Count
+11030057,Greek Plain Nonfat Yogurt,3.72,Great Value,3.9,"(11.6, '¢', 'oz')",32 oz
+26559565,"LunchMakers Turkey &amp; Cheese, Crackers &amp; Butterfinger",1.18,Armour,3.3,"(49.2, '¢', 'oz')",2.4 oz Meal Kit
+10291661,"Steamable Fine Green Beans, Frozen",1.97,Great Value,3.1,"(16.4, '¢', 'oz')",12 oz
+872271913,Salisbury Steaks &amp; Brown Gravy Family Size,3.57,Banquet,4.2,"(13.2, '¢', 'oz')","6 count, 27 oz"
+10794571,"Cheddar Cheese Crackers, Baked Snack Crackers",2.64,Goldfish,4.6,"(40.0, '¢', 'oz')",6.6 oz Bag
+10294707,Premium Romaine Salad Blend,4.98,Marketside,0.0,"(27.7, '¢', 'oz')",18 oz
+19400285,Original Potato Chips Party Size,5.38,Ruffles,3.8,"(41.4, '¢', 'oz')",13 oz
+910985070,Slicing Tomato,1.5,Fresh Produce,1.7,"(15.0, '¢', 'oz')",3 Pack
+15724257,Classic Ranch Salad Dressing &amp; Recipe Mix,0.5,Great Value,4.3,(),1 Oz
+187211086,All Natural*,12.58,Fresh Ground Beef,2.5,"(5.59, '$', 'lb')","93% Lean/7% Fat, Lean Ground Beef, Tray, 2.25lbs, (Fresh)"
+512398950,Buttery Homestyle® Mashed Potatoes Family Size,2.78,Idahoan,4.5,"(34.8, '¢', 'oz')",8 oz Pouch
+39778487,Seasoned French Fried Potatoes,3.32,Great Value,2.8,"(10.4, '¢', 'oz')",32 oz
+10534285,Lemon Lime Soda Pop,13.18,Sprite,4.7,"(13.18, '$', 'ea')","12 fl oz, 24 Pack Cans"
+10535226,"Pizza Rolls, Pepperoni Flavored, Frozen Snacks",5.48,Totino&#39;s,4.7,"(22.1, '¢', 'oz')","39;s Pizza Rolls, Pepperoni Flavored, Frozen Snacks, 24.8 oz, 50 ct"
+513053449,Deli Style Sliced Swiss Cheese,2.22,Great Value,2.8,"(27.8, '¢', 'oz')","8 oz, 12 Count"
+152351343,Light Red Kidney Beans,0.78,Great Value,4.3,"(5.0, '¢', 'oz')",15.5 oz
+10534039,Traditional Refried Beans,1.0,Great Value,3.9,"(6.3, '¢', 'oz')",16 Oz
+10534037,Diet Citrus Soda Pop,3.78,Mountain Dew,4.2,"(3.7, '¢', 'fl oz')","16.9 oz, 6 Pack Bottles"
+17787265,"Bush&#39;s Original Baked Beans, Canned Beans",2.48,BUSH&#39;S,4.5,"(8.9, '¢', 'oz')","39;s Original Baked Beans, Canned Beans, 28 oz"
+10306771,Fresh Baby Spinach Salad,2.72,Marketside,0.0,"(45.3, '¢', 'oz')",6 oz
+34017490,"Romaine Lettuce, each",1.88,Fresh Produce,1.5,(),Unit
+44391114,Mushrooms Pieces And Stems,1.23,Great Value,4.4,"(30.8, '¢', 'oz')","4 oz, Can"
+10315009,Bun Length Beef Hot Dogs,4.22,Ball Park,4.4,"(4.49, '$', 'lb')","15 oz, 8 Ct"
+34632372,Non GMO Orange Juice No Pulp,3.98,Simply,4.5,"(7.7, '¢', 'fl oz')",52 fl oz Bottle
+959033640,Brown Gravy Mix,1.12,McCormick,4.4,"(1.29, '$', 'oz')",0.87 oz
+10308950,Medium Pitted Black Olives,1.94,Great Value,4.3,"(32.3, '¢', 'oz')",6 oz
+10315443,Classic Crust Pepperoni Microwave Frozen Pizza 7.2oz,1.17,Great Value,3.0,"(16.3, '¢', 'oz')",7.2oz
+860350696,Teriyaki Beef Flavor Chow Mein Noodles,1.42,Nissin,4.4,"(35.5, '¢', 'oz')",4 oz
+10320937,Teriyaki Beef Flavor Chow Mein Noodles,1.42,Nissin,4.4,"(35.5, '¢', 'oz')",4 oz
+1867288891,Teriyaki Beef Flavor Chow Mein Noodles,1.42,Nissin,4.4,"(35.5, '¢', 'oz')",4 oz
+1867288891,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+1048337229,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+1125688925,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+10451313,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+598890171,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+44390964,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+10801133,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+20511490,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+10309845,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1728770094,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10309845,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1728770094,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+10448318,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+165562882,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+666211515,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+606785294,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,ELBOWS,0.98,Great Value,4.4,"(6.1, '¢', 'oz')",16OZ
+10534107,ELBOWS,0.98,Great Value,4.4,"(6.1, '¢', 'oz')",16OZ
+1594120511,(5 pack) ELBOWS,2.58,Great Value,4.4,"(19.8, '¢', 'oz')","5 pack) Great Value ELBOWS, 16OZ"
+1594120511,Pancakes &amp; Sausages on a Stick,9.97,Jimmy Dean,4.3,"(9.97, '$', 'lb')","30 oz, 12 Count (Frozen)"
+16777549,Roasted Garlic Mashed Potatoes,1.44,Idahoan,4.5,"(36.0, '¢', 'oz')",4 oz Pouch
+13812845,"Alfredo Sauce with Aged Parmesan Cheese, Authentic Tuscan Style Pasta Sauce made with Fresh Cream and Real Butter",2.48,Bertolli,4.7,"(16.5, '¢', 'oz')",15 oz.
+15580491,Frito-Lay Snacks Flavor Mix Variety Pack,20.46,Multipack,2.7,"(49.4, '¢', 'oz')",42 Count
+906875248,Caesar Salad Kit Family Size,4.98,Marketside,0.0,"(22.1, '¢', 'ea')",17.8 oz
+10312433,Cool Blue Thirst Quencher Sports Drink,7.54,Gatorade,4.4,"(5.2, '¢', 'fl oz')","12 oz, 12 Pack Bottles"
+10291084,"1% Low-Fat Milk, Half Gallon",1.58,Great Value,2.9,"(2.5, '¢', 'fl oz')","1% Low-Fat Milk, Half Gallon, 64 fl oz"
+994914937,Deli Style Sliced Sharp Cheddar Cheese,2.22,Great Value,3.8,"(27.8, '¢', 'oz')",8 oz
+26543475,Large Hass Avocado,3.28,PRODUCE UNBRANDED,1.7,"(1.09, '$', 'ea')",3- 4 Count Bag
+12443945,Family Fun Mix Variety Pack,10.98,Frito-Lay,2.8,"(64.1, '¢', 'oz')",18 Count
+10804537,Nestle Coffee mate French Vanilla Liquid Coffee Creamer,7.46,Coffeemate,4.2,"(11.7, '¢', 'fl oz')",64 fl oz
+15077514,"Sparkling Water, Mandarin Orange",0.76,Clear American,4.5,"(2.2, '¢', 'fl oz')",33.8 fl oz
+844665579,RITZ Peanut Butter Sandwich Crackers,3.52,Ritz,4.5,"(3.52, '$', 'ea')",8 - 1.38 oz Packs
+578031000,Classic Ranch Dressing &amp; Dip,3.34,Great Value,4.6,"(9.3, '¢', 'fl oz')",36 fl oz
+11964942,Thin &amp; Crispy Cantina Style Tortilla Chips,1.98,Great Value,3.4,"(15.2, '¢', 'oz')",13 oz
+10453152,Sliced Black Olives,1.97,Great Value,4.4,"(87.6, '¢', 'oz')",2.25 oz
+10448059,Fruit Punch Juice Box Pouches,3.18,Capri Sun,4.6,"(5.3, '¢', 'fl oz')","10 ct Box, 6 fl oz Pouches"
+22282307,Pork Center Cut Loin Chops Boneless Family Pack,9.58,Fresh Pork,2.0,"(5.04, '$', 'lb')",2.0 - 3.8 lb
+835593418,Fettucine Alfredo with Chicken and Broccoli Meal 8.0 Oz. (Frozen Dinner),1.34,Michelina&#39;s,3.3,"(16.8, '¢', 'oz')",39;s Fettucine Alfredo with Chicken and Broccoli Meal 8.0 Oz. (Frozen Dinner)
+10315447,Mini Soda Pop Soft Drink,5.88,Coca-Cola,4.7,"(5.88, '$', 'ea')","7.5 fl oz, 10 Pack Cans"
+13908708,Frozen Pizza Classic Crust Pepperoni,4.77,Red Baron,4.4,"(23.2, '¢', 'oz')",Unit
+20627151,"Whole Strawberries, Frozen",2.24,Great Value,2.9,"(14.0, '¢', 'oz')",16 oz
+14940814,Berry Punch Flavored Fruit Drink,1.68,Minute Maid,3.6,"(1.68, '$', 'ea')",59 fl oz Carton
+125411280,Blueberry Muffins,3.98,Freshness Guaranteed,3.2,"(28.4, '¢', 'oz')","14 oz, 4 Count"
+10292912,"2% Chocolate Ultra-Filtered Milk, Lactose Free",4.18,fairlife,4.4,"(8.0, '¢', 'fl oz')","2% Chocolate Ultra-Filtered Milk, Lactose Free, 52 fl oz"
+10543663,Baking Soda,0.92,Great Value,4.5,"(5.8, '¢', 'oz')",16 oz
+36403776,"Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs",2.38,Prego,4.6,"(9.9, '¢', 'oz')",24 Ounce Jar
+19758064,"Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs",2.38,Prego,4.6,"(9.9, '¢', 'oz')",24 Ounce Jar
+43922523,"(3 pack) Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs",6.72,Prego,4.6,"(9.3, '¢', 'oz')","3 pack) Prego Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs, 24 Ounce Jar"
+10315486,"Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs",2.38,Prego,4.6,"(9.9, '¢', 'oz')",24 Ounce Jar
+14123535,"(3 pack) Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs",6.72,Prego,4.6,"(9.3, '¢', 'oz')","3 pack) Prego Pasta Sauce, Italian Tomato Sauce with Roasted Garlic &amp; Herbs, 24 Ounce Jar"
+1439198477,Tomato Ketchup,3.48,Heinz,4.8,"(17.4, '¢', 'oz')",20 oz Bottle
+1439198477,"REESE&#39;S, Milk Chocolate and Peanut Butter Eggs, Easter Candy",3.48,Reese&#39;s,3.3,"(36.3, '¢', 'oz')","39;S, Milk Chocolate and Peanut Butter Eggs, Easter Candy, 9.6 oz, Bag"
+12329735,Sausage Egg &amp; Cheese Croissant Sandwich,10.98,Jimmy Dean,4.1,"(30.5, '¢', 'oz')","36 oz, 8 Count (Frozen)"
+15077427,Unsweetened Cherry Artificially Flavored Powdered Soft Drink Mix,0.3,Kool-Aid,4.4,"(2.31, '$', 'oz')",0.13 oz Packet
+558416376,Tomato Ketchup,1.18,Great Value,4.5,"(4.9, '¢', 'oz')",24 oz
+958081279,Fully Cooked Chicken Nuggets,6.98,Tyson,3.5,"(21.8, '¢', 'oz')",2 lb Bag (Frozen)
+12444427,Cheese Dip &amp; Breadsticks Snacks,1.77,Great Value,4.4,"(35.4, '¢', 'ea')","1 oz, 5 Count"
+10292779,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+10533375,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+16777526,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+13281897,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+1048337229,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10451313,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+44390964,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+20511490,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10309845,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1728770094,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+1728770094,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10448318,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+666211515,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+413506446,Brussels Sprouts,2.98,Green Giant,2.0,(),1 lb Bag
+699240300,Thin Spaghetti,0.98,Great Value,4.2,"(6.1, '¢', 'oz')",1 lb
+10805144,Thin Spaghetti,0.98,Great Value,4.2,"(6.1, '¢', 'oz')",1 lb
+51259385,(5 pack) Thin Spaghetti,4.6,Great Value,4.2,"(5.8, '¢', 'oz')","5 pack) Great Value Thin Spaghetti, 1 lb"
+15610624,Thin Spaghetti,0.98,Great Value,4.2,"(6.1, '¢', 'oz')",1 lb
+10534113,(5 pack) Thin Spaghetti,4.6,Great Value,4.2,"(5.8, '¢', 'oz')","5 pack) Great Value Thin Spaghetti, 1 lb"
+1304048378,Dr Pepper Soda Pop,2.48,Dr. Pepper,4.6,"(3.7, '¢', 'fl oz')",2 L bottle
+1304048378,"Pretzel, Mini Twists",2.24,Great Value,2.9,"(14.0, '¢', 'oz')",16 oz
+11027423,Pizza Sauce,1.42,Great Value,4.1,"(10.1, '¢', 'oz')",14 oz
+17341397,Pizza Sauce,1.42,Great Value,4.1,"(10.1, '¢', 'oz')",14 oz
+15754316,(6 pack) Pizza Sauce,8.52,Great Value,4.1,"(10.1, '¢', 'oz')","6 pack) Great Value Pizza Sauce, 14 oz"
+890488670,Pizza Sauce,1.42,Great Value,4.1,"(10.1, '¢', 'oz')",14 oz
+12444468,(6 pack) Pizza Sauce,8.52,Great Value,4.1,"(10.1, '¢', 'oz')","6 pack) Great Value Pizza Sauce, 14 oz"
+1454147296,2% Reduced Fat Milk,6.24,Lactaid,4.6,"(6.5, '¢', 'fl oz')","2% Reduced Fat Milk, 96 oz"
+1454147296,Sliced Plain Italian Bread,1.47,Freshness Guaranteed,3.1,"(1.47, '$', 'ea')",14 oz
+778091348,Garden Salsa Flavored Whole Grain Snacks,3.98,SunChips,4.5,"(56.9, '¢', 'oz')",7 oz Bag
+15610538,Frozen Peeled Tail on Extra Large Shrimp,5.84,Great Value,0.0,"(48.7, '¢', 'oz')",12 oz (26-30 Count per lb)
+13812835,Chicken Broth,1.98,Great Value,4.5,"(4.1, '¢', 'oz')",48 oz
+328869537,Chicken Broth,1.98,Great Value,4.5,"(4.1, '¢', 'oz')",48 oz
+31954394,(2 pack) Chicken Broth,3.96,Great Value,4.5,"(4.1, '¢', 'oz')","2 pack) Great Value Chicken Broth, 48 oz"
+44391099,Chicken Broth,1.98,Great Value,4.5,"(4.1, '¢', 'oz')",48 oz
+46330157,(2 pack) Chicken Broth,3.96,Great Value,4.5,"(4.1, '¢', 'oz')","2 pack) Great Value Chicken Broth, 48 oz"
+1227012853,Original Premium Sausage Links,3.12,Great Value,2.7,"(4.16, '$', 'lb')",12 oz
+1227012853,Classic Potato Chips,3.68,Lay&#39;s,4.4,"(46.0, '¢', 'oz')","39;s Classic Potato Chips, 8 oz Bag"
+10533858,Purified Water,1.42,Pure Life,4.2,"(1.42, '$', 'ea')","3-Liter, Plastic Bottled Water (Single)"
+129692794,Lemon Lime Soda Pop,2.68,Sprite,4.7,"(2.68, '$', 'ea')",2 Liter Bottle
+46491672,Traditional Refried Beans,1.48,Rosarita,4.2,"(9.3, '¢', 'oz')",16 oz
+33282303,Jumbo Buttermilk Biscuits,1.78,Great Value,4.1,"(11.1, '¢', 'oz')","16 oz, 8 Count"
+278546989,"Cheddar Cheese Crackers, Baked Snack Crackers",7.98,Goldfish,4.8,"(26.6, '¢', 'oz')",30 oz Carton
+15610628,Four Cheese Mashed Potatoes,1.44,Idahoan,4.6,"(36.0, '¢', 'oz')",4 oz Pouch
+10292168,"Gluten Free Cereal with Marshmallows, Family Size",4.78,Lucky Charms,2.8,"(25.7, '¢', 'oz')",18.6 OZ
+10533862,Original Barbecue Sauce,1.52,Sweet Baby Ray&#39;s,4.5,"(8.4, '¢', 'ea')","39;s Original Barbecue Sauce, 18 oz."
+16940089,Buttermilk Pancakes,3.58,Great Value,3.7,"(3.58, '$', 'ea')","33 oz, 24 Count (Frozen)"
+10312431,Almond Breeze Unsweetened Vanilla Almond Milk,4.68,Blue Diamond,3.5,"(4.68, '$', 'ea')",96 fl oz
+906899783,100% Original Apple Juice,3.62,Mott&#39;s,4.2,"(45.3, '¢', 'fl oz')","39;s 100% Original Apple Juice, 8 fl oz bottles, 6 pack"
+10294615,Original Saltine Crackers,3.58,Premium,4.4,"(3.58, '$', 'ea')",16 oz
+16382445,Colby &amp; Monterey Jack Cheese,2.0,Great Value,2.9,"(25.0, '¢', 'oz')",8 oz
+40601490,Fresh Blackberries,4.68,PRODUCE UNBRANDED,1.6,"(39.0, '¢', 'oz')",12 oz
+36874000,Ginger Ale Soda,4.98,Canada Dry,4.6,"(3.5, '¢', 'fl oz')","12 fl oz cans, 12 pack"
+10292621,Baby Yellow Potatoes,4.77,Fresh Produce,3.7,"(3.18, '$', 'lb')",1.5 lb Bag
+34186940,"Original Sloppy Joe Sauce, Canned Sauce",1.26,Manwich,4.4,"(8.4, '¢', 'oz')",15 OZ
+622057236,"Sliced Oven Roasted Turkey Breast Deli Lunch Meat, Family Size",7.5,Hillshire Farm,0.0,"(7.5, '$', 'lb')",1 lb
+16940513,Medium Soft Taco Flour Tortillas,1.98,Great Value,4.2,"(11.3, '¢', 'oz')","17.5 Oz, 10 Count"
+44391123,"Wavy Original Potato Chips, Party Size",4.98,Lay&#39;s,4.1,"(38.3, '¢', 'oz')","39;s Wavy Original Potato Chips, Party Size, 13 oz Bag"
+22259053,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+12443809,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+953466267,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+652141083,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+1048337229,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10451313,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+44390964,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+20511490,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+44390949,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10309845,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1728770094,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+1728770094,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10448318,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+666211515,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+14871850,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+970577392,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+413506446,Fuego Flavored Tortilla Chips,3.78,Takis,4.4,"(38.2, '¢', 'oz')",9.9 Oz
+699240300,Honey,3.94,Great Value,4.5,"(32.8, '¢', 'oz')",12 oz Plastic Bear Bottle
+22406025,(4 pack) Honey,15.76,Great Value,4.5,"(32.8, '¢', 'oz')","4 pack) Great Value Honey, 12 oz Plastic Bear Bottle"
+37846296,Honey,3.94,Great Value,4.5,"(32.8, '¢', 'oz')",12 oz Plastic Bear Bottle
+20647992,(4 pack) Honey,15.76,Great Value,4.5,"(32.8, '¢', 'oz')","4 pack) Great Value Honey, 12 oz Plastic Bear Bottle"
+1621611927,Lemons,3.92,Fresh Produce,1.9,"(1.96, '$', 'lb')",2 lb bag
+1621611927,Blueberries,2.98,Great Value,4.2,"(18.6, '¢', 'ea')",16 oz (Frozen)
+44391602,Gravy Mix - Au Jus,1.44,McCormick,4.5,"(1.44, '$', 'oz')",1 oz
+44391659,Regular Cut French Fried Potatoes,3.32,Great Value,2.7,"(10.4, '¢', 'oz')",32 oz (Frozen)
+11047625,"Whole Ultra-Filtered Milk, Lactose Free",4.18,fairlife,4.4,"(8.0, '¢', 'fl oz')",52 fl oz
+13252699,Great Northern Beans,0.78,Great Value,4.3,"(5.0, '¢', 'oz')",15.5 oz Can
+10308946,Mission Super Soft Burrito Large Flour Tortillas,3.48,MISSION,4.4,"(17.4, '¢', 'oz')","20 oz, 8 Count"
+10534214,Canned Diced Potatoes,0.88,Great Value,4.3,"(6.1, '¢', 'oz')",15 oz Can
+43436773,HORMEL Chili with Beans 15 oz,2.12,Hormel,4.1,"(14.2, '¢', 'oz')",15 oz
+10534042,Finely Shredded Low-Moisture Part-Skim Mozzarella Cheese,3.98,Great Value,3.3,"(24.9, '¢', 'oz')",16 oz
+10309358,Fresh Poblano Pepper,0.68,Fresh Produce,1.8,(),Unit
+10451499,Smoked Sausage made with Pork Turkey and Beef,3.98,Hillshire Farm,4.3,"(4.52, '$', 'lb')",14 oz
+10290952,Perfectly Crispy Frozen Chicken Strips,8.98,Tyson,4.2,"(5.76, '$', 'lb')",1.56 lb Bag
+10452490,Marinara Pasta Sauce,1.48,Great Value,3.7,"(6.4, '¢', 'oz')",23 oz
+44391135,Sweet Brewed Iced Tea,2.98,Great Value,3.3,"(2.3, '¢', 'fl oz')",128 Fl Oz Bottle
+44391058,"Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",1.12,Knorr,4.3,"(19.6, '¢', 'oz')","7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz"
+14149967,"Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",1.12,Knorr,4.3,"(19.6, '¢', 'oz')","7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz"
+952045923,"(6 pack) Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",7.56,Knorr,4.3,"(22.1, '¢', 'oz')","6 pack) Knorr Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz"
+10899050,"Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",1.12,Knorr,4.3,"(19.6, '¢', 'oz')","7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz"
+10307850,"(6 pack) Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",7.56,Knorr,4.3,"(22.1, '¢', 'oz')","6 pack) Knorr Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz"
+1472382959,French Vanilla Coffee Creamer,4.68,Great Value,3.3,"(7.3, '¢', 'fl oz')",64 fl oz
+1472382959,Caramel Macchiato Coffee Creamer,3.72,International Delight,4.2,"(11.6, '¢', 'fl oz')",32 fl oz
+23511056,Cola Soda Pop,2.48,Pepsi,4.5,"(3.7, '¢', 'fl oz')",2 Liter Bottle
+46491734,Creamy Peanut Butter,3.64,Great Value,4.5,"(9.1, '¢', 'oz')",40 oz Jar
+44390991,Canned Golden Sweet Whole Kernel Corn,1.42,Del Monte,4.7,"(9.3, '¢', 'oz')",15.25 oz Can
+17619683,Original Corn Chips,4.38,Fritos,3.2,"(47.4, '¢', 'oz')",9.25 oz
+13424325,Canned Mixed Vegetables,0.88,Great Value,4.3,"(5.9, '¢', 'oz')",15 oz Can
+10315479,RITZ Original Crackers,2.98,Ritz,4.5,"(2.98, '$', 'ea')",13.7 oz
+10295217,RITZ Original Crackers,2.98,Ritz,4.5,"(2.98, '$', 'ea')",13.7 oz
+17056788,Ritz Crackers,10.34,Nabisco,4.5,(),Unit
+10315951,Ritz Crackers (Pack of 3),15.75,Nabisco,4.5,(),3)
+34632324,Ritz Crackers,63.21,Nabisco,4.5,(),Unit
+148982100,Ritz Crackers,83.86,Nabisco,4.5,(),Unit
+1083015430,Ritz Crackers,95.74,Nabisco,4.5,(),Unit
+539749393,Ritz Crackers (Pack of 18),107.21,Nabisco,4.5,(),18)
+578740859,Ritz Crackers (Pack of 20),117.49,Nabisco,4.5,(),20)
+223548176,Ritz Crackers (Pack of 32),177.85,Nabisco,4.5,(),32)
+613485163,Ritz Crackers (Pack of 36),197.21,Nabisco,4.5,(),36)
+411302803,Ritz Crackers (Pack of 48),285.76,Nabisco,4.5,(),48)
+550353545,RITZ Original Crackers,2.98,Ritz,4.5,"(2.98, '$', 'ea')",13.7 oz
+312816172,Ritz Crackers,10.34,Nabisco,4.5,(),Unit
+2298391503,Ritz Crackers (Pack of 3),15.75,Nabisco,4.5,(),3)
+813460448,Ritz Crackers,63.21,Nabisco,4.5,(),Unit
+1608272857,Ritz Crackers,73.2,Nabisco,4.5,(),Unit
+148982100,Ritz Crackers,95.74,Nabisco,4.5,(),Unit
+539749393,Ritz Crackers (Pack of 20),117.49,Nabisco,4.5,(),20)
+223548176,Ritz Crackers (Pack of 36),197.21,Nabisco,4.5,(),36)
+411302803,Original Sour Cream,2.66,Great Value,0.0,"(11.1, '¢', 'oz')",24 oz
+312816172,"Fruit Flavored Snacks, Assorted Fruit, Pouches",7.96,Mott&#39;s,4.8,"(24.9, '¢', 'oz')","39;s Fruit Flavored Snacks, Assorted Fruit, Pouches, 0.8 oz, 40 ct"
+813460448,"Chunk Chicken Breast, in Water",1.34,Great Value,4.3,"(4.32, '$', 'lb')",5 oz Can
+12335112,Nutty Buddy Wafer Bars,4.48,Little Debbie,3.5,"(17.8, '¢', 'oz')","24 ct, 25.2 oz"
+15191614,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+45733406,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+10295209,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+36267274,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+10450002,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10295251,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+1048337229,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+10451313,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+44390964,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+20511490,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10309845,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+1728770094,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+1728770094,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+10448318,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+666211515,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+777839120,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,"Mixed Fruit, Frozen",2.38,Great Value,3.0,"(14.9, '¢', 'oz')",16 oz
+413506446,Unsweetened Orange Artificially Flavored Powdered Soft Drink Mix,0.3,Kool-Aid,4.5,"(2.0, '$', 'oz')",0.15 oz Packet
+699240300,"Frozen Pot Pie Dinner, Beef",1.18,Banquet,4.1,"(16.9, '¢', 'oz')",7-Ounce
+10308535,Original Syrup,2.36,Great Value,4.4,"(9.8, '¢', 'fl oz')",24 oz
+26178286,"HORMEL Pepperoni Original, Pizza Topping, Gluten Free, Protein Snacks",3.94,Hormel,0.0,"(10.37, '$', 'lb')",6 oz Bag
+10320918,Gluten Free Original Ranch Salad Dressing and Seasoning Mix,1.88,Hidden Valley,4.9,"(1.88, '$', 'oz')",1 oz
+10292775,Organic Baby Spinach Salad,3.13,Marketside,0.0,"(62.6, '¢', 'oz')",5 oz
+47386167,Cherry Tomato,3.48,Fresh Produce,1.7,"(34.8, '¢', 'oz')",10 oz Package
+10794555,Flavored with Meat Pasta Sauce,1.48,Great Value,4.3,"(6.2, '¢', 'oz')",24 oz
+10315480,Shredded Low-Moisture Part-Skim Mozzarella Cheese,2.22,Great Value,4.2,"(27.8, '¢', 'oz')",8 oz
+10290999,Santa Fe Style Salad with Chicken,3.47,Marketside,0.0,"(55.5, '¢', 'oz')",6.35 oz Bowl
+10413832,"REESE&#39;S, PIECES Peanut Butter in a Crunchy Shell Treats, Easter Candy",1.0,Reese&#39;s,4.2,"(1.0, '$', 'oz')","39;S, PIECES Peanut Butter in a Crunchy Shell Treats, Easter Candy, 2.2 oz, Carrot Bag"
+13893733,Spaghetti,1.88,Great Value,4.3,"(5.9, '¢', 'oz')",32 oz
+51259344,"HORMEL Chili, No Beans, No Artificial Ingredients",2.54,Hormel,4.2,"(16.9, '¢', 'oz')",15 oz
+19758049,Glazed Honey Buns,1.88,Great Value,3.7,"(17.9, '¢', 'oz')","10.5 oz, 6 Count"
+10452419,"Tuna Creations, Lemon Pepper",1.0,StarKist,4.5,"(38.5, '¢', 'oz')",2.6 oz Pouch
+215031623,"Tuna Creations, Lemon Pepper",1.0,StarKist,4.5,"(38.5, '¢', 'oz')",2.6 oz Pouch
+177709983,"(6 pack) Tuna Creations, Lemon Pepper",8.64,StarKist,4.5,"(55.4, '¢', 'oz')","6 pack) StarKist Tuna Creations, Lemon Pepper, 2.6 oz Pouch"
+10534105,"Tuna Creations, Lemon Pepper",1.0,StarKist,4.5,"(38.5, '¢', 'oz')",2.6 oz Pouch
+10290957,"(6 pack) Tuna Creations, Lemon Pepper",8.64,StarKist,4.5,"(55.4, '¢', 'oz')","6 pack) StarKist Tuna Creations, Lemon Pepper, 2.6 oz Pouch"
+14336401,Fully Cooked Popcorn Chicken,7.47,Great Value,3.1,"(29.3, '¢', 'oz')",25.5 oz (Frozen)
+22027024,BBQ Potato Crisps Chips,2.12,Pringles,4.3,"(38.5, '¢', 'oz')",5.5 oz
+1843654766,Eggs Potatoes Bacon &amp; Cheddar Cheese Breakfast Bowl,3.12,Jimmy Dean,4.3,"(44.6, '¢', 'oz')",7 oz (Frozen)
+1843654766,Fieldpack Unbranded Green Leaf Lettuce,1.88,FIELDPACK UNBRANDED,1.4,(),Unit
+13925167,"RITZ Fresh Stacks Original Crackers, Family Size",4.68,Ritz,4.7,"(4.68, '$', 'ea')",17.8 oz
+476029133,"Flip Low-Fat Greek Yogurt, Peanut Butter Cup 4.5 oz",1.38,Chobani,4.5,"(26.0, '¢', 'oz')",4.5 oz
+10805143,Purified Water,2.62,Pure Life,4.2,"(2.62, '$', 'ea')","8 Fl Oz, Plastic Bottled Water (12 Pack)"
+12444410,"SToK Cold Brew Coffee, Black Unsweetened",5.58,Stok,4.6,"(11.6, '¢', 'fl oz')",48 Oz.
+685744035,"Caffeine-Free, Low Sodium Root Beer Soda Pop",4.98,A&amp;W,4.1,"(3.5, '¢', 'fl oz')","12 Fl Oz, 12 Pack Cans"
+51259368,"Aged Cheddar Cheesy Chicken &amp; Rice Bowl, Frozen Meal",3.28,Marie Callender&#39;s,2.9,"(27.3, '¢', 'oz')","39;s Aged Cheddar Cheesy Chicken &amp; Rice Bowl, Frozen Meal, 12 oz (Frozen)"
+52234929,Angel Hair,0.98,Great Value,4.3,"(6.1, '¢', 'oz')",16 oz
+54164823,Rally&#39;s Famous Seasoned Fries,4.13,Checkers,3.7,"(14.8, '¢', 'oz')","39;s Famous Seasoned Fries, 28 oz (Frozen)"
+21651862,Sam&#39;s Cola Soda,1.12,Sam&#39;s Choice,3.4,"(1.7, '¢', 'fl oz')","39;s Cola Soda, 2 Liter Bottle"
+52694732,Naturally Hickory Smoked Thick Sliced Bacon Mega Pack,5.97,Great Value,2.7,"(3.98, '$', 'lb')",24 oz
+16777401,Lactose Free Fat Free ULitera Filtered Milk,4.18,fairlife,4.4,"(4.18, '$', 'ea')",52 fl oz
+970096078,Original Spread Tub,3.43,Country Crock,4.3,"(22.9, '¢', 'oz')",15 oz
+12329727,Original Cookies Family Size 18.2 Ounce (Pack of 1),4.58,Chips Ahoy!,4.4,"(25.2, '¢', 'ea')",18.2 Ounce (Pack of 1)
+10824304,Original Cookies Family Size 18.2 Ounce (Pack of 1),4.58,Chips Ahoy!,4.4,"(25.2, '¢', 'ea')",18.2 Ounce (Pack of 1)
+16785073,Original Cookies Family Size 18.2 Ounce (Pack of 2),22.89,Chips Ahoy!,4.4,(),18.2 Ounce (Pack of 2)
+257009703,Original Cookies Family Size 18.2 Ounce (Pack of 4),29.69,Chips Ahoy!,4.4,(),18.2 Ounce (Pack of 4)
+43984342,Original Cookies Family Size 18.2 Ounce (Pack of 6),46.65,Chips Ahoy!,4.4,(),18.2 Ounce (Pack of 6)
+10291535,Original Cookies Family Size 18.2 Ounce (Pack of 1),4.58,Chips Ahoy!,4.4,"(25.2, '¢', 'ea')",18.2 Ounce (Pack of 1)
+23658443,Original Cookies Family Size 18.2 Ounce (Pack of 2),22.89,Chips Ahoy!,4.4,(),18.2 Ounce (Pack of 2)
+1010197233,Original Cookies Family Size 18.2 Ounce (Pack of 6),46.65,Chips Ahoy!,4.4,(),18.2 Ounce (Pack of 6)
+1805963110,Sausage &amp; Gravy Breakfast Bowl,3.12,Jimmy Dean,4.0,"(44.6, '¢', 'oz')",7 oz (Frozen)
+2104583164,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+1010197233,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+2104583164,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+14244840,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+1048337229,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+10451313,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+44390964,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+20511490,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10309845,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+1728770094,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+1728770094,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10448318,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+666211515,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+606785294,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+413506446,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+699240300,Whipped Cream Cheese Spread,3.12,Great Value,3.9,"(26.0, '¢', 'oz')",12 oz
+413506446,White Sub Rolls,3.48,Freshness Guaranteed,2.0,"(3.48, '$', 'ea')","16 oz, 6 Count"
+699240300,Ultra Paper Plates,6.68,Great Value,4.5,"(13.4, '¢', 'ea')","10&#34;, 50 Count"
+37342910,Organic Spring Mix Salad Blend,5.13,Marketside,0.0,"(32.1, '¢', 'oz')",16 oz.
+10415230,Frozen Meal - Blackened Chicken Alfredo,3.98,Zatarain&#39;s,3.8,"(37.9, '¢', 'oz')","39;s Frozen Meal - Blackened Chicken Alfredo, 10.5 oz"
+157250373,Original Dairy Whipped Topping,3.48,Great Value,0.0,"(26.8, '¢', 'oz')",13 oz
+32250866,Sliced Black Forest Ham Deli Lunch Meat,4.73,Hillshire Farm,0.0,"(8.45, '$', 'lb')",9 oz
+44391005,Celery Sticks,2.98,Fresh Produce,3.3,"(14.9, '¢', 'oz')",20 oz
+10307852,Sharp Cheddar Cheese,3.68,Great Value,3.5,"(23.0, '¢', 'oz')",16 oz
+1025482705,Tomato Sauce,0.68,Hunt&#39;s,4.3,"(8.5, '¢', 'oz')","39;s Tomato Sauce, 8 oz Can"
+1473323153,French Vanilla Coffee Creamer,2.82,Great Value,2.9,"(8.8, '¢', 'fl oz')",32 fl oz
+1025482705,Spirals Original Mac N Cheese Macaroni and Cheese Dinner,1.0,Kraft,4.6,"(18.2, '¢', 'oz')",5.5 oz Box
+411914231,Spirals Original Mac N Cheese Macaroni and Cheese Dinner,1.0,Kraft,4.6,"(18.2, '¢', 'oz')",5.5 oz Box
+46491761,(4 pack) Spirals Original Mac N Cheese Macaroni and Cheese Dinner,4.0,Kraft,4.6,"(18.2, '¢', 'oz')","4 pack) Kraft Spirals Original Mac N Cheese Macaroni and Cheese Dinner, 5.5 oz Box"
+17179393,Half-Length Spaghetti,0.98,Great Value,4.4,"(6.1, '¢', 'oz')",16 oz
+17056888,Diet Dr Pepper Soda Pop,1.76,Diet Dr. Pepper,4.3,"(2.6, '¢', 'fl oz')",2 L bottle
+1311118620,Distilled White Vinegar,2.38,Great Value,4.6,"(3.7, '¢', 'fl oz')",64 fl oz
+1311118620,SHELLS,0.98,Great Value,4.3,"(6.1, '¢', 'oz')",16OZ
+10307917,Bold Mix Variety Pack,10.98,Frito-Lay,2.4,"(63.7, '¢', 'ea')",18 Count
+10295545,"Pure and Natural Sour Cream, Regular",1.58,Daisy,0.0,"(19.8, '¢', 'oz')",8 ounces
+151333804,Breadsticks with Real Garlic,2.92,New York Bakery,3.8,"(27.8, '¢', 'oz')",6-ct Box
+44391168,Tomato Condensed Soup,0.5,Great Value,4.2,"(10.6, '¢', 'oz')",10.75 oz
+12443812,Tomato Condensed Soup,0.5,Great Value,4.2,"(10.6, '¢', 'oz')",10.75 oz
+10794884,(4 pack) Tomato Condensed Soup,2.72,Great Value,4.2,"(6.3, '¢', 'oz')","4 pack) Great Value Tomato Condensed Soup, 10.75 oz"
+35210436,Tomato Condensed Soup,0.5,Great Value,4.2,"(10.6, '¢', 'oz')",10.75 oz
+10320908,"Skim Fat Free Milk, Half Gallon",1.58,Great Value,2.6,"(2.5, '¢', 'fl oz')",64 fl oz
+10448316,Great Value Diet Calorie Free Cola Soda,1.12,Dr Thunder,3.4,"(1.7, '¢', 'fl oz')",2 Liter Bottle
+507129971,Organic Whole Carrots 2 Lb Bag,1.96,PRODUCE UNBRANDED,3.5,"(6.1, '¢', 'oz')",2 Lb Bag
+10315170,"HORMEL Turkey Pepperoni, Pizza Topping Gluten Free, Protein Snacks",3.94,Hormel,0.0,"(12.71, '$', 'lb')",5oz Bag​
+42306176,"Sparkling Water, Orange &amp; Cream",0.76,Clear American,4.6,"(2.2, '¢', 'fl oz')",33.8 fl oz
+16785029,"Yellow Nectarines, each",0.99,Fresh Produce,1.6,"(2.48, '$', 'lb')",Unit
+51259197,Beef Chuck Roast,12.94,Fresh Beef,2.2,"(6.47, '$', 'lb')",2.0 - 2.65 lb
+10448216,All Natural*,17.88,Fresh Ground Beef,2.5,"(3.58, '$', 'lb')","80% Lean/20% Fat, Ground Beef, Chuck, Roll, 5lbs, (Fresh)"
+10309114,Whole Brown Mushrooms,2.28,Monterey,2.1,"(28.5, '¢', 'oz')",8 oz
+10315475,Whole Milk,6.24,Lactaid,4.5,"(6.5, '¢', 'fl oz')",96 oz
+10319320,Crunchy Cheese Flavored Snack Chips,5.38,Cheetos,4.5,"(35.9, '¢', 'oz')",15 oz
+882311974,Fresh Sliced Baby Bella Mushrooms,2.38,Monterey,1.5,"(29.8, '¢', 'oz')",8 oz
+745725724,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+10292781,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+165789314,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+43480563,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+1213197293,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+1213197293,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+142689942,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+415649552,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+236605872,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+324243713,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+537847630,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+481374130,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+279335639,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+316697328,"Snack-Sized Smoked Meat Stick, Original Flavor, Keto Friendly Snack Stick",11.28,Slim Jim,4.6,"(13.93, '$', 'lb')","0.28 Oz, 46 Count"
+880111745,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+810393260,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+3953556024,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+495843985,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+1616622656,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+415649552,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+324243713,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+481374130,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+316697328,Sweet Potatoes,4.24,Fresh Produce,1.7,"(1.41, '$', 'lb')",3 lb Bag
+810393260,Traditional Pasta Sauce,1.18,Hunt&#39;s,4.3,"(4.9, '¢', 'oz')","39;s Traditional Pasta Sauce, 100% Natural Tomato Sauce, 24 Oz"
+495843985,Traditional Pasta Sauce,1.18,Hunt&#39;s,4.3,"(4.9, '¢', 'oz')","39;s Traditional Pasta Sauce, 100% Natural Tomato Sauce, 24 Oz"
+43671426,Long Grain Enriched Rice,2.84,Great Value,4.5,"(3.6, '¢', 'oz')",5 lbs
+14940855,The Original Texas Toast Five Cheese,3.72,New York Bakery,4.2,"(27.6, '¢', 'oz')",13.5 oz Box
+131735446,"Vanilla Almondmilk, Half Gallon",2.44,Great Value,3.8,"(3.8, '¢', 'fl oz')",Unit
+1690096108,"Fresh Kale Greens, Bunch",1.48,Fresh Produce,2.1,(),1 Each
+1690096108,Classic Ranch Salad Dressing &amp; Dip,1.97,Great Value,4.3,"(12.3, '¢', 'fl oz')",16 fl oz
+1048337229,Classic Ranch Salad Dressing &amp; Dip,1.97,Great Value,4.3,"(12.3, '¢', 'fl oz')",16 fl oz
+10451313,Chicken Noodle Soup,1.26,Campbell&#39;s Condensed,4.4,"(11.7, '¢', 'oz')","39;s Condensed Chicken Noodle Soup, 10.75 Ounce Can"
+44390964,Baked Buttery Round Crackers,2.62,Great Value,4.1,"(19.1, '¢', 'oz')",13.7 oz
+20511490,Diet Soda,1.12,Sam&#39;s Cola,4.2,"(1.7, '¢', 'fl oz')","39;s Cola Diet Soda, 2 Liter Bottle"
+10309845,Totinos Original Crisp Crust Pepperoni Frozen Pizza 10.2oz,1.88,Totino&#39;s,4.6,"(18.4, '¢', 'oz')",10.2oz
+1728770094,Simply Steam Broccoli &amp; Cheese Sauce,2.08,Green Giant,3.6,"(20.8, '¢', 'oz')",10 oz (Frozen)
+1728770094,Frozen Whole Berry Medley,4.24,Great Value,3.1,"(26.5, '¢', 'oz')",16 Oz
+10448318,"HOSTESS Powdered DONETTES Bag, Sugar Mini Donuts - 10 oz",2.48,Hostess,3.6,"(12.4, '¢', 'ea')",10 oz
+666211515,Snacks Classic Mix Variety Pack,20.46,Frito-Lay,3.0,"(52.5, '¢', 'oz')",42 Count
+299719087,Shredded Iceberg Lettuce Salad,3.47,Marketside,0.0,"(21.7, '¢', 'oz')",16 oz
+10320662,Shells and Cheese Original Macaroni and Cheese Dinner,3.77,Velveeta,4.7,"(31.4, '¢', 'oz')",12 oz Box
+1839033637,No Sugar Added Canned Sliced Pears,1.38,Great Value,4.2,"(9.5, '¢', 'oz')",14.5 oz
+1839033637,"Ready to Serve White Rice, Quick and Easy Cups",2.12,Minute,4.3,"(24.1, '¢', 'oz')","4.4 oz, 2 Ct"
+20854244,Cola Soda Pop,6.18,Pepsi,4.5,"(4.3, '¢', 'fl oz')","12 oz, 12 Pack Cans"
+606785294,Original Ricotta Cheese,2.86,Great Value,2.3,"(19.1, '¢', 'oz')",15 oz
+413506446,Cage Free Large AA White Eggs,6.18,Great Value,2.1,"(34.3, '¢', 'ea')",18 Count
+699240300,Everyday Disposable Foam Plates,5.42,Great Value,4.4,"(3.6, '¢', 'ea')","9 in, 150 ct"
+413506446,(4 pack) Everyday Disposable Foam Plates,21.68,Great Value,4.4,"(3.6, '¢', 'ea')","4 pack) Great Value Everyday Disposable Foam Plates, 9 in, 150 ct"
+699240300,Everyday Disposable Foam Plates,5.42,Great Value,4.4,"(3.6, '¢', 'ea')","9 in, 150 ct"
+15681024,(4 pack) Everyday Disposable Foam Plates,21.68,Great Value,4.4,"(3.6, '¢', 'ea')","4 pack) Great Value Everyday Disposable Foam Plates, 9 in, 150 ct"
+533646542,(6 pack) Everyday Disposable Foam Plates,32.52,Great Value,4.4,"(3.6, '¢', 'ea')","6 pack) Great Value Everyday Disposable Foam Plates, 9 in, 150 ct"
+44391091,Creamy Peanut Butter,6.78,Jif,4.7,"(17.0, '¢', 'oz')",40-Ounce Jar
+17209289,Creamy Peanut Butter,6.78,Jif,4.7,"(17.0, '¢', 'oz')",40-Ounce Jar
+269796224,(2 pack) Creamy Peanut Butter,13.56,Jif,4.7,"(17.0, '¢', 'oz')","2 pack) Jif Creamy Peanut Butter, 40-Ounce Jar"
+412509991,Creamy Peanut Butter,6.78,Jif,4.7,"(17.0, '¢', 'oz')",40-Ounce Jar
+10849171,(2 pack) Creamy Peanut Butter,13.56,Jif,4.7,"(17.0, '¢', 'oz')","2 pack) Jif Creamy Peanut Butter, 40-Ounce Jar"
+44030496,Birds Eye Steamfresh Frozen Mixed Vegetables,1.23,Birdseye,4.4,"(12.3, '¢', 'oz')",10 oz (Frozen)
+26832120,Shredded Mild Cheddar Cheese,7.48,Great Value,3.7,"(23.4, '¢', 'oz')",32 oz
+51259427,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+10452385,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+21804015,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10295084,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+10315919,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10295760,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+1309345557,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+1309345557,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+35487172,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+16940508,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10450988,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10450989,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10307238,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+10534077,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+890105724,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+10309448,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10805050,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+10314957,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+1546433733,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+1546433733,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10450120,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+16504563,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+51259191,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10290942,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+50280115,Simply Steamers Grilled Chicken &amp; Broccoli Alfredo Frozen Meal,3.42,Healthy Choice,4.4,"(37.4, '¢', 'oz')",9.15 oz (Frozen)
+44391097,Pacific Cooler Mixed Fruit Juice Box Pouches,3.18,Capri Sun,4.6,"(5.3, '¢', 'fl oz')","10 ct Box, 6 fl oz Pouches"
+55446514,Waffle Cut French Fried Potatoes,3.32,Great Value,3.1,"(13.8, '¢', 'oz')",24 oz (Frozen)
+15136796,Entenmann’s Little Bites Chocolate Chip Muffins Value Pack,7.48,Entenmann&#39;s,3.9,"(45.3, '¢', 'oz')",10 Pouches per Box
+16618670,Biscuit &amp; Sausage Gravy Breakfast Bowl,3.12,Jimmy Dean,3.3,"(34.7, '¢', 'oz')",9 oz (Frozen)
+23619910,Fruit Juicy Red Juice Drink,2.58,Hawaiian Punch,4.3,"(2.0, '¢', 'fl oz')",1 Gallon Bottle
+443076575,Frosted Strawberry Breakfast Toaster Pastries,4.68,Pop-Tarts,4.6,"(17.3, '¢', 'oz')","27 oz, 16 Count"
+586083289,DEL MONTE Cut Green Beans Canned Vegetables,1.42,Del Monte,4.4,"(1.42, '$', 'ea')",14.5 oz Can
+1048337229,Idaho Potatoes,3.87,Fresh Produce,2.2,"(77.4, '¢', 'lb')",5 lb Bag
+10451313,Shredded Hash Browns,3.32,Great Value,2.8,"(12.8, '¢', 'oz')",26 oz
+44390964,"Jennie-O, Fresh Ground Turkey Tray",4.34,Jennie-O Turkey Store,0.0,"(4.34, '$', 'lb')","93% Lean, 1 lb"
+20511490,"Marshmallow Cereal Bars, Original",4.82,Rice Krispies Treats,4.6,"(38.9, '¢', 'oz')","0.75 oz, 16 Count"
+10309845,Vanilla Bean Flavored Ice Cream,2.24,Great Value,3.2,"(4.7, '¢', 'fl oz')",48 fl oz
+1728770094,Unsweetened Watermelon Artificially Flavored Powdered Soft Drink Mix,0.3,Kool-Aid,4.4,"(1.67, '$', 'oz')",0.15 oz Packet
+1728770094,Broccoli &amp; Cauliflower,1.12,Great Value,2.2,"(9.3, '¢', 'oz')",12 oz (Frozen)
+10448318,Everyday Strength Aluminum Foil,4.98,Reynolds Wrap,4.7,"(6.6, '¢', 'sq ft')",75 Square Feet
+834187603,Less Sodium Soy Sauce,1.58,Great Value,4.4,"(10.5, '¢', 'oz')",15 fl oz
+666211515,"Kellogg&#39;s Breakfast Cereal, Kids Snacks, Original",4.28,Frosted Flakes,4.7,"(17.8, '¢', 'oz')","39;s Frosted Flakes Breakfast Cereal, Kids Snacks, Original, 24 Oz, Box"
+606785294,"Kellogg&#39;s Breakfast Cereal, Kids Snacks, Original",4.28,Frosted Flakes,4.7,"(17.8, '¢', 'oz')","39;s Frosted Flakes Breakfast Cereal, Kids Snacks, Original, 24 Oz, Box"
+413506446,"Tuna Creations, Herb and Garlic",1.0,StarKist,4.6,"(38.5, '¢', 'oz')",2.6 oz Pouch
+699240300,Greek Plain Nonfat Yogurt,0.64,Great Value,3.4,"(12.1, '¢', 'oz')",5.3 oz
+413506446,Beef Choice Angus Chuck Roast,14.92,Fresh Beef,2.0,"(6.97, '$', 'lb')",2.25 - 3.38 lb
+699240300,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+132720824,Taco Seasoning,0.88,Old El Paso,4.8,"(88.0, '¢', 'oz')","25% Less Sodium, 1 oz."
+20554615,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+1451983075,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+1451983075,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10315395,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10805049,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+46491746,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+52468057,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+40347953,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+16618888,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1722381822,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+1722381822,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+10321674,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+751723665,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+50228527,Instant Lunch Chicken (Pack of 6),9.99,Maruchan,3.9,(),6)
+26559602,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+16504559,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10308038,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10813478,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+19757423,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10813707,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10804764,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10543668,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+12512009,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+27047498,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+47446798,Boneless Skinless Chicken Breast,15.48,Great Value,2.4,"(3.1, '$', 'lb')",5 lb (Frozen)
+794845701,Wheat Sandwich Bread Loaf,1.32,Great Value,2.6,"(6.6, '¢', 'oz')",20 oz
+39104764,Baby Reds® Mashed Potatoes,1.44,Idahoan,4.8,"(35.1, '¢', 'oz')",4.1 oz Pouch
+10295758,"Family Disposable Paper Napkins, White",3.32,Great Value,4.6,"(0.7, '¢', 'ea')",500 count:
+44391003,"Family Disposable Paper Napkins, White",3.32,Great Value,4.6,"(0.7, '¢', 'ea')",500 count:
+45595289,"(4 pack) Family Disposable Paper Napkins, White",13.28,Great Value,4.6,"(0.7, '¢', 'ea')","4 pack) Great Value Family Disposable Paper Napkins, White, 500 count:"
+627620088,"(6 pack) Family Disposable Paper Napkins, White",19.92,Great Value,4.6,"(0.7, '¢', 'ea')","6 pack) Great Value Family Disposable Paper Napkins, White, 500 count:"
+10848970,"Family Disposable Paper Napkins, White",3.32,Great Value,4.6,"(0.7, '¢', 'ea')",500 count:
+16785027,"(4 pack) Family Disposable Paper Napkins, White",13.28,Great Value,4.6,"(0.7, '¢', 'ea')","4 pack) Great Value Family Disposable Paper Napkins, White, 500 count:"
+601494736,"(6 pack) Family Disposable Paper Napkins, White",19.92,Great Value,4.6,"(0.7, '¢', 'ea')","6 pack) Great Value Family Disposable Paper Napkins, White, 500 count:"
+10315688,Lightly Salted Restaurant Style White Corn Tortilla Chips,1.98,Great Value,4.2,"(15.2, '¢', 'oz')",13 oz
+119057088,Sweet Potatoes,1.74,Great Value,3.1,"(17.4, '¢', 'oz')",10 oz (Frozen)
+374077316,Low Fat Vanilla with M&amp;Ms Yogurt,3.48,YoCrunch,4.3,"(21.8, '¢', 'oz')","4 Oz. Cups, 4 Count"
+24414091,Flamin Hot Fries,2.48,Chester&#39;s,3.8,"(47.2, '¢', 'oz')","39;s Flamin Hot Fries, 5.25oz"
+43898504,Organic Grape Tomato,2.96,Fresh Produce,1.8,"(29.6, '¢', 'ea')",10 oz Package
+2150853557,Italian Sweet Creme Coffee Creamer,2.82,Great Value,3.1,"(8.8, '¢', 'fl oz')",32 fl oz
+1996685267,Gather around the dining table with Cream Style Sweet Corn,0.67,Great Value,4.3,"(4.5, '¢', 'oz')",Unit
+2150853557,"Freezer Guard Double Zipper Freezer Bags, Gallon",1.98,Great Value,4.5,"(9.9, '¢', 'ea')",20 Count
+10308250,"Freezer Guard Double Zipper Freezer Bags, Gallon",1.98,Great Value,4.5,"(9.9, '¢', 'ea')",20 Count
+1304901366,"Freezer Guard Double Zipper Freezer Bags, Gallon",2.54,Great Value,4.5,"(6.4, '¢', 'ea')",40 Count
+10308250,"Freezer Guard Double Zipper Freezer Bags, Gallon",4.64,Great Value,4.5,"(5.8, '¢', 'ea')",80 Count
+1304901366,Croissant Sandwiches Sausage Egg and Cheese,5.78,Great Value,3.5,"(32.8, '¢', 'oz')",4 Count (Frozen)
+46879779,Half &amp; Half,1.48,Great Value,0.0,"(9.3, '¢', 'fl oz')",16 fl oz
+10452378,Grass-Fed Pure Irish Salted Butter Sticks,4.18,Kerrygold,4.3,"(52.3, '¢', 'oz')","8 Oz, 2 Sticks"
+1048337229,Thomas’ Everything Bagels,4.18,Thomas&#39;,3.7,"(20.9, '¢', 'oz')","6 Pre-Sliced Bagels, 20 Oz"
+10451313,(4 Cans) Chunk Chicken Breast,9.98,Great Value,4.4,"(20.0, '¢', 'oz')","4 Cans) Great Value Chunk Chicken Breast, 12.5 oz"
+44390964,(2 pack) (4 Cans) Chunk Chicken Breast,19.96,Great Value,4.4,"(20.0, '¢', 'oz')","2 pack) (4 Cans) Great Value Chunk Chicken Breast, 12.5 oz"
+20511490,(2 pack) (4 Cans) Chunk Chicken Breast,19.96,Great Value,4.4,"(20.0, '¢', 'oz')","2 pack) (4 Cans) Great Value Chunk Chicken Breast, 12.5 oz"
+10309845,Fully Cooked Homestyle Meatballs,5.86,Great Value,3.1,"(18.3, '¢', 'oz')",32 oz (Frozen)
+1728770094,Deluxe Stir-Fry Vegetables,2.54,Great Value,3.4,"(12.7, '¢', 'oz')",20 oz (Frozen)
+1728770094,Finely Shredded Triple Cheddar Cheese,2.22,Great Value,3.2,"(27.8, '¢', 'oz')",8 oz
+10448318,Freshness Guaranteed Mild Pico De Gallo,3.24,Fresh Produce,2.0,"(32.4, '¢', 'oz')",10 Oz
+666211515,Chicken Breast Tenderloins,9.96,Great Value,2.2,"(3.32, '$', 'lb')",3 lb (Frozen)
+606785294,"Frozen Raw Small Peeled &amp; Deveined, Tail-off Shrimp",5.68,Great Value,0.0,"(47.3, '¢', 'oz')",12 oz (60-80 Count per lb)
+413506446,Applesauce,2.77,Mott&#39;s,4.6,"(69.3, '¢', 'fl oz')","39;s Applesauce, 4 oz cups, 6 count"
+699240300,Garden Rotini Pasta,0.98,Great Value,4.5,"(6.1, '¢', 'oz')",16 Oz
+413506446,Garden Rotini Pasta,0.98,Great Value,4.5,"(6.1, '¢', 'oz')",16 Oz
+699240300,LunchMakers Chicken &amp; Crackers Kit with Crunch Bar,1.18,Armour,3.3,"(48.4, '¢', 'oz')","2.4 oz, 1 Count"
+46064325,Uncured Turkey Bacon,3.72,Sam&#39;s Choice,3.6,"(5.91, '$', 'lb')","39;s Choice Uncured Turkey Bacon, 10 oz, 12 Pieces per Pack"
+13908699,Diet Dr Pepper Soda,6.18,Diet Dr. Pepper,4.4,"(4.3, '¢', 'fl oz')","12 fl oz cans, 12 pack"
+10534286,Extra Creamy Dairy Whipped Topping,3.48,Great Value,0.0,"(26.8, '¢', 'oz')",13 oz
+42072188,Original Cheese Crackers,3.68,Cheez-It,4.7,"(29.7, '¢', 'oz')",12.4 oz
+34381496,Cheese Heads Original Mozzarella String Cheese,5.98,Frigo,4.2,"(37.4, '¢', 'oz')","16 Oz, 16 Ct"
+10535476,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+415812597,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+10295200,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+22027218,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+10447839,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+44390951,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10534284,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+1305950862,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+177404094,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+16224470,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10818666,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+19758065,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+12329733,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10314925,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+22790212,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+15544056,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+683713288,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+23554586,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+11027095,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+15056122,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+371107436,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+1730786843,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+1730786843,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+22027021,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+36915845,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+166046751,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+791288879,"Frosted Toaster Pastries, Strawberry",2.12,Great Value,4.1,"(17.7, '¢', 'ea')","22 oz, 12 Count"
+39944474,Meat and Sauce Lasagna Meal,3.48,Stouffer&#39;s,4.4,"(33.1, '¢', 'oz')","39;s Meat and Sauce Lasagna Meal, 10.5 oz (Frozen)"
+22027022,Diet Cola Soda Pop,2.48,Pepsi,3.6,"(3.7, '¢', 'fl oz')",2 Liter Bottle
+10813463,Seasoned Croutons,1.3,Great Value,4.3,"(26.0, '¢', 'oz')",5 oz
+1048337229,Original Melting Cheese Dip &amp; Sauce,5.48,Velveeta,4.7,"(34.3, '¢', 'oz')",16 Oz Block
+10451313,All Natural*,5.64,Fresh Ground Beef,2.5,"(5.64, '$', 'lb')","90% Lean/10% Fat, Ground Beef, Sirloin, Tray, 1lbs, (Fresh)"
+44390964,Chicken Noodle Condensed Soup,0.5,Great Value,4.0,"(4.8, '¢', 'oz')",10.5 oz
+44390949,(4 pack) Chicken Noodle Condensed Soup,2.72,Great Value,4.0,"(6.5, '¢', 'oz')","4 pack) Great Value Chicken Noodle Condensed Soup, 10.5 oz"
+10309845,(4 pack) Chicken Noodle Condensed Soup,2.72,Great Value,4.0,"(6.5, '¢', 'oz')","4 pack) Great Value Chicken Noodle Condensed Soup, 10.5 oz"
+10309845,Spaghetti Rings Pasta with Meatballs in Tomato Sauce,0.92,Great Value,4.1,"(6.1, '¢', 'oz')",15 oz
+47770098,(4 pack) Spaghetti Rings Pasta with Meatballs in Tomato Sauce,2.68,Great Value,4.1,"(4.5, '¢', 'oz')","4 pack) Great Value Spaghetti Rings Pasta with Meatballs in Tomato Sauce, 15 oz"
+165562882,(4 pack) Spaghetti Rings Pasta with Meatballs in Tomato Sauce,2.68,Great Value,4.1,"(4.5, '¢', 'oz')","4 pack) Great Value Spaghetti Rings Pasta with Meatballs in Tomato Sauce, 15 oz"
+10450896,Freshness Guaranteed Diced Yellow Onions,2.78,Fresh Produce,2.6,"(34.8, '¢', 'oz')",8 oz
+606785294,Classic Crust Cheese Microwave Frozen Pizza 7.2oz,1.17,Great Value,2.7,"(16.3, '¢', 'oz')",7.2oz
+413506446,Finely Shredded Colby Jack Cheese,3.98,Great Value,4.0,"(24.9, '¢', 'oz')",16 oz
+699240300,Kool Aid Bursts Berry Blue Kids Drink,1.48,Kool-Aid,4.3,"(3.7, '¢', 'fl oz')","6 ct Pack, 6.75 fl oz Bottles"
+413506446,100% Pure Pumpkin,1.68,Great Value,4.2,"(11.2, '¢', 'oz')","100% Pure Pumpkin, 15 oz"
+699240300,"Lactose Free Whole Vitamin D Milk, Half Gallon",3.38,Great Value,3.5,"(5.3, '¢', 'fl oz')",64 fl oz
+36179444,Crinkle Cut French Fried Potatoes,5.98,Great Value,3.0,"(7.5, '¢', 'oz')",80 oz (Frozen)
+10315699,Brick Oven Pepperoni Frozen Pizza 17.89oz,4.77,Red Baron,4.5,"(26.7, '¢', 'oz')",17.89oz
+10312427,"Whips! Yogurt, Strawberry Mist, LF Yogurt Mousse",0.64,Yoplait,3.9,"(16.0, '¢', 'oz')",4 oz
+363821204,Sargento® Sliced Sharp Natural Cheddar Cheese,3.56,Sargento,4.4,"(44.5, '¢', 'oz')",11 slices
+2478650275,Soda Pop,7.48,Sam&#39;s Cola,4.2,"(2.6, '¢', 'fl oz')","39;s Cola Soda Pop, 12 fl oz, 24 Pack Cans"
+2717282926,"Potato Chips, Barbecue Flavored",4.98,Lay&#39;s,4.2,"(39.8, '¢', 'oz')","39;s Potato Chips, Barbecue Flavored, 12.5 oz"
+2478650275,"Premium Meats Honey Ham, Deli Sliced",8.47,Sara Lee,0.0,(),Unit
+50003598,"Great Value, Soup &amp; Oyster Crackers",1.43,Great Value,4.3,"(15.9, '¢', 'oz')",9 oz
+106137651,Strawberry Lemonade Fruit Drink,1.68,Minute Maid,4.4,"(1.68, '$', 'ea')",59 fl oz Carton
+16677204,Soda Pop,7.46,Diet Coke,4.4,"(7.46, '$', 'ea')","12 fl oz, 12 Pack Cans"
+1138359171,Zero Sugar Lemon Lime Soda Pop,3.78,Sprite,4.5,"(3.78, '$', 'ea')","16.9 fl oz, 6 Pack Bottles"
+51259301,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+10533864,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+147966383,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10448549,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+624605773,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+300314881,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+808599731,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+300314881,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+624605773,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+20971337,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10450337,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+193243827,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+13399614,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+10535148,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+12329756,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+49914752,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+1317827223,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+1317827223,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10321636,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+14336389,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+423238521,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+980539185,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+17176263,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+46491724,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+35043006,"Flip Low-Fat Greek Yogurt, Key Lime Crumble 4.5 oz",1.38,Chobani,4.7,"(26.0, '¢', 'oz')",4.5 oz
+387591794,Strawberry Shortcake Rolls,2.58,Little Debbie,3.7,"(19.8, '¢', 'oz')","6 ct, 13.0 oz"
+16940091,Original Turkey Pack,0.8,Buddig,0.0,"(6.15, '$', 'lb')",2 oz
+51259070,Southern Hash Browns,3.32,Great Value,2.8,"(10.4, '¢', 'oz')",32 oz
+161768953,Classic Roast Ground Coffee,13.92,Folgers,4.2,"(34.5, '¢', 'oz')",40.3-Ounce
+44391062,Classic Roast Ground Coffee,13.92,Folgers,4.2,"(34.5, '¢', 'oz')",40.3-Ounce
+10534116,"Coffee, Classic Roast",41.94,Folgers,4.2,(),40.3 oz Can | Bundle of 2 Each
+10294755,"Coffee, Classic Roast",93.31,Folgers,4.2,(),40.3 oz Can | Bundle of 5 Each
+10534082,Classic Roast Ground Coffee,13.92,Folgers,4.2,"(34.5, '¢', 'oz')",40.3-Ounce
+1396832239,"Coffee, Classic Roast",93.31,Folgers,4.2,(),40.3 oz Can | Bundle of 5 Each
+1396832239,Fully Cooked and Breaded Chicken Patties,7.48,Tyson,4.0,"(4.59, '$', 'lb')",1.62 lb Bag (Frozen)
+10790887,Vanilla Caramel Coffee Creamer,2.82,Great Value,4.1,"(8.8, '¢', 'fl oz')",32 fl oz
+36511541,Brown &#39;N Serve Fully Cooked Original Sausage Links,6.98,Banquet,3.8,"(3.49, '$', 'lb')","39;N Serve Fully Cooked Original Sausage Links, 32 oz, 50 Ct (Frozen)"
+10452498,Homestyle Vanilla Flavored Ice Cream,2.24,Great Value,3.6,"(4.7, '¢', 'fl oz')",48 fl oz
+44030498,"Black Label, Natural Hardwood Smoke Original Pork Bacon",4.98,Hormel,4.0,"(4.98, '$', 'lb')",16 oz Pack
+42124218,Fruit Cocktail in 100% Juice,1.38,Great Value,4.4,"(9.2, '¢', 'oz')","100% Juice, 15 oz"
+22210550,Extra Virgin Olive Oil Non-Stick Cooking Spray,3.74,Great Value,4.5,"(53.4, '¢', 'oz')",7 oz
+1048337229,Tomato Ketchup,1.94,Great Value,4.5,"(6.1, '¢', 'oz')",32 oz
+10451313,Asian Chopped Salad Kit,3.98,Marketside,0.0,"(37.5, '¢', 'oz')",10.6 oz
+44390964,Onion Flavored Rings,5.38,Funyuns,4.3,"(89.7, '¢', 'oz')",6 oz Bag
+20511490,"Crunchy Flamin&#39; Hot Cheese Flavored Snack Chips, Party Size",5.38,Cheetos,4.4,"(35.9, '¢', 'oz')","39; Hot Cheese Flavored Snack Chips, Party Size, 15 oz Bag"
+10309845,Entenmann’s Little Bites Blueberry Muffins,3.98,Entenmann&#39;s,4.4,"(48.0, '¢', 'oz')",5 Pouches per Box
+1728770094,Beef Burgers,12.82,Great Value,2.8,"(4.27, '$', 'lb')","80% Lean/20% Fat, 3 lbs, 12 Count (Frozen)"
+1728770094,Homestyle Breakfast Waffles,5.92,Eggo,4.4,"(20.0, '¢', 'oz')","29.6 oz, 24 count, (Frozen)"
+10448318,Whipped Topping,0.98,Great Value,3.9,"(12.3, '¢', 'oz')","8 oz, Frozen Dessert Topping"
+666211515,Caesar Salad,3.47,Taylor Farms,0.0,"(60.3, '¢', 'oz')","5.75oz, Chilled Deli, 1 Each"
+606785294,Turkey &amp; American Cheese Cracker Stackers Kids Lunch Meal Kit,2.86,Lunchables,4.6,"(32.1, '¢', 'oz')",8.9 oz Box
+413506446,BLT Salad,3.47,Taylor Farms,0.0,"(53.4, '¢', 'oz')","6.5 oz, Fresh Deli"
+699240300,"Whole New Potatoes, Canned Potatoes",0.88,Great Value,4.1,"(6.1, '¢', 'oz')",15 oz Can
+413506446,Classic Iceberg Salad,2.98,Marketside,0.0,"(12.4, '¢', 'oz')",24 oz
+699240300,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+998307801,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10804762,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+846382002,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10413975,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+159107262,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+246212997,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+10295586,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+339860540,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+22218203,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+13424327,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10314962,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1722193738,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+1722193738,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+10452510,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10316726,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+1977783118,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+1977783118,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+33282305,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+15556485,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+929259456,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+620269488,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10813651,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10452489,Extra Crispy Fast Food French Fries Fried Frozen Potatoes,5.28,Ore-Ida,4.5,"(20.3, '¢', 'oz')",26 oz Bag
+10891830,Premium Honey Smoked Turkey Breast,5.67,Land O&#39;Frost,0.0,"(5.67, '$', 'lb')","39;Frost Premium Honey Smoked Turkey Breast, 16 oz"
+19500175,Organic Romaine Lettuce Hearts,3.46,PRODUCE UNBRANDED,1.4,"(3.46, '$', 'ea')",3 Pack
+10292879,Cola Soda,1.12,Great Value,4.3,"(1.7, '¢', 'fl oz')",2 Liter Bottle
+24538777,"Scoops! Corn Snacks, Party Size",5.38,Fritos,4.4,"(34.7, '¢', 'oz')",15.5 oz Bag
+10315398,Nestle Coffee mate Zero Sugar Italian Sweet Creme Liquid Coffee Creamer,3.98,Coffeemate,0.0,"(12.4, '¢', 'fl oz')",32 fl oz
+11979180,Tomato Sauce,1.36,Great Value,4.4,"(4.7, '¢', 'oz')",29 Oz
+10534283,Tomato Sauce,1.36,Great Value,4.4,"(4.7, '¢', 'oz')",29 Oz
+46715982,(6 pack) Tomato Sauce,8.16,Great Value,4.4,"(4.7, '¢', 'oz')","6 pack) Great Value Tomato Sauce, 29 Oz"
+10320893,Tomato Sauce,1.36,Great Value,4.4,"(4.7, '¢', 'oz')",29 Oz
+10291566,(6 pack) Tomato Sauce,8.16,Great Value,4.4,"(4.7, '¢', 'oz')","6 pack) Great Value Tomato Sauce, 29 Oz"
+367014931,Original Bacon Naturally Hardwood Smoked,5.98,Oscar Mayer,4.3,"(5.98, '$', 'lb')",16 oz Pack
+16504562,Tuna Creations Deli Style Tuna Salad,1.0,StarKist,4.5,"(33.3, '¢', 'oz')",3oz Pouch
+198082763,Everyday Plates,14.98,Great Value,4.4,"(10.0, '¢', 'ea')","10&#34;, 150 Count"
+965545833,Everyday Disposable Paper Plates,7.24,Great Value,4.4,"(14.5, '¢', 'ea')","10&#34;, 50 Count"
+10448624,Everyday Plates,11.94,Great Value,4.4,"(11.9, '¢', 'ea')","10&#34;, 100 Count"
+138914564,Everyday Plates,14.98,Great Value,4.4,"(10.0, '¢', 'ea')","10&#34;, 150 Count"
+45754367,Everyday Disposable Paper Plates,7.24,Great Value,4.4,"(14.5, '¢', 'ea')","10&#34;, 50 Count"
+45039253,Everyday Plates,11.94,Great Value,4.4,"(11.9, '¢', 'ea')","10&#34;, 100 Count"
+10291610,Everyday Plates,14.98,Great Value,4.4,"(10.0, '¢', 'ea')","10&#34;, 150 Count"
+21738544,Spaghetti Pasta,1.84,Barilla,4.6,"(16.0, '¢', 'oz')",1 lb
+1048337229,(6 pack) Spaghetti Pasta,11.04,Barilla,4.6,"(16.0, '¢', 'oz')","6 pack) Barilla Spaghetti Pasta, 1 lb"
+10451313,(6 pack) Spaghetti Pasta,11.04,Barilla,4.6,"(16.0, '¢', 'oz')","6 pack) Barilla Spaghetti Pasta, 1 lb"
+44390964,Classic Ketchup Glazed Meatloaf Meal,3.48,Stouffer&#39;s,4.2,"(35.2, '¢', 'oz')","39;s Classic Ketchup Glazed Meatloaf Meal, 9.875 oz (Frozen)"
+20511490,"Breaded Mozzarella Cheese Sticks, High Protein Snack, Frozen",6.68,Farm Rich,4.3,"(27.8, '¢', 'oz')",24 oz
+10309845,Disposable Paper Plates,3.72,Dixie,4.8,"(7.4, '¢', 'ea')","8.5 in, 50 count"
+1728770094,Zero Sugar Root Beer Soda,4.98,A&amp;W,4.1,"(3.5, '¢', 'fl oz')","12 fl oz cans, 12 pack"
+1728770094,Non GMO All Natural Lemonade Juice,4.28,Simply,4.7,"(4.8, '¢', 'fl oz')",89 fl oz Bottle
+10448318,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+666211515,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+606785294,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+413506446,Turkey Pot Pie Frozen Meal,1.18,Banquet,4.2,"(16.9, '¢', 'oz')",7 oz (Frozen)
+699240300,Baby Red Potatoes,4.77,Fresh Produce,2.4,"(3.18, '$', 'lb')",1.5 lb Bag
+413506446,Tuna Creations Sweet &amp; Spicy Chunk Light Tuna,1.0,StarKist,4.5,"(38.5, '¢', 'oz')",2.6 oz. Single Serve Pouch
+699240300,Tuna Creations Sweet &amp; Spicy Chunk Light Tuna,1.0,StarKist,4.5,"(38.5, '¢', 'oz')",2.6 oz. Single Serve Pouch
+23984451,(6 pack) Tuna Creations Sweet &amp; Spicy Chunk Light Tuna,8.22,StarKist,4.5,"(52.7, '¢', 'oz')","6 pack) StarKist Tuna Creations Sweet &amp; Spicy Chunk Light Tuna, 2.6 oz. Single Serve Pouch"
+16777546,Long Grain Enriched Rice,1.62,Great Value,4.1,"(5.1, '¢', 'oz')",32 oz
+10309104,Zero Sugar Soda Pop,2.68,Coca-Cola,4.6,"(2.68, '$', 'ea')",2 Liter Bottle
+10451009,Chili with Beans,1.46,Great Value,3.9,"(9.7, '¢', 'oz')",15 Oz
+971362035,Mild Sauce,1.83,Taco Bell,4.7,"(24.4, '¢', 'oz')",7.5 oz Bottle
+1924374898,The Original Top Ramen Chicken Flavor Ramen Noodle Soup,1.18,Nissin,4.1,"(34.7, '¢', 'oz')",3.42 oz
+1790487732,The Original Top Ramen Chicken Flavor Ramen Noodle Soup,1.18,Nissin,4.1,"(34.7, '¢', 'oz')",3.42 oz
+2425237998,(8 pack) The Original Top Ramen Chicken Flavor Ramen Noodle Soup,9.44,Nissin,4.1,"(34.7, '¢', 'oz')","8 pack) Nissin The Original Top Ramen Chicken Flavor Ramen Noodle Soup, 3.42 oz"
+1924374898,(8 pack) The Original Top Ramen Chicken Flavor Ramen Noodle Soup,9.44,Nissin,4.1,"(34.7, '¢', 'oz')","8 pack) Nissin The Original Top Ramen Chicken Flavor Ramen Noodle Soup, 3.42 oz"
+2425237998,Whole Kernel Sweet Corn,0.98,Libby&#39;s,4.5,"(6.4, '¢', 'oz')","39;s Whole Kernel Sweet Corn, 15.25 oz"
+10313122,"Dean&#39;s, French Onion Dip",2.42,Dean&#39;s,4.2,"(15.1, '¢', 'oz')","39;s, French Onion Dip, 16 oz Tub"
+108931416,Atlantic Salmon Portions,9.61,Fresh,0.0,"(10.68, '$', 'lb')",0.70 - 1.1 lbs
+13925184,"Ultra Strong Paper Towels, Split Sheets",4.18,Great Value,4.5,"(1.7, '¢', 'ea')",2 Double Rolls
+46715973,Multi Grain Bread,2.44,Great Value,3.3,"(10.2, '¢', 'oz')",24 oz
+20525252,"Ragu Chunky Garden Combination Pasta Sauce with Diced Tomatoes, Onions, Celery, Carrots, Zucchini, Green Bell Peppers, and Italian Herbs and Spices",1.96,Ragú,4.4,"(8.2, '¢', 'oz')",24 OZ
+10290981,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+10451003,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+10315915,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+10313183,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+172196409,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10449240,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+409668151,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+21298424,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+36915849,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+760705894,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+765041057,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+12444411,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+10293127,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10306800,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+10315960,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+44390986,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10891828,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+20971335,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10402987,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+12329728,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+165223637,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+49769689,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+13908407,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10320903,Premium Watermelon Fruit Juice,1.68,Minute Maid,4.4,"(1.68, '$', 'ea')",59 fl oz Carton
+161537131,Crunchy Flamin&#39; Hot Cheese Flavored Snack Chips,4.38,Cheetos,4.5,"(51.5, '¢', 'oz')","39; Hot Cheese Flavored Snack Chips, 8.5 oz Bag"
+604870267,Kellogg&#39;s Original Cold Breakfast Cereal,3.78,Frosted Flakes,4.7,"(28.0, '¢', 'oz')","39;s Frosted Flakes Original Cold Breakfast Cereal, 13.5 oz"
+10316041,Worcestershire Sauce,1.0,Great Value,4.3,"(10.0, '¢', 'oz')",10 fl Ounce
+690599074,Cafe Steamers Grilled Chicken Marinara with Parmesan Frozen Meal,3.28,Healthy Choice,3.9,"(34.5, '¢', 'oz')",9.5 oz (Frozen)
+13893730,Tombstone Thin Crust Pepperoni Frozen Pizza 19.3oz,4.82,TOMBSTONE,4.1,"(25.0, '¢', 'oz')",19.3oz
+1048337229,Gluten Free Colby &amp; Monterey Jack Cheese Sticks,3.78,Great Value,2.8,"(42.0, '¢', 'oz')","9 oz, 12 Count"
+10451313,4% Milkfat Minimum Large Curd Cottage Cheese,2.58,Great Value,2.8,"(10.8, '¢', 'oz')","4% Milkfat Minimum Large Curd Cottage Cheese, 24 oz"
+44390964,Deluxe Original Cheddar Macaroni &amp; Cheese,1.48,Great Value,4.2,"(10.6, '¢', 'oz')",14 oz
+20511490,Deluxe Original Cheddar Macaroni &amp; Cheese,1.48,Great Value,4.2,"(10.6, '¢', 'oz')",14 oz
+10309845,"Popcorn, White Cheddar",5.38,Smartfood,4.5,"(55.2, '¢', 'oz')",9.75 oz
+1728770094,All Natural*,8.92,Fresh Ground Beef,2.3,"(3.96, '$', 'lb')","73% Lean/27% Fat, Ground Beef, Tray, 2.25lbs, (Fresh)"
+1728770094,"OREO Chocolate Sandwich Cookies, Family Size",4.58,Oreo,4.8,"(4.58, '$', 'ea')",19.1 oz
+10448318,Chicken Fried Rice Frozen Asian Entrée 11 oz,3.28,Tai Pei,3.4,"(29.8, '¢', 'oz')",11 oz
+666211515,"Pizza Rolls, Pepperoni Flavored, Frozen Snacks",9.88,Totino&#39;s,4.7,"(20.2, '¢', 'oz')","39;s Pizza Rolls, Pepperoni Flavored, Frozen Snacks, 48.85 oz, 100 ct"
+606785294,Kellogg&#39;s Red Berries Cold Breakfast Cereal,5.38,Special K,4.6,"(31.8, '¢', 'oz')","39;s Special K Red Berries Cold Breakfast Cereal, 16.9 oz"
+413506446,"Land O Lakes® White Deli American Cheese, Deli Sliced",8.48,Land O Lakes,2.3,(),Unit
+699240300,Frosted Bite Size Shredded Wheat Cereal,2.38,Great Value,4.5,"(9.9, '¢', 'oz')",24 oz
+413506446,Canned Pineapple Slices in 100% Juice,1.28,Great Value,4.3,"(6.4, '¢', 'oz')","100% Juice, 20 oz"
+699240300,"Hero Batch, Vanilla Greek Yogurt with Mixed Berry on the Bottom 5.3 oz",4.37,Chobani,4.1,"(20.6, '¢', 'oz')","5.3 oz, 4 Count"
+10794804,"HERSHEY&#39;S, Chocolate Syrup, Baking Supplies",3.27,Hershey&#39;s,4.6,"(13.6, '¢', 'fl oz')","39;S, Chocolate Syrup, Baking Supplies, 24 oz, Bottle"
+10307897,SuperPretzel Original Fully Baked Soft Pretzels,2.98,SUPERPRETZEL,3.7,"(49.7, '¢', 'ea')","6 Count, 13 oz"
+189196217,White Cheddar Popcorn,3.98,Smartfood,4.2,"(59.0, '¢', 'oz')",6.75 oz Bag
+19276192,Chicken Broth,0.72,Great Value,4.4,"(5.0, '¢', 'oz')",14.5 oz Can
+884766452,Chicken Broth,0.72,Great Value,4.4,"(5.0, '¢', 'oz')",14.5 oz Can
+23591195,(4 pack) Chicken Broth,2.88,Great Value,4.4,"(5.0, '¢', 'oz')","4 pack) Great Value Chicken Broth, 14.5 oz Can"
+10415506,Chicken Broth,0.72,Great Value,4.4,"(5.0, '¢', 'oz')",14.5 oz Can
+1601404315,Mini Marshmallows,1.0,Great Value,4.5,"(10.0, '¢', 'oz')",10 oz
+1601404315,Original Cherry Orchard Low Fat Yogurt,0.64,Yoplait,4.7,"(10.7, '¢', 'oz')",6 OZ Yogurt Cup
+10292659,Beef Stew Meat Family Pack,16.33,Fresh Beef,2.3,"(6.48, '$', 'lb')",2.15 - 3.0 lb
+13439655,Ice Black Raspberry Sparkling Juice,0.67,Clear American,4.2,"(3.9, '¢', 'fl oz')",17 Fl Oz Bottle
+664982875,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+460870927,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+889801217,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+460870927,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+664982875,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+10309153,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+1411451521,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+1411451521,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10312434,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+10804758,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10291863,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+34701147,"Cut Green Beans, Canned Green Beans",0.5,Great Value,4.2,"(3.4, '¢', 'oz')",14.5 oz Can
+757977763,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+556111088,Immunity Fizz Wellness Booster (Berry) by | Antioxidant Powder,16.97,GoBiotix,4.8,(),Unit
+10292750,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+17619868,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10403197,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+22176385,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+149922726,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10309845,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10309845,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+55014398,Concord Grape Jelly,2.48,Great Value,4.5,"(8.3, '¢', 'oz')",30 oz
+10794556,Freshness Guaranteed Cut Watermelon,4.58,Fresh Produce,1.5,"(4.58, '$', 'lb')",16 oz
+10314920,"Farm Fresh Cage Free Large, Brown, Grade A Eggs",3.57,Eggland&#39;s Best,3.2,"(29.8, '¢', 'ea')","39;s Best Farm Fresh Cage Free Large, Brown, Grade A Eggs, 12 Count"
+45127027,Beef,0.8,Buddig,0.0,"(6.15, '$', 'lb')",2 oz
+22027023,"Spice World Minced Garlic, Jar",3.98,Fresh Produce,3.2,"(49.8, '¢', 'oz')",8 oz
+1555992392,"Bush&#39;s Pinto Beans, Canned Beans",1.42,BUSH&#39;S,4.4,"(8.9, '¢', 'oz')","39;s Pinto Beans, Canned Beans, 16 oz"
+1555992392,Pulp Free Orange Juice,1.5,Great Value,3.4,"(12.5, '¢', 'fl oz')",12 fl oz (Frozen)
+10315394,Original Canned Pasta,1.26,SpaghettiOs,4.5,"(8.0, '¢', 'oz')",15.8 OZ Can
+15610627,Original Canned Pasta,1.26,SpaghettiOs,4.5,"(8.0, '¢', 'oz')",15.8 OZ Can
+10534168,Â® SpaghettiOs Â® Original,15.38,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+29176925,Â® SpaghettiOs Â® Original (Pack of 3),18.09,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original (Pack of 3)
+575993182,Â® SpaghettiOs Â® Original,22.12,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+491143833,Â® SpaghettiOs Â® Original,27.22,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+1911328559,Â® SpaghettiOs Â® Original,37.92,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+1911328559,Â® SpaghettiOs Â® Original,51.2,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+13893732,Â® SpaghettiOs Â® Original,56.18,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+10291107,Â® SpaghettiOs Â® Original,61.22,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+10294995,Â® SpaghettiOs Â® Original,64.28,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+896766595,Â® SpaghettiOs Â® Original,72.37,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+153786191,Â® SpaghettiOs Â® Original (Pack of 32),93.37,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original (Pack of 32)
+46491799,Â® SpaghettiOs Â® Original,102.55,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+14123516,Â® SpaghettiOs Â® Original (Pack of 48),163.46,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original (Pack of 48)
+1048337229,Â® SpaghettiOs Â® Original,15.38,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+10451313,Â® SpaghettiOs Â® Original,22.12,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+44390964,Â® SpaghettiOs Â® Original,33.83,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+20511490,Â® SpaghettiOs Â® Original,43.34,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+47770098,Â® SpaghettiOs Â® Original,56.18,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+165562882,Â® SpaghettiOs Â® Original,64.28,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original
+397418781,Â® SpaghettiOs Â® Original (Pack of 32),93.37,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original (Pack of 32)
+606785294,Â® SpaghettiOs Â® Original (Pack of 48),163.46,Campbell&#39;s,4.5,(),39;s Â® SpaghettiOs Â® Original (Pack of 48)
+970577392,Spaghetti and Meatballs Frozen Meal,1.68,Banquet,3.7,"(16.8, '¢', 'oz')",10 oz (Frozen)
+606785294,Hamburger Dill Chip Pickles,2.38,Great Value,3.9,"(7.4, '¢', 'oz')",32 fl oz
+970577392,Delights Turkey Sausage Breakfast Bowl,3.12,Jimmy Dean,4.4,"(44.6, '¢', 'oz')",7 oz (Frozen)
+22027212,White Cranberry Strawberry Juice,3.24,Ocean Spray,4.2,"(5.1, '¢', 'fl oz')",64 Fl. Oz.
+49909689,Chicken Dunks Kids Lunch Meal Kit,2.86,Lunchables,4.3,"(29.2, '¢', 'oz')",9.8 oz Box Box
+225137644,Mixed Vegetables,2.48,Great Value,3.1,"(7.8, '¢', 'oz')",32 oz (Frozen)
+12157940,Cannellini Beans,0.78,Great Value,4.1,"(5.0, '¢', 'oz')",15.5 oz
+37912485,"Original Whole Grain Wheat Crackers, Family Size",4.68,Wheat Thins,4.4,"(33.4, '¢', 'oz')",14 oz
+468220295,Original Melting Cheese Dip &amp; Sauce (Classic Size),8.38,Velveeta,4.7,"(26.2, '¢', 'oz')",32 oz Block
+159980722,Sliced Baby Bella Mushrooms,4.34,Fresh Produce,1.6,"(36.2, '¢', 'oz')",16 oz
+476328732,Diet Citrus Soda Pop,2.48,Mountain Dew,4.3,"(3.7, '¢', 'fl oz')",2 Liter Bottle
+45047854,Variety Pack Cheese Crackers,6.48,Cheez-It,4.5,"(53.6, '¢', 'oz')","12.1 oz, 12 Count"
+10315020,Garlic Bread,2.38,Great Value,3.8,"(14.9, '¢', 'oz')",16 oz
+10315229,All Natural*,6.97,Fresh Ground Beef,2.4,"(6.97, '$', 'lb')","93% Lean/7% Fat, Ground Beef, Burgers, 4 Count, 1lbs, (Fresh)"
+1324518220,Sliced Peaches in 100% Juice,2.44,Great Value,4.3,"(8.4, '¢', 'oz')","100% Juice, 29 oz"
+1324518220,Diced Tomatoes in Tomato Juice,1.36,Great Value,4.4,"(4.9, '¢', 'oz')",28 Oz
+802830055,Mexican Style Four Cheese Blend Shredded Cheese,5.96,Kraft,4.7,"(37.3, '¢', 'oz')",16 oz Bag
+14336395,Unsweetened Applesauce,3.13,Great Value,4.4,"(6.8, '¢', 'oz')",46 oz Jar
+424346823,4&#34; Mini Pecan Pie,0.74,Freshness Guaranteed,4.2,"(22.8, '¢', 'oz')","4&#34; Mini Pecan Pie, 3.25 oz"
+32200826,Thick Cut Hickory Real Wood Smoked Bacon,8.98,Wright Brand,4.3,"(5.99, '$', 'lb')",1.5 lb
+23658442,"Whips! Lowfat Yogurt Mousse, Cherry Cheesecake",0.64,Yoplait,4.5,"(16.0, '¢', 'oz')",4 oz
+25826933,"Lunch To-Go, Chunk Light Tuna in Water",2.12,StarKist,4.6,"(51.7, '¢', 'oz')",4.1 oz Box
+356880552,Sargento® Sliced Pepper Jack Natural Cheese,3.56,Sargento,4.4,"(47.5, '¢', 'oz')",10 slices
+43923182,Bun Length Franks Hot Dogs,4.48,Bar-S,3.0,"(1.49, '$', 'lb')","24 Franks per Package, 3 lb Family Pack"
+580021400,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+39103253,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+241868709,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+24217249,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+186368201,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+10413990,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+10315966,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+22002576,Super Moist French Vanilla Cake Mix,1.56,Betty Crocker,4.8,"(10.2, '¢', 'oz')",15.25 oz
+15021179,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+10320916,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+519060542,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+21081233,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10801192,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+171369548,(3 pack) Chewy Chocolate Fudge Brownie Mix,4.14,Duncan Hines,4.3,"(7.5, '¢', 'oz')","3 pack) Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz"
+10314956,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+1373671106,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+1373671106,Gravlax (Cured Salmon) (2-3 servings),16.99,Nordic Catch,0.0,(),2-3 servings)
+21881845,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+26954458,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+10320906,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+39944484,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+180031279,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+1048337229,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+10451313,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+44390964,Cage Free Large Brown Eggs,3.94,Marketside,3.3,"(21.9, '¢', 'ea')",18 Count
+20511490,Tomato Sauce,1.34,Hunt&#39;s,4.3,"(8.9, '¢', 'oz')","39;s Tomato Sauce, 15 oz Can"
+10309845,Soda Pop,5.88,Coca-Cola,4.7,"(5.88, '$', 'ea')","12 fl oz, 8 Pack Bottles"
+1728770094,Kale Pecan Cranberry Chopped Salad Kit,3.98,Marketside,0.0,"(56.9, '¢', 'oz')",7 oz
+1728770094,Light Sour Cream,2.26,Great Value,0.0,"(14.1, '¢', 'oz')",16 oz
+10448318,Organic Gala Apples,4.98,Marketside,2.2,"(1.66, '$', 'lb')",3 lb Bag
+666211515,Lay&#39;s Baked Original Potato Chips,3.68,Baked Lays,4.3,"(58.9, '¢', 'oz')","39;s Baked Original Potato Chips, 6.25 oz Bag"
+606785294,Sweet &amp; Creamy Coffee Creamer,3.72,International Delight,2.1,"(11.6, '¢', 'fl oz')",32 fl oz
+413506446,Sargento® Natural String Cheese Snacks,4.44,Sargento,4.6,"(37.0, '¢', 'oz')",12-Count
+699240300,Gluten Free Singles Pasteurized Prepared Sliced White American Cheese,2.48,Great Value,4.3,"(15.5, '¢', 'oz')","16 oz, 24 Count"
+413506446,Cinnamon Graham Crackers,1.98,Great Value,4.3,"(13.8, '¢', 'oz')",14.4 oz
+699240300,"Creamy Peanut Butter, Spread",5.48,Great Value,4.6,"(8.6, '¢', 'oz')",64 oz
+364924551,Frozen Mini Corn Dogs,6.97,Great Value,2.8,"(26.0, '¢', 'oz')","26.8 oz, 40 Count"
+492909841,Frozen Broccoli Cuts,0.88,Great Value,2.8,"(7.3, '¢', 'oz')",12 oz Steamable Bag
+15716858,"Iced Oatmeal Cookies, Family Size",1.88,Great Value,4.2,"(10.4, '¢', 'oz')",18 oz
+10309102,"OREO Double Stuf Chocolate Sandwich Cookies, Party Size",4.98,Oreo,4.8,"(4.98, '$', 'ea')",26.7 oz
+10320871,Plum,0.83,Fresh Produce,1.7,"(2.78, '$', 'lb')",Unit
+835017391,Seasoned Curly Fries,4.13,Arby&#39;s,3.4,"(18.8, '¢', 'oz')","39;s Seasoned Curly Fries, 22 oz (Frozen)"
+10306794,Beef Lean Stew Meat,9.2,Fresh Beef,2.5,"(7.48, '$', 'lb')",1.0 - 1.5 lb
+42004037,Mega Bowls Country Fried Chicken Frozen Meal,3.13,Banquet,3.2,"(22.4, '¢', 'oz')",14 oz (Frozen)
+14574718,Beef Broth,0.72,Great Value,4.4,"(5.0, '¢', 'oz')",14.5 oz
+55019241,"Chewy Granola Bars, Chocolate Chip",8.68,Quaker,4.6,"(24.1, '¢', 'ea')",36 Pack
+797648520,Spicy Sweet Chili Flavored Tortilla Chips,4.38,Doritos,4.2,"(47.4, '¢', 'oz')",9.25 oz Bag
+2098582922,Spicy Sweet Chili Flavored Tortilla Chips,4.38,Doritos,4.2,"(47.4, '¢', 'oz')",9.25 oz Bag
+918698041,Spicy Sweet Chili Flavored Tortilla Chips,13.0,Doritos,4.2,(),9.25 oz Bag - 2 Pack
+637886151,Spicy Sweet Chili Flavored Tortilla Chips,4.38,Doritos,4.2,"(47.4, '¢', 'oz')",9.25 oz Bag
+499480691,Spicy Sweet Chili Flavored Tortilla Chips,13.0,Doritos,4.2,(),9.25 oz Bag - 2 Pack
+166968161,Spinach and Spring Mix Salad Blend,3.98,Marketside,0.0,"(36.2, '¢', 'oz')",11 oz
+689752738,Fettuccini with Chicken &amp; Broccoli Frozen Dinner,3.48,Marie Callender&#39;s,4.1,"(26.8, '¢', 'oz')","39;s Fettuccini with Chicken &amp; Broccoli Frozen Dinner, 13 oz (Frozen)"
+979445091,Cinnamon Raisin Pre-Sliced Bagels,4.18,Thomas&#39;,3.7,"(20.9, '¢', 'oz')","39; Cinnamon Raisin Pre-Sliced Bagels, 6-Count"
+857170607,Corned Beef Meal Kit,15.98,American Foods Group,0.0,(),Unit
+934171295,Dolly Parton&#39;s Caramel Turtle Flavored Brownie Mix,2.98,Duncan Hines,4.0,"(17.8, '¢', 'oz')","39;s Caramel Turtle Flavored Brownie Mix, 16.7 oz"
+551399905,New York Style Cheesecake,5.98,Freshness Guaranteed,3.2,"(37.4, '¢', 'oz')",16 oz
+742178104,Grape Tomato,2.37,Fresh Produce,1.7,"(23.7, '¢', 'oz')",10 oz Package
+2119924025,"Gel Food Colors, Neon Colors",3.88,Great Value,3.9,"(1.44, '$', 'oz')",2.7 Ounces
+216354556,Sweet Potatoes Per Pound,1.33,Fresh Produce,2.1,"(1.3, '$', 'lb')",Unit
+2827079647,Original Whipped Cream Topping,1.98,Cool Whip,4.6,"(24.8, '¢', 'fl oz')",8 oz Tub
+797648520,Hass Avocados,0.68,Fresh Produce,1.9,(),Unit
+918698041,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+499480691,Chewy Chocolate Fudge Brownie Mix,1.46,Duncan Hines,4.3,"(8.0, '¢', 'oz')",18.3 oz
+689752738,"Family Size Original Mashed Potatoes, Refrigerated Dinner Sides",4.8,Bob Evans,3.5,"(15.0, '¢', 'ea')","32 oz, Pack of 1"
+857170607,"Zero Calorie Sweetener, Sugar Substitute",7.03,Monk Fruit In The Raw,4.2,"(6.28, '$', 'ea')","40 count, 1.12 oz"
+551399905,"WHOPPERS, Mini Robin Eggs Malted Milk Treats, Easter Candy",8.99,Whoppers,4.4,(),"4 oz, Carton"
+2119924025,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+2827079647,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+747667210,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+47386166,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+19758066,"Best Sashimi Grade Salmon, Fresh Never Frozen from Iceland (2 servings per pack)",20.99,Nordic Catch,0.0,(),2 servings per pack)
+378941019,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+16785072,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+12444412,"Salmon, Fresh Icelandic (2 servings)",22.99,Nordic Catch,0.0,(),2 servings)
+16777263,Big Pack Oatmeal Creme Pies,4.48,Little Debbie,4.4,"(14.0, '¢', 'oz')",32 oz

@@ -3,6 +3,10 @@ import regex_koda
 import orodja
 from tqdm import tqdm
 
+def izlusci_id(link):
+    id = re.findall(regex_koda.rx_id, link)
+    return id[-1]
+
 # vzame niz izdelka, vrne slovar glavnih podatkov
 def izlusci_glavne_podatke(izdelek):
     podatki_izdelka = {}
@@ -173,42 +177,78 @@ def izlusci_vse_hranilne_vrednosti(izdelek):
                     hr_vred[vrednost + ' DVP'] = str_to_touple_dvp(podatki[0][1])
     return hr_vred
 
+#spet odpremo html in preberemo linke, da lahko dobimo id-je
+with open('shranjene_datoteke/html.txt', 'r', encoding='utf-8') as d:
+    html = d.read()
+
+#naredimo seznam id-jev
+linki = re.findall(regex_koda.rx_link, html)
+ids = []
+for link in linki:
+    id = izlusci_id(link)
+    ids.append(id)
+
 # shrani vse glavne podatke izdelkov v seznam slovarjev
 # shrani vsa imena izdelkov in vse hranilne vrednosti izdelkov v seznam slovarjev
 vsi_izdelki_glavno = []
 vse_hranilne_vrednosti = []
-for i in range(25):
+stevec = 0
+for i in tqdm(range(25)):
+    # na strani 13 je vedno neka napaka k je ne morm pogruntat tko da jo bom za zdej sam preskocila
+    if i == 14:
+        continue
     with open('shranjene_datoteke/po_straneh/prvih_' + str(i) + '.txt', 'r', encoding='utf-8') as d:
         stran_izdelkov = d.read()
     # najprej definiramo tri razlicne bloke, eni so cel izdelek, eni so samo glavni podatki eni pa samo hranilne vrednosti
     celi_bloki = re.findall(regex_koda.rx_izdelek, stran_izdelkov)
     bloki = re.findall(regex_koda.rx_izdelek_blok_glavno, stran_izdelkov)
-    # ce imamo podane tako glavne podatke kot hranilno vrednost bodo tipa (glavno, hr_vred) v seznamu
-    # v primeru ko to imamo zapisemo hranilne vrednosti
-    if len(celi_bloki) != 0:
-        izdelki_glavno = []
-        hranilne_vrednosti = []
-        for cel in tqdm(celi_bloki):
-            podatek = {'Title': glavni_podatki(cel[0])['Title']}
-            hr_vred = izlusci_vse_hranilne_vrednosti(cel[1])
-            podatek.update(hr_vred)
-            hranilne_vrednosti.append(podatek)
-        vsi_izdelki_glavno.extend(izdelki_glavno)
-        vse_hranilne_vrednosti.extend(hranilne_vrednosti)
-    #zapisemo se glavne podatke posebej     
+    #zapisemo glavne podatke    
     if len(bloki) != 0:
         izdelki_glavno = []
-        for izdelek in tqdm(bloki):
-            izdelki_glavno.append(glavni_podatki(izdelek))
-        vsi_izdelki_glavno.extend(izdelki_glavno)       
-         
+        hranilne_vrednosti = []
+        for izdelek in bloki:
+            #po vrsti matchamo id-je z izdelki
+            id = ids[stevec]
+            gl_pod = glavni_podatki(izdelek)
+            gl_pod['Id'] = int(id)
+            izdelki_glavno.append(gl_pod)
+            # ce imamo podane tako glavne podatke kot hranilno vrednost bodo tipa (glavno, hr_vred) v seznamu
+            # v primeru ko to imamo zapisemo hranilne vrednosti
+            if len(celi_bloki) != 0:
+                for cel in celi_bloki:
+                    if cel[0] == izdelek:
+                        podatek = {'Id': int(id)}
+                        hr_vred = izlusci_vse_hranilne_vrednosti(cel[1])
+                        podatek.update(hr_vred)
+                        hranilne_vrednosti.append(podatek)
+            print(stevec)
+            stevec += 1
+        vse_hranilne_vrednosti.extend(hranilne_vrednosti)
+        vsi_izdelki_glavno.extend(izdelki_glavno)
+
+# preden zapisemo odstranimo duplikate
+sez1 = []
+for hr_vred in vse_hranilne_vrednosti:
+    if hr_vred['Id'] not in sez1:
+        sez1.append(hr_vred['Id'])
+    else:
+        vse_hranilne_vrednosti.remove(hr_vred)
+
+sez2 = []
+for gl_pod in vsi_izdelki_glavno:
+    if gl_pod['Id'] not in sez2:
+        sez2.append(gl_pod['Id'])
+    else:
+        vsi_izdelki_glavno.remove(gl_pod)
+        
+# zapisemo v json in csv datoteke
 orodja.zapisi_json(vse_hranilne_vrednosti, 'shranjene_datoteke/hranilne_vrednosti.json')
 orodja.zapisi_json(vsi_izdelki_glavno, 'shranjene_datoteke/izdelki_glavno.json')
 orodja.zapisi_csv(
     vsi_izdelki_glavno,
-    ['Title', 'Price', 'Brand', 'Rating', 'Relative Price', 'Amount'],
+    ['Id', 'Title', 'Price', 'Brand', 'Rating', 'Relative Price', 'Amount'],
     'shranjene_datoteke/izdelki_glavno.csv'
     )
 orodja.zapisi_csv(
-    vse_hranilne_vrednosti, ['Title', 'Calories', "Total Fat", 'Total Fat DVP', "Saturated Fat", "Saturated Fat DVP", "Trans Fat", "Trans Fat DVP", "Polyunsaturated Fat", "Polyunsaturated Fat DVP", "Monounsaturated Fat", "Monounsaturated Fat DVP", "Cholesterol", 'Cholesterol DVP', "Sodium", 'Sodium DVP', "Total Carbohydrate", "Total Carbohydrate DVP", "Dietary Fiber", "Dietary Fiber DVP", "Sugars", 'Sugars DVP', "Protein", 'Protein DVP'], 'shranjene_datoteke/hranilne_vrednosti.csv'
+    vse_hranilne_vrednosti, ['Id', 'Calories', "Total Fat", 'Total Fat DVP', "Saturated Fat", "Saturated Fat DVP", "Trans Fat", "Trans Fat DVP", "Polyunsaturated Fat", "Polyunsaturated Fat DVP", "Monounsaturated Fat", "Monounsaturated Fat DVP", "Cholesterol", 'Cholesterol DVP', "Sodium", 'Sodium DVP', "Total Carbohydrate", "Total Carbohydrate DVP", "Dietary Fiber", "Dietary Fiber DVP", "Sugars", 'Sugars DVP', "Protein", 'Protein DVP'], 'shranjene_datoteke/hranilne_vrednosti.csv'
     )
